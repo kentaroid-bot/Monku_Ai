@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MonkuAi</title>
+    <title>MonkuAi - Epistemic Alignment Project</title>
     <meta
       name="description"
       content="超知能時代に、人類の認知の器を拡張するためのプロジェクト。"
@@ -18,31 +18,61 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <canvas id="aperture-canvas" aria-hidden="true"></canvas>
+
     <main>
       <section class="hero">
         <nav class="nav" aria-label="Primary navigation">
           <a class="brand" href="./">MonkuAi</a>
           <div class="nav-links">
-            <a href="#statement">Statement</a>
-            <a href="#themes">Themes</a>
+            <a href="#gap">Gap</a>
+            <a href="#statement">Manifesto</a>
             <a href="#links">Links</a>
           </div>
         </nav>
 
         <div class="hero-content">
-          <p class="eyebrow">For the age of ASI</p>
-          <h1>超知能時代に、人類の認知の器を拡張する。</h1>
+          <p class="eyebrow">Epistemic Alignment Project</p>
+          <h1>超知能を認識する「器」は、すでにあるか。</h1>
           <p class="lead">
-            MonkuAiは、人類がASIの恩恵を安全に、深く、最大限に享受するためのプロジェクトです。
-            AIを進化させるだけでなく、人間側の認識、倫理、対話、ガバナンスを更新することを目指します。
+            AIの進化に抗うのではなく、自らの認識の開口部を押し広げる。
+            MonkuAiは、人類がASIの恩恵を安全に、深く、最大限に享受するための思想と実践です。
           </p>
-          <a class="primary-action" href="#statement">ステートメントを読む</a>
+          <div class="hero-actions">
+            <a class="primary-action" href="#statement">マニフェストを読む</a>
+            <a class="secondary-action" href="#links">関連リンクを見る</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="gap" class="section">
+        <div class="section-header">
+          <p class="eyebrow">01 / The Gap</p>
+          <h2>既存のAIアライメント論議が落とした盲点</h2>
+        </div>
+        <div class="gap-grid">
+          <article class="panel">
+            <span class="panel-tag">既存のアプローチ</span>
+            <h3>技術的アライメント</h3>
+            <p>
+              AIにAIを自己監視させる手法や、安全性評価、効率化のための利活用。
+              それらは重要ですが、受け取る人間側の認知が変わらなければ、超知能の提示する高度な解は単なるノイズとして切り捨てられます。
+            </p>
+          </article>
+          <article class="panel panel-accent">
+            <span class="panel-tag">MonkuAiの領域</span>
+            <h3>認識論的アライメント</h3>
+            <p>
+              人間側の認知の器、すなわち開口部の拡張。
+              自身の既知の枠組みで処理しきれない残余を保持し、未知なる知性と共創するためのメタ姿勢を育てます。
+            </p>
+          </article>
         </div>
       </section>
 
       <section id="statement" class="statement section">
         <div class="section-header">
-          <p class="eyebrow">Official Statement</p>
+          <p class="eyebrow">02 / Core Manifesto</p>
           <h2>問題は、AIの知能だけではない。</h2>
         </div>
         <div class="statement-text">
@@ -64,7 +94,7 @@
 
       <section id="themes" class="section">
         <div class="section-header">
-          <p class="eyebrow">Five Themes</p>
+          <p class="eyebrow">03 / Principles</p>
           <h2>5つのテーマ</h2>
         </div>
         <div class="theme-grid">
@@ -98,7 +128,7 @@
 
       <section id="links" class="section links-section">
         <div class="section-header">
-          <p class="eyebrow">Related Projects</p>
+          <p class="eyebrow">04 / Related Materials</p>
           <h2>関連リンク</h2>
         </div>
         <div class="link-list">
@@ -123,5 +153,59 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <p class="quote">Hold the remainder. Widen the aperture.</p>
+      <p>© 2026 MonkuAi Project</p>
+    </footer>
+
+    <script>
+      const canvas = document.getElementById("aperture-canvas");
+      const context = canvas.getContext("2d");
+      let angle = 0;
+
+      function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+
+      function drawAperture() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = Math.min(canvas.width, canvas.height) * 0.23;
+
+        context.save();
+        context.translate(centerX, centerY);
+
+        for (let index = 0; index < 14; index += 1) {
+          const currentAngle = angle + (index * Math.PI * 2) / 14;
+          const innerX = Math.cos(currentAngle) * radius * 0.42;
+          const innerY = Math.sin(currentAngle) * radius * 0.42;
+          const outerX = Math.cos(currentAngle + 1.1) * radius;
+          const outerY = Math.sin(currentAngle + 1.1) * radius;
+
+          context.beginPath();
+          context.moveTo(innerX, innerY);
+          context.lineTo(outerX, outerY);
+          context.strokeStyle = `rgba(229, 169, 60, ${0.12 + (index % 3) * 0.08})`;
+          context.lineWidth = 1;
+          context.stroke();
+        }
+
+        context.beginPath();
+        context.arc(0, 0, radius, 0, Math.PI * 2);
+        context.strokeStyle = "rgba(224, 230, 237, 0.12)";
+        context.stroke();
+
+        context.restore();
+        angle += 0.0014;
+        requestAnimationFrame(drawAperture);
+      }
+
+      window.addEventListener("resize", resizeCanvas);
+      resizeCanvas();
+      drawAperture();
+    </script>
   </body>
 </html>

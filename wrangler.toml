@@ -1,4 +1,5 @@
 name = "monku-ai"
+main = "src/worker.js"
 compatibility_date = "2026-08-03"
 workers_dev = true
 
@@ -8,4 +9,5 @@ routes = [
 
 [assets]
 directory = "."
+binding = "ASSETS"
 not_found_handling = "404-page"

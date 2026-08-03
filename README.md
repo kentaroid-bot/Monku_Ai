@@ -31,6 +31,27 @@ MonkuAi currently focuses on developing and communicating its ideas through:
 - README-style project documentation
 - future protocols for AI dialogue, education, and governance design
 
+## Website
+
+This repository includes a minimal static website intended for Cloudflare Pages.
+
+Local development:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+The current website is intentionally dependency-free. A future version can migrate to Next.js when the project needs richer routing, content collections, or interactive components.
+
+Cloudflare Pages settings:
+
+- Framework preset: `None`
+- Build command: leave blank
+- Build output directory: `/`
+- Root directory: `/`
+
 ## First Materials
 
 The initial Japanese content kit is available at:
@@ -40,4 +61,3 @@ The initial Japanese content kit is available at:
 - [docs/sns-series.md](/Users/sukezo/Monku_Ai/docs/sns-series.md)
 - [docs/diagram-structure.md](/Users/sukezo/Monku_Ai/docs/diagram-structure.md)
 - [docs/project-overview-ja.md](/Users/sukezo/Monku_Ai/docs/project-overview-ja.md)
-

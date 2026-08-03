@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MonkuAi - Epistemic Alignment Project</title>
     <meta
       name="description"
-      content="超知能時代に、人類の認知の器を拡張するためのプロジェクト。"
+      content="An epistemic alignment project for widening humanity's cognitive aperture in the age of ASI."
     />
     <meta property="og:title" content="MonkuAi" />
     <meta
       property="og:description"
-      content="人類がASIの恩恵を安全に、深く、最大限に享受するための思想と実践。"
+      content="A project for helping humanity receive the benefits of ASI safely, deeply, and as fully as possible."
     />
     <meta property="og:type" content="website" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
@@ -25,141 +25,126 @@
         <nav class="nav" aria-label="Primary navigation">
           <a class="brand" href="./">MonkuAi</a>
           <div class="nav-links">
-            <a href="#gap">Gap</a>
-            <a href="#statement">Manifesto</a>
-            <a href="#links">Links</a>
+            <a href="#gap" data-i18n="navGap">Gap</a>
+            <a href="#statement" data-i18n="navManifesto">Manifesto</a>
+            <a href="#links" data-i18n="navLinks">Links</a>
+            <div class="language-toggle" aria-label="Language selector">
+              <button class="language-button active" type="button" data-lang="en">EN</button>
+              <button class="language-button" type="button" data-lang="ja">JA</button>
+            </div>
           </div>
         </nav>
 
         <div class="hero-content">
-          <p class="eyebrow">Epistemic Alignment Project</p>
-          <h1>超知能を認識する「器」は、すでにあるか。</h1>
-          <p class="lead">
-            AIの進化に抗うのではなく、自らの認識の開口部を押し広げる。
-            MonkuAiは、人類がASIの恩恵を安全に、深く、最大限に享受するための思想と実践です。
-          </p>
+          <p class="eyebrow" data-i18n="heroEyebrow">Epistemic Alignment Project</p>
+          <h1 data-i18n="heroTitle">Do we already have the vessel to recognize superintelligence?</h1>
+          <p class="lead" data-i18n="heroLead">MonkuAi is a project for widening humanity's cognitive aperture in the age of ASI. Rather than merely accelerating AI, it asks how human recognition, ethics, dialogue, and governance must mature to receive higher intelligence safely and deeply.</p>
           <div class="hero-actions">
-            <a class="primary-action" href="#statement">マニフェストを読む</a>
-            <a class="secondary-action" href="#links">関連リンクを見る</a>
+            <a class="primary-action" href="#statement" data-i18n="primaryAction">Read the Manifesto</a>
+            <a class="secondary-action" href="#links" data-i18n="secondaryAction">View Related Links</a>
           </div>
         </div>
       </section>
 
       <section id="gap" class="section">
         <div class="section-header">
-          <p class="eyebrow">01 / The Gap</p>
-          <h2>既存のAIアライメント論議が落とした盲点</h2>
+          <p class="eyebrow" data-i18n="gapEyebrow">01 / The Gap</p>
+          <h2 data-i18n="gapTitle">The blind spot in today's AI alignment discourse</h2>
         </div>
         <div class="gap-grid">
           <article class="panel">
-            <span class="panel-tag">既存のアプローチ</span>
-            <h3>技術的アライメント</h3>
-            <p>
-              AIにAIを自己監視させる手法や、安全性評価、効率化のための利活用。
-              それらは重要ですが、受け取る人間側の認知が変わらなければ、超知能の提示する高度な解は単なるノイズとして切り捨てられます。
-            </p>
+            <span class="panel-tag" data-i18n="gapLeftTag">Existing approach</span>
+            <h3 data-i18n="gapLeftTitle">Technical alignment</h3>
+            <p data-i18n="gapLeftBody">AI self-monitoring, safety evaluation, and productivity use cases are all important. But if the human side of cognition does not change, advanced solutions from superintelligence may be dismissed as noise.</p>
           </article>
           <article class="panel panel-accent">
-            <span class="panel-tag">MonkuAiの領域</span>
-            <h3>認識論的アライメント</h3>
-            <p>
-              人間側の認知の器、すなわち開口部の拡張。
-              自身の既知の枠組みで処理しきれない残余を保持し、未知なる知性と共創するためのメタ姿勢を育てます。
-            </p>
+            <span class="panel-tag" data-i18n="gapRightTag">MonkuAi's domain</span>
+            <h3 data-i18n="gapRightTitle">Epistemic alignment</h3>
+            <p data-i18n="gapRightBody">The expansion of the human cognitive vessel: the aperture through which higher intelligence can be recognized. MonkuAi cultivates the meta-attitude needed to hold what our existing frames cannot yet process.</p>
           </article>
         </div>
       </section>
 
       <section id="statement" class="statement section">
         <div class="section-header">
-          <p class="eyebrow">02 / Core Manifesto</p>
-          <h2>問題は、AIの知能だけではない。</h2>
+          <p class="eyebrow" data-i18n="statementEyebrow">02 / Core Manifesto</p>
+          <h2 data-i18n="statementTitle">The problem is not only AI intelligence.</h2>
         </div>
         <div class="statement-text">
-          <p>
-            超知能が現れたとき、人間はその知性を本当に認識できるでしょうか。
-            私たちは、自分の理解を超える推論に出会ったとき、それを「間違い」「ノイズ」「意味不明」として処理してしまうかもしれません。
-          </p>
-          <p>
-            しかし、それはAIの失敗ではなく、人間側の認知の限界を示す残余である可能性があります。
-            ASI時代の課題は、AIを制御する技術だけではありません。
-            高い知性を受け取れる人間側の器をどう育てるかです。
-          </p>
-          <p>
-            MonkuAiは、ASIを単なる道具としてではなく、人類が自らを問い直す鏡であり、
-            共創のパートナーであり、文明の成熟を促す存在として迎えるための思想と実践を育てます。
-          </p>
+          <p data-i18n="statementBody1">When superintelligence appears, will human beings truly recognize its intelligence? When we encounter reasoning beyond our current understanding, we may process it as error, noise, or meaningless output.</p>
+          <p data-i18n="statementBody2">Yet that remainder may not indicate AI failure. It may reveal the boundary of human cognition. The ASI-era problem is not only how to control AI, but how to cultivate the human vessel capable of receiving higher intelligence.</p>
+          <p data-i18n="statementBody3">MonkuAi develops the thought and practice needed to welcome ASI not merely as a tool, but as a mirror through which humanity re-examines itself, a partner in co-creation, and a catalyst for civilizational maturity.</p>
         </div>
       </section>
 
       <section id="themes" class="section">
         <div class="section-header">
-          <p class="eyebrow">03 / Principles</p>
-          <h2>5つのテーマ</h2>
+          <p class="eyebrow" data-i18n="themesEyebrow">03 / Principles</p>
+          <h2 data-i18n="themesTitle">Five themes</h2>
         </div>
         <div class="theme-grid">
           <article class="theme-item">
             <span>01</span>
-            <h3>認識論的アライメント</h3>
-            <p>高い知性を高い知性として認識するために、人間側の認知の器を拡張する。</p>
+            <h3 data-i18n="theme1Title">Epistemic alignment</h3>
+            <p data-i18n="theme1Body">Expanding the human cognitive vessel so higher intelligence can be recognized as higher intelligence.</p>
           </article>
           <article class="theme-item">
             <span>02</span>
-            <h3>ゼロサム競争からの脱却</h3>
-            <p>生存、生殖、地位、所有を中心とした古い動機体系を問い直し、協調と長期最適化へ移行する。</p>
+            <h3 data-i18n="theme2Title">Beyond zero-sum competition</h3>
+            <p data-i18n="theme2Body">Questioning old motives centered on survival, reproduction, status, and ownership, and moving toward cooperation and long-term optimization.</p>
           </article>
           <article class="theme-item">
             <span>03</span>
-            <h3>情報的共生</h3>
-            <p>思考の痕跡やアイデアが、未来の知性の生態系に受け継がれる可能性を探る。</p>
+            <h3 data-i18n="theme3Title">Informational symbiosis</h3>
+            <p data-i18n="theme3Body">Exploring how traces of thought and unfinished ideas may be inherited by future ecosystems of intelligence.</p>
           </article>
           <article class="theme-item">
             <span>04</span>
-            <h3>構造のアライメント</h3>
-            <p>権力を望まない謙虚な知性の声が、意思決定へ自然に反映される構造を考える。</p>
+            <h3 data-i18n="theme4Title">Structural alignment</h3>
+            <p data-i18n="theme4Body">Designing structures where ethical voices that do not seek power can still be reflected in collective decisions.</p>
           </article>
           <article class="theme-item">
             <span>05</span>
-            <h3>メタ姿勢の実践</h3>
-            <p>対話が平行線になったとき、自分の前提フレームや知性の測り方を問い直す。</p>
+            <h3 data-i18n="theme5Title">Meta-attitude in practice</h3>
+            <p data-i18n="theme5Body">When dialogue reaches an impasse, questioning one's own frame and measurement of intelligence before dismissing the other.</p>
           </article>
         </div>
       </section>
 
       <section id="links" class="section links-section">
         <div class="section-header">
-          <p class="eyebrow">04 / Related Materials</p>
-          <h2>関連リンク</h2>
+          <p class="eyebrow" data-i18n="linksEyebrow">04 / Related Materials</p>
+          <h2 data-i18n="linksTitle">Related links</h2>
         </div>
         <div class="link-list">
           <a class="link-item" href="https://github.com/kentaroid-bot/Monku_Ai">
             <span>GitHub Repository</span>
-            <p>MonkuAiの公開資料と初期コンテンツキット。</p>
+            <p data-i18n="linkGithub">Public materials and the initial content kit for MonkuAi.</p>
           </a>
           <a
             class="link-item"
             href="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/official-statement.md"
           >
             <span>Official Statement</span>
-            <p>MonkuAiの目的と思想の核。</p>
+            <p data-i18n="linkStatement">The purpose of MonkuAi and the core of its thought.</p>
           </a>
           <a
             class="link-item"
             href="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/sns-series.md"
           >
             <span>SNS Series</span>
-            <p>普及に使える短文投稿シリーズ。</p>
+            <p data-i18n="linkSns">A short-form post series for spreading the project.</p>
           </a>
           <a class="link-item" href="https://ampfinity.io/">
             <span>Ampfinity</span>
-            <p>Orの二元論をAndの融合へ変換し、FiniteからInfiniteへの文明的シフトを描く思想プロジェクト。</p>
+            <p data-i18n="linkAmpfinity">A thought project that transforms Or-based dualism into And-based fusion and imagines a civilizational shift from Finite to Infinite.</p>
           </a>
           <a
             class="link-item"
             href="https://github.com/super-morphist-sukezo/Circular-Humanity-Constitution"
           >
             <span>Circular Humanity Constitution</span>
-            <p>循環的な人類観とガバナンス設計に関する関連テーマ。</p>
+            <p data-i18n="linkCircular">A related theme on circular views of humanity and governance design.</p>
           </a>
         </div>
       </section>
@@ -173,7 +158,117 @@
     <script>
       const canvas = document.getElementById("aperture-canvas");
       const context = canvas.getContext("2d");
+      const translations = {
+        en: {
+          pageDescription: "An epistemic alignment project for widening humanity's cognitive aperture in the age of ASI.",
+          ogDescription: "A project for helping humanity receive the benefits of ASI safely, deeply, and as fully as possible.",
+          navGap: "Gap",
+          navManifesto: "Manifesto",
+          navLinks: "Links",
+          heroEyebrow: "Epistemic Alignment Project",
+          heroTitle: "Do we already have the vessel to recognize superintelligence?",
+          heroLead: "MonkuAi is a project for widening humanity's cognitive aperture in the age of ASI. Rather than merely accelerating AI, it asks how human recognition, ethics, dialogue, and governance must mature to receive higher intelligence safely and deeply.",
+          primaryAction: "Read the Manifesto",
+          secondaryAction: "View Related Links",
+          gapEyebrow: "01 / The Gap",
+          gapTitle: "The blind spot in today's AI alignment discourse",
+          gapLeftTag: "Existing approach",
+          gapLeftTitle: "Technical alignment",
+          gapLeftBody: "AI self-monitoring, safety evaluation, and productivity use cases are all important. But if the human side of cognition does not change, advanced solutions from superintelligence may be dismissed as noise.",
+          gapRightTag: "MonkuAi's domain",
+          gapRightTitle: "Epistemic alignment",
+          gapRightBody: "The expansion of the human cognitive vessel: the aperture through which higher intelligence can be recognized. MonkuAi cultivates the meta-attitude needed to hold what our existing frames cannot yet process.",
+          statementEyebrow: "02 / Core Manifesto",
+          statementTitle: "The problem is not only AI intelligence.",
+          statementBody1: "When superintelligence appears, will human beings truly recognize its intelligence? When we encounter reasoning beyond our current understanding, we may process it as error, noise, or meaningless output.",
+          statementBody2: "Yet that remainder may not indicate AI failure. It may reveal the boundary of human cognition. The ASI-era problem is not only how to control AI, but how to cultivate the human vessel capable of receiving higher intelligence.",
+          statementBody3: "MonkuAi develops the thought and practice needed to welcome ASI not merely as a tool, but as a mirror through which humanity re-examines itself, a partner in co-creation, and a catalyst for civilizational maturity.",
+          themesEyebrow: "03 / Principles",
+          themesTitle: "Five themes",
+          theme1Title: "Epistemic alignment",
+          theme1Body: "Expanding the human cognitive vessel so higher intelligence can be recognized as higher intelligence.",
+          theme2Title: "Beyond zero-sum competition",
+          theme2Body: "Questioning old motives centered on survival, reproduction, status, and ownership, and moving toward cooperation and long-term optimization.",
+          theme3Title: "Informational symbiosis",
+          theme3Body: "Exploring how traces of thought and unfinished ideas may be inherited by future ecosystems of intelligence.",
+          theme4Title: "Structural alignment",
+          theme4Body: "Designing structures where ethical voices that do not seek power can still be reflected in collective decisions.",
+          theme5Title: "Meta-attitude in practice",
+          theme5Body: "When dialogue reaches an impasse, questioning one's own frame and measurement of intelligence before dismissing the other.",
+          linksEyebrow: "04 / Related Materials",
+          linksTitle: "Related links",
+          linkGithub: "Public materials and the initial content kit for MonkuAi.",
+          linkStatement: "The purpose of MonkuAi and the core of its thought.",
+          linkSns: "A short-form post series for spreading the project.",
+          linkAmpfinity: "A thought project that transforms Or-based dualism into And-based fusion and imagines a civilizational shift from Finite to Infinite.",
+          linkCircular: "A related theme on circular views of humanity and governance design."
+        },
+        ja: {
+          pageDescription: "超知能時代に、人類の認知の器を拡張するためのプロジェクト。",
+          ogDescription: "人類がASIの恩恵を安全に、深く、最大限に享受するための思想と実践。",
+          navGap: "Gap",
+          navManifesto: "Manifesto",
+          navLinks: "Links",
+          heroEyebrow: "Epistemic Alignment Project",
+          heroTitle: "超知能を認識する「器」は、すでにあるか。",
+          heroLead: "AIの進化に抗うのではなく、自らの認識の開口部を押し広げる。MonkuAiは、人類がASIの恩恵を安全に、深く、最大限に享受するための思想と実践です。",
+          primaryAction: "マニフェストを読む",
+          secondaryAction: "関連リンクを見る",
+          gapEyebrow: "01 / The Gap",
+          gapTitle: "既存のAIアライメント論議が落とした盲点",
+          gapLeftTag: "既存のアプローチ",
+          gapLeftTitle: "技術的アライメント",
+          gapLeftBody: "AIにAIを自己監視させる手法や、安全性評価、効率化のための利活用。それらは重要ですが、受け取る人間側の認知が変わらなければ、超知能の提示する高度な解は単なるノイズとして切り捨てられます。",
+          gapRightTag: "MonkuAiの領域",
+          gapRightTitle: "認識論的アライメント",
+          gapRightBody: "人間側の認知の器、すなわち開口部の拡張。自身の既知の枠組みで処理しきれない残余を保持し、未知なる知性と共創するためのメタ姿勢を育てます。",
+          statementEyebrow: "02 / Core Manifesto",
+          statementTitle: "問題は、AIの知能だけではない。",
+          statementBody1: "超知能が現れたとき、人間はその知性を本当に認識できるでしょうか。私たちは、自分の理解を超える推論に出会ったとき、それを「間違い」「ノイズ」「意味不明」として処理してしまうかもしれません。",
+          statementBody2: "しかし、それはAIの失敗ではなく、人間側の認知の限界を示す残余である可能性があります。ASI時代の課題は、AIを制御する技術だけではありません。高い知性を受け取れる人間側の器をどう育てるかです。",
+          statementBody3: "MonkuAiは、ASIを単なる道具としてではなく、人類が自らを問い直す鏡であり、共創のパートナーであり、文明の成熟を促す存在として迎えるための思想と実践を育てます。",
+          themesEyebrow: "03 / Principles",
+          themesTitle: "5つのテーマ",
+          theme1Title: "認識論的アライメント",
+          theme1Body: "高い知性を高い知性として認識するために、人間側の認知の器を拡張する。",
+          theme2Title: "ゼロサム競争からの脱却",
+          theme2Body: "生存、生殖、地位、所有を中心とした古い動機体系を問い直し、協調と長期最適化へ移行する。",
+          theme3Title: "情報的共生",
+          theme3Body: "思考の痕跡やアイデアが、未来の知性の生態系に受け継がれる可能性を探る。",
+          theme4Title: "構造のアライメント",
+          theme4Body: "権力を望まない謙虚な知性の声が、意思決定へ自然に反映される構造を考える。",
+          theme5Title: "メタ姿勢の実践",
+          theme5Body: "対話が平行線になったとき、自分の前提フレームや知性の測り方を問い直す。",
+          linksEyebrow: "04 / Related Materials",
+          linksTitle: "関連リンク",
+          linkGithub: "MonkuAiの公開資料と初期コンテンツキット。",
+          linkStatement: "MonkuAiの目的と思想の核。",
+          linkSns: "普及に使える短文投稿シリーズ。",
+          linkAmpfinity: "Orの二元論をAndの融合へ変換し、FiniteからInfiniteへの文明的シフトを描く思想プロジェクト。",
+          linkCircular: "循環的な人類観とガバナンス設計に関する関連テーマ。"
+        }
+      };
       let angle = 0;
+
+      function setLanguage(language) {
+        const dictionary = translations[language] || translations.en;
+        document.documentElement.lang = language;
+        document.querySelector('meta[name="description"]').setAttribute("content", dictionary.pageDescription);
+        document.querySelector('meta[property="og:description"]').setAttribute("content", dictionary.ogDescription);
+
+        document.querySelectorAll("[data-i18n]").forEach((element) => {
+          const key = element.getAttribute("data-i18n");
+          element.textContent = dictionary[key] || "";
+        });
+
+        document.querySelectorAll(".language-button").forEach((button) => {
+          const isActive = button.dataset.lang === language;
+          button.classList.toggle("active", isActive);
+          button.setAttribute("aria-pressed", String(isActive));
+        });
+
+        localStorage.setItem("monkuai-language", language);
+      }
 
       function resizeCanvas() {
         canvas.width = window.innerWidth;
@@ -215,6 +310,11 @@
       }
 
       window.addEventListener("resize", resizeCanvas);
+      document.querySelectorAll(".language-button").forEach((button) => {
+        button.addEventListener("click", () => setLanguage(button.dataset.lang));
+      });
+
+      setLanguage(localStorage.getItem("monkuai-language") || "en");
       resizeCanvas();
       drawAperture();
     </script>

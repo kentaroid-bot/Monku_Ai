@@ -1,0 +1,10 @@
+name = "monku-ai"
+compatibility_date = "2026-08-03"
+
+routes = [
+  { pattern = "monku.ai", custom_domain = true }
+]
+
+[assets]
+directory = "."
+not_found_handling = "404-page"

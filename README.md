@@ -51,7 +51,7 @@ Cloudflare Workers deployment:
 npx wrangler deploy
 ```
 
-Workers settings are defined in `wrangler.json`. The deploy uploads only:
+Workers settings are defined in `wrangler.json`. The `.assetsignore` file limits uploaded assets to:
 
 - `index.html`
 - `styles.css`

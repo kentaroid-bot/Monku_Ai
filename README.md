@@ -48,7 +48,7 @@ The current website is intentionally dependency-free. A future version can migra
 Cloudflare Pages settings:
 
 - Framework preset: `None`
-- Build command: leave blank
+- Build command: `exit 0`
 - Build output directory: `/`
 - Root directory: `/`
 

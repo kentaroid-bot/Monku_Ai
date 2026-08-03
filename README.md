@@ -33,7 +33,7 @@ MonkuAi currently focuses on developing and communicating its ideas through:
 
 ## Website
 
-This repository includes a minimal static website intended for Cloudflare Pages.
+This repository includes a minimal static website that can be deployed either to Cloudflare Workers Static Assets or Cloudflare Pages.
 
 Local development:
 
@@ -44,6 +44,18 @@ python3 -m http.server 8000
 Then open `http://localhost:8000`.
 
 The current website is intentionally dependency-free. A future version can migrate to Next.js when the project needs richer routing, content collections, or interactive components.
+
+Cloudflare Workers deployment:
+
+```bash
+npx wrangler deploy
+```
+
+Workers settings are defined in `wrangler.json`. The deploy uploads only:
+
+- `index.html`
+- `styles.css`
+- `assets/**`
 
 Cloudflare Pages settings:
 

@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "monku-ai",
+  "compatibility_date": "2026-08-03",
+  "assets": {
+    "directory": ".",
+    "include": ["index.html", "styles.css", "assets/**"],
+    "not_found_handling": "404-page"
+  }
+}

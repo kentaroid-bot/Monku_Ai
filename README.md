@@ -73,3 +73,4 @@ The initial Japanese content kit is available at:
 - [docs/sns-series.md](/Users/sukezo/Monku_Ai/docs/sns-series.md)
 - [docs/diagram-structure.md](/Users/sukezo/Monku_Ai/docs/diagram-structure.md)
 - [docs/project-overview-ja.md](/Users/sukezo/Monku_Ai/docs/project-overview-ja.md)
+- [docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md](/Users/sukezo/Monku_Ai/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md)

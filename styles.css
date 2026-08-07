@@ -335,6 +335,41 @@ h2 {
   padding-top: 32px;
 }
 
+.roadmap-section {
+  padding-bottom: 56px;
+}
+
+.roadmap-panel {
+  width: min(780px, 100%);
+  margin-top: 36px;
+  padding: 32px;
+  border: 1px solid rgba(229, 169, 60, 0.42);
+  border-radius: 2px;
+  background: var(--surface);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 28px rgba(229, 169, 60, 0.06);
+}
+
+.roadmap-panel p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.9;
+}
+
+.text-link {
+  display: inline-flex;
+  margin-top: 22px;
+  color: var(--accent-strong);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.text-link:hover {
+  color: var(--accent);
+}
+
 .link-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

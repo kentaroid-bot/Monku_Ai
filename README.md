@@ -18,7 +18,7 @@ MonkuAi exists to develop and spread the concepts, practices, and cultural infra
 2. Transcending survival and reproductive instincts beyond zero-sum competition
 3. Informational symbiosis as a new form of continuity
 4. Governance that allows humble intelligence to matter
-5. Meta-attitude in dialogue with AI and other minds
+5. Entropy-aware rebirth through residue, failure, and transition
 
 ## Project Direction
 

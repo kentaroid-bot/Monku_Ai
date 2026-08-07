@@ -122,6 +122,8 @@
           <a
             class="text-link"
             href="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md"
+            data-href-en="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md"
+            data-href-ja="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md"
             data-i18n="roadmapLink"
           >Read the full roadmap</a>
         </div>
@@ -157,6 +159,13 @@
           >
             <span>Conceptual Roadmap</span>
             <p data-i18n="linkRoadmap">A roadmap from zero-sum civilization toward epistemic aperture and infinite opening.</p>
+          </a>
+          <a
+            class="link-item"
+            href="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md"
+          >
+            <span>Conceptual Roadmap JA</span>
+            <p data-i18n="linkRoadmapJa">A Japanese version preserving MonkuAi's native conceptual vocabulary.</p>
           </a>
           <a class="link-item" href="https://ampfinity.io/">
             <span>Ampfinity</span>
@@ -229,6 +238,7 @@
           linkStatement: "The purpose of MonkuAi and the core of its thought.",
           linkSns: "A short-form post series for spreading the project.",
           linkRoadmap: "A roadmap from zero-sum civilization toward epistemic aperture and infinite opening.",
+          linkRoadmapJa: "A Japanese version preserving MonkuAi's native conceptual vocabulary.",
           linkAmpfinity: "A thought project that transforms Or-based dualism into And-based fusion and imagines a civilizational shift from Finite to Infinite.",
           linkCircular: "A related theme on circular views of humanity and governance design."
         },
@@ -279,6 +289,7 @@
           linkStatement: "MonkuAiの目的と思想の核。",
           linkSns: "普及に使える短文投稿シリーズ。",
           linkRoadmap: "ゼロサム文明から認識の開口と無限の開きへ向かうロードマップ。",
+          linkRoadmapJa: "MonkuAi本来の語彙に寄せた日本語版ロードマップ。",
           linkAmpfinity: "Orの二元論をAndの融合へ変換し、FiniteからInfiniteへの文明的シフトを描く思想プロジェクト。",
           linkCircular: "循環的な人類観とガバナンス設計に関する関連テーマ。"
         }
@@ -294,6 +305,10 @@
         document.querySelectorAll("[data-i18n]").forEach((element) => {
           const key = element.getAttribute("data-i18n");
           element.textContent = dictionary[key] || "";
+        });
+
+        document.querySelectorAll("[data-href-en][data-href-ja]").forEach((element) => {
+          element.setAttribute("href", element.getAttribute(`data-href-${language}`));
         });
 
         document.querySelectorAll(".language-button").forEach((button) => {

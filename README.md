@@ -74,3 +74,4 @@ The initial Japanese content kit is available at:
 - [docs/diagram-structure.md](/Users/sukezo/Monku_Ai/docs/diagram-structure.md)
 - [docs/project-overview-ja.md](/Users/sukezo/Monku_Ai/docs/project-overview-ja.md)
 - [docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md](/Users/sukezo/Monku_Ai/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md)
+- [docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md](/Users/sukezo/Monku_Ai/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md)

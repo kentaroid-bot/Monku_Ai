@@ -662,6 +662,30 @@ footer p {
   margin-bottom: 0;
 }
 
+.proposal-video-section {
+  padding-top: 52px;
+}
+
+.proposal-video-frame {
+  position: relative;
+  width: 100%;
+  margin-top: 24px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid #d8bf82;
+  border-radius: 2px;
+  background: #111418;
+  box-shadow: 0 18px 45px rgba(99, 72, 24, 0.1);
+}
+
+.proposal-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .proposal-principles {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

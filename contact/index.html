@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - MonkuAi</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        color-scheme: dark;
+        --background: #0b0c10;
+        --surface: rgba(15, 17, 23, 0.82);
+        --ink: #e0e6ed;
+        --muted: #a0aab5;
+        --line: #1f2833;
+        --accent: #e5a93c;
+        --accent-strong: #f0c76c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100svh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at 50% 0%, rgba(229, 169, 60, 0.08), transparent 32%),
+          var(--background);
+        color: var(--ink);
+        font-family:
+          "Hiragino Mincho ProN", "Yu Mincho", YuMincho, Georgia, serif;
+        line-height: 1.8;
+      }
+
+      main {
+        width: min(560px, calc(100% - 32px));
+        padding: 48px 0;
+      }
+
+      .brand {
+        display: inline-flex;
+        margin-bottom: 28px;
+        color: var(--accent-strong);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      h1 {
+        margin: 0 0 24px;
+        font-size: 30px;
+        line-height: 1.35;
+      }
+
+      form {
+        display: grid;
+        gap: 16px;
+        padding: 28px;
+        border: 1px solid rgba(229, 169, 60, 0.34);
+        border-radius: 2px;
+        background: var(--surface);
+        box-shadow: 0 0 28px rgba(229, 169, 60, 0.05);
+      }
+
+      label {
+        display: grid;
+        gap: 8px;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 2px;
+        background: rgba(5, 6, 9, 0.62);
+        color: var(--ink);
+        font: 15px/1.6 Inter, ui-sans-serif, system-ui, sans-serif;
+      }
+
+      input {
+        min-height: 44px;
+        padding: 0 12px;
+      }
+
+      textarea {
+        min-height: 180px;
+        resize: vertical;
+        padding: 12px;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: 2px solid rgba(229, 169, 60, 0.36);
+        border-color: var(--accent);
+      }
+
+      .hidden-field {
+        display: none;
+      }
+
+      button {
+        width: fit-content;
+        min-height: 46px;
+        margin-top: 4px;
+        padding: 0 18px;
+        border: 1px solid var(--accent);
+        border-radius: 2px;
+        background: rgba(11, 12, 16, 0.62);
+        color: var(--accent);
+        cursor: pointer;
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+        font-weight: 800;
+      }
+
+      button:hover,
+      button:focus-visible {
+        background: var(--accent);
+        color: var(--background);
+      }
+
+      button:disabled {
+        cursor: wait;
+        opacity: 0.68;
+      }
+
+      .status {
+        min-height: 26px;
+        margin: 0;
+        color: var(--muted);
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+        font-size: 13px;
+      }
+
+      .status.success {
+        color: var(--accent-strong);
+      }
+
+      .status.error {
+        color: #ff9c8a;
+      }
+
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 26px;
+        }
+
+        form {
+          padding: 22px;
+        }
+
+        button {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a class="brand" href="/">MonkuAi</a>
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" autocomplete="name" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" required></textarea>
+        </label>
+        <label class="hidden-field">
+          Website
+          <input type="text" name="website" tabindex="-1" autocomplete="off" />
+        </label>
+        <button type="submit">Send</button>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+    </main>
+
+    <script>
+      const form = document.getElementById("contact-form");
+      const status = document.getElementById("status");
+      const button = form.querySelector("button");
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        status.className = "status";
+        status.textContent = "";
+        button.disabled = true;
+
+        const formData = new FormData(form);
+        const payload = Object.fromEntries(formData.entries());
+
+        try {
+          const response = await fetch("/api/contact", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify(payload)
+          });
+
+          if (!response.ok) {
+            throw new Error("send failed");
+          }
+
+          form.reset();
+          status.className = "status success";
+          status.textContent = "Sent.";
+        } catch {
+          status.className = "status error";
+          status.textContent = "Could not send. Please try again later.";
+        } finally {
+          button.disabled = false;
+        }
+      });
+    </script>
+  </body>
+</html>

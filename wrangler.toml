@@ -11,3 +11,8 @@ routes = [
 directory = "."
 binding = "ASSETS"
 not_found_handling = "404-page"
+run_worker_first = ["/api/*"]
+
+[vars]
+CONTACT_TO = "renraku@monku.ai"
+CONTACT_FROM = "MonkuAi <contact@send.monku.ai>"

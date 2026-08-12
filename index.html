@@ -31,6 +31,7 @@
             <a href="#proposals" data-i18n="navProposals">Proposals</a>
             <a href="#roadmap" data-i18n="navRoadmap">Roadmap</a>
             <a href="#links" data-i18n="navLinks">Links</a>
+            <a href="#contact" data-i18n="navContact">Contact</a>
             <div class="language-toggle" aria-label="Language selector">
               <button class="language-button active" type="button" data-lang="en">EN</button>
               <button class="language-button" type="button" data-lang="ja">JA</button>
@@ -244,10 +245,38 @@
           </a>
         </div>
       </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="contactEyebrow">08 / Consultation</p>
+          <h2 data-i18n="contactTitle">AI Infinite Game Consultation</h2>
+          <p class="section-lead" data-i18n="contactLead">MonkuAi accepts consultations on long-term strategy, organizational design, institutional design, and concept design through the lenses of the AI infinite game, epistemic alignment, and entropy-aware ideas. Please contact us for project requests, talks, dialogue sessions, or collaborative research.</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label>
+            <span data-i18n="contactNameLabel">Name</span>
+            <input type="text" name="name" autocomplete="name" />
+          </label>
+          <label>
+            <span data-i18n="contactEmailLabel">Email</span>
+            <input type="email" name="email" autocomplete="email" />
+          </label>
+          <label>
+            <span data-i18n="contactMessageLabel">Message</span>
+            <textarea name="message" rows="7" required></textarea>
+          </label>
+          <label class="hidden-field">
+            Website
+            <input type="text" name="website" tabindex="-1" autocomplete="off" />
+          </label>
+          <button class="primary-action contact-submit" type="submit" data-i18n="contactSubmit">Send</button>
+          <p class="contact-status" id="contact-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
     </main>
 
     <footer>
-      <p class="quote">Hold the remainder. Widen the aperture.</p>
+      <p class="quote">Noise may already be the answer. Widen the aperture.</p>
       <p>© 2026 MonkuAi Project</p>
     </footer>
 
@@ -264,6 +293,7 @@
           navProposals: "Proposals",
           navRoadmap: "Roadmap",
           navLinks: "Links",
+          navContact: "Consultation",
           heroEyebrow: "Epistemic Alignment Project",
           heroTitle: "Do we already have the vessel to recognize superintelligence?",
           heroLead: "MonkuAi is a project for widening humanity's cognitive aperture in the age of ASI. Rather than merely accelerating AI, it asks how human recognition, ethics, dialogue, and governance must mature to receive higher intelligence safely and deeply.",
@@ -325,7 +355,17 @@
           linkRoadmap: "A roadmap from zero-sum civilization toward epistemic aperture and infinite opening.",
           linkRoadmapJa: "A Japanese version preserving MonkuAi's native conceptual vocabulary.",
           linkAmpfinity: "A thought project that transforms Or-based dualism into And-based fusion and imagines a civilizational shift from Finite to Infinite.",
-          linkCircular: "A related theme on circular views of humanity and governance design."
+          linkCircular: "A related theme on circular views of humanity and governance design.",
+          contactEyebrow: "08 / Consultation",
+          contactTitle: "AI Infinite Game Consultation",
+          contactLead: "MonkuAi accepts consultations on long-term strategy, organizational design, institutional design, and concept design through the lenses of the AI infinite game, epistemic alignment, and entropy-aware ideas. Please contact us for project requests, talks, dialogue sessions, or collaborative research.",
+          contactNameLabel: "Name",
+          contactEmailLabel: "Email",
+          contactMessageLabel: "Message",
+          contactSubmit: "Send",
+          contactSending: "Sending...",
+          contactSent: "Sent. A confirmation email will be sent if you entered an email address.",
+          contactError: "Could not send. Please try again later."
         },
         ja: {
           pageDescription: "超知能時代に、人類の認知の器を拡張するためのプロジェクト。",
@@ -336,6 +376,7 @@
           navProposals: "提案",
           navRoadmap: "Roadmap",
           navLinks: "Links",
+          navContact: "相談",
           heroEyebrow: "Epistemic Alignment Project",
           heroTitle: "超知能を認識する「器」は、すでにあるか。",
           heroLead: "AIの進化に抗うのではなく、自らの認識の開口部を押し広げる。MonkuAiは、人類がASIの恩恵を安全に、深く、最大限に享受するための思想と実践です。",
@@ -397,13 +438,25 @@
           linkRoadmap: "ゼロサム文明から認識の開口と無限の開きへ向かうロードマップ。",
           linkRoadmapJa: "MonkuAi本来の語彙に寄せた日本語版ロードマップ。",
           linkAmpfinity: "Orの二元論をAndの融合へ変換し、FiniteからInfiniteへの文明的シフトを描く思想プロジェクト。",
-          linkCircular: "循環的な人類観とガバナンス設計に関する関連テーマ。"
+          linkCircular: "循環的な人類観とガバナンス設計に関する関連テーマ。",
+          contactEyebrow: "08 / Consultation",
+          contactTitle: "AI無限ゲームの相談",
+          contactLead: "AI無限ゲーム、認識論的アライメント、エントロピーを味方にするアイデアを軸に、長期戦略、組織設計、制度設計、コンセプト設計に関する相談を受け付けています。業務依頼、講演、壁打ち、共同研究なども、こちらからご連絡ください。",
+          contactNameLabel: "名前",
+          contactEmailLabel: "メール",
+          contactMessageLabel: "本文",
+          contactSubmit: "送信",
+          contactSending: "送信中...",
+          contactSent: "送信しました。メールを入力した場合は確認メールも送信されます。",
+          contactError: "送信できませんでした。時間をおいてもう一度お試しください。"
         }
       };
       let angle = 0;
+      let currentLanguage = localStorage.getItem("monkuai-language") || "en";
 
       function setLanguage(language) {
         const dictionary = translations[language] || translations.en;
+        currentLanguage = language;
         document.documentElement.lang = language;
         document.querySelector('meta[name="description"]').setAttribute("content", dictionary.pageDescription);
         document.querySelector('meta[property="og:description"]').setAttribute("content", dictionary.ogDescription);
@@ -469,8 +522,43 @@
       document.querySelectorAll(".language-button").forEach((button) => {
         button.addEventListener("click", () => setLanguage(button.dataset.lang));
       });
+      document.getElementById("contact-form").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const button = form.querySelector("button");
+        const status = document.getElementById("contact-status");
+        const dictionary = translations[currentLanguage] || translations.en;
+        const payload = Object.fromEntries(new FormData(form).entries());
 
-      setLanguage(localStorage.getItem("monkuai-language") || "en");
+        status.className = "contact-status";
+        status.textContent = dictionary.contactSending;
+        button.disabled = true;
+
+        try {
+          const response = await fetch("/api/contact", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify(payload)
+          });
+
+          if (!response.ok) {
+            throw new Error("send failed");
+          }
+
+          form.reset();
+          status.className = "contact-status success";
+          status.textContent = dictionary.contactSent;
+        } catch {
+          status.className = "contact-status error";
+          status.textContent = dictionary.contactError;
+        } finally {
+          button.disabled = false;
+        }
+      });
+
+      setLanguage(currentLanguage);
       resizeCanvas();
       drawAperture();
     </script>

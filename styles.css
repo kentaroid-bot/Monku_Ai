@@ -412,10 +412,20 @@ html[lang="en"] .home-page {
   font-family: "Cinzel", Georgia, serif;
 }
 
+.applied-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
 .home-page .proposal-card {
-  width: min(860px, 100%);
-  margin: 72px auto 0;
+  width: 100%;
+  margin: 0;
   padding: 34px;
+}
+
+.home-page .proposal-card h4 {
+  margin: 0;
 }
 
 .home-page .materials-section {
@@ -579,9 +589,12 @@ html[lang="en"] .home-page {
     grid-column: auto;
   }
 
-  .content-band,
-  .home-page .proposal-card {
+  .content-band {
     margin-top: 52px;
+  }
+
+  .applied-grid {
+    grid-template-columns: 1fr;
   }
 
   .home-page .proposal-card,

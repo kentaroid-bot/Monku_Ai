@@ -799,11 +799,13 @@ footer p {
   margin-bottom: 0;
 }
 
-.proposal-video-section {
+.proposal-video-section,
+.essay-video-section {
   padding-top: 52px;
 }
 
-.proposal-video-frame {
+.proposal-video-frame,
+.essay-video-frame {
   position: relative;
   width: 100%;
   margin-top: 24px;
@@ -815,7 +817,8 @@ footer p {
   box-shadow: 0 18px 45px rgba(99, 72, 24, 0.1);
 }
 
-.proposal-video-frame iframe {
+.proposal-video-frame iframe,
+.essay-video-frame iframe {
   position: absolute;
   inset: 0;
   width: 100%;

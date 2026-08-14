@@ -1,26 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">MonkuAi favicon</title>
-  <desc id="desc">A dark gradient favicon with a white Cinzel M.</desc>
-  <defs>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&amp;display=swap");
-    </style>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#101112" />
-      <stop offset="46%" stop-color="#121423" />
-      <stop offset="100%" stop-color="#24127a" />
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" fill="url(#bg)" />
-  <text
-    x="256"
-    y="322"
-    fill="#fffdfa"
-    font-family="Cinzel, Georgia, 'Times New Roman', serif"
-    font-size="438"
-    font-weight="600"
-    letter-spacing="0.08em"
-    text-anchor="middle"
-    dominant-baseline="middle"
-  >M</text>
+  <desc id="desc">A minimal favicon based on the hiragana mo symbol for MonkuAi.</desc>
+  <rect width="512" height="512" rx="88" fill="#fffdfa" />
+  <path
+    d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252"
+    fill="none"
+    stroke="#121314"
+    stroke-width="34"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 </svg>

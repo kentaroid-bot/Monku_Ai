@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">monku.ai mo symbol concept</title>
+  <desc id="desc">A minimal monoline symbol inspired by the hiragana character mo for monku.ai.</desc>
+  <rect width="512" height="512" rx="88" fill="#fffdfa" />
+  <path
+    d="M332 94
+       C293 85 260 96 238 126
+       C216 156 215 195 238 211
+       C265 230 309 211 344 176
+       C360 160 376 151 397 154
+       M326 96
+       C288 145 257 197 232 256
+       C204 321 191 389 224 429
+       C254 465 319 464 348 426
+       C377 388 373 305 366 247
+       C359 184 344 132 310 104
+       M190 257
+       C224 245 262 247 303 252"
+    fill="none"
+    stroke="#121314"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

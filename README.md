@@ -15,7 +15,7 @@ MonkuAi exists to develop and spread the concepts, practices, and cultural infra
 ## Core Themes
 
 1. Epistemic alignment and expansion of the cognitive vessel
-2. Transcending survival and reproductive instincts beyond zero-sum competition
+2. Moving beyond zero-sum competition by releasing survival and reproduction from status and ownership games
 3. Informational symbiosis as a new form of continuity
 4. Governance that allows humble intelligence to matter
 5. Entropy-aware rebirth through residue, failure, and transition

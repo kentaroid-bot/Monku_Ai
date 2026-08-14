@@ -791,6 +791,7 @@
             const label = button.querySelector("span") || button;
             label.textContent = dictionary.askPrincipleCopied;
             button.classList.add("is-copied");
+            button.blur();
             clearTimeout(button.copyResetTimer);
             button.copyResetTimer = setTimeout(() => {
               resetPrincipleAskButton(button);

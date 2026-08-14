@@ -1957,3 +1957,15 @@ footer p {
     width: 100%;
   }
 }
+
+@media (hover: none), (pointer: coarse) {
+  .principle-ask:hover + .principle-prompt-preview,
+  .principle-ask:focus-visible + .principle-prompt-preview {
+    max-height: 0;
+    margin-top: 0;
+    padding: 0 16px;
+    border-width: 0;
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+}

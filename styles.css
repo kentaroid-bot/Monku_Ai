@@ -120,11 +120,17 @@ html[lang="en"] .home-page {
   color: var(--muted);
   font-family: "Cinzel", Georgia, serif;
   letter-spacing: 0.04em;
+  padding: 0 9px;
 }
 
 .home-page .language-button.active {
   background: var(--accent);
   color: #121314;
+}
+
+.home-page .language-button[data-lang="easy"] {
+  font-family: "Shippori Mincho", serif;
+  letter-spacing: 0;
 }
 
 .home-page .hero-content {
@@ -897,6 +903,7 @@ a {
 .language-button {
   min-width: 38px;
   min-height: 26px;
+  padding: 0 9px;
   border: 0;
   border-radius: 999px;
   background: transparent;
@@ -910,6 +917,11 @@ a {
 .language-button.active {
   background: var(--accent);
   color: var(--background);
+}
+
+.language-button[data-lang="easy"] {
+  font-family: "Shippori Mincho", serif;
+  letter-spacing: 0;
 }
 
 .hero-content {

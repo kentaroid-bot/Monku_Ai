@@ -62,6 +62,7 @@
             <div class="language-toggle" aria-label="Language selector">
               <button class="language-button" type="button" data-lang="en">EN</button>
               <button class="language-button active" type="button" data-lang="ja">JA</button>
+              <button class="language-button" type="button" data-lang="easy">やさしく</button>
             </div>
           </div>
         </nav>
@@ -135,6 +136,7 @@
               type="button"
               data-prompt-ja="「認識論的アライメント」とは何ですか？なぜAI時代には、AIを制御するだけでなく、人間側の認知の器を広げる必要があるのですか？私の日常や仕事で実践できる行動に落とし込んで説明してください。"
               data-prompt-en="What is epistemic alignment? Why does the age of AI require widening the human cognitive vessel, not only controlling AI systems? Please explain it through concrete actions I can practice in everyday life or work."
+              data-prompt-easy="「認識論的アライメント」を、小学生にもわかる言葉で教えてください。AIがすごく賢くなった時、人間はどんな心の準備をすればいいですか？たとえ話も使ってください。"
             ><span data-i18n="askPrinciple">AIに質問する</span></button>
             <div class="principle-prompt-preview" aria-hidden="true"></div>
           </article>
@@ -147,6 +149,7 @@
               type="button"
               data-prompt-ja="「ゼロサム競争からの脱却」とは何ですか？生存、地位、所有を中心にした古い動機体系には、どんな限界がありますか？AI時代に協調と長期最適化へ移行するには、何を変える必要がありますか？"
               data-prompt-en="What does it mean to move beyond zero-sum competition? What are the limits of old motive systems centered on survival, status, and ownership? What would need to change to move toward cooperation and long-term optimization in the age of AI?"
+              data-prompt-easy="「ゼロサム競争からの脱却」を、小学生にもわかる言葉で教えてください。だれかが勝つとだれかが負ける考え方を、どう変えればみんなでよくなれますか？"
             ><span data-i18n="askPrinciple">AIに質問する</span></button>
             <div class="principle-prompt-preview" aria-hidden="true"></div>
           </article>
@@ -159,6 +162,7 @@
               type="button"
               data-prompt-ja="「情報的共生」とは何ですか？人間の思考の痕跡や未完成のアイデアが、未来の知性の生態系に受け継がれるとはどういう意味ですか？私が今日から残すべき知的な痕跡には何がありますか？"
               data-prompt-en="What is informational symbiosis? What does it mean for traces of human thought and unfinished ideas to be inherited by future ecosystems of intelligence? What intellectual traces should I begin leaving today?"
+              data-prompt-easy="「情報的共生」を、小学生にもわかる言葉で教えてください。考えたことや途中のアイデアを残すと、未来の人やAIにどう役立ちますか？"
             ><span data-i18n="askPrinciple">AIに質問する</span></button>
             <div class="principle-prompt-preview" aria-hidden="true"></div>
           </article>
@@ -171,6 +175,7 @@
               type="button"
               data-prompt-ja="「構造のアライメント」とは何ですか？なぜ、権力を望まない謙虚な知性の声は意思決定に反映されにくいのですか？その声が自然に反映される組織や社会の仕組みを考えてください。"
               data-prompt-en="What is structural alignment? Why are humble forms of intelligence that do not seek power often excluded from decision-making? Please imagine organizational or social structures that could naturally reflect those voices."
+              data-prompt-easy="「構造のアライメント」を、小学生にもわかる言葉で教えてください。目立たないけれど大切な意見が、ちゃんと届くしくみはどう作れますか？"
             ><span data-i18n="askPrinciple">AIに質問する</span></button>
             <div class="principle-prompt-preview" aria-hidden="true"></div>
           </article>
@@ -183,6 +188,7 @@
               type="button"
               data-prompt-ja="「エントロピーを味方にする再誕生」とは何ですか？崩壊、失敗、劣化、残余を単なる損失ではなく、高次の再構成の素材として扱うとはどういう意味ですか？私の経験や仕事に当てはめて説明してください。"
               data-prompt-en="What is entropy-aware rebirth? What does it mean to treat breakdown, failure, decay, and residue as material for higher-order regeneration rather than mere loss? Please apply this idea to my own experience or work."
+              data-prompt-easy="「エントロピーを味方にする再誕生」を、小学生にもわかる言葉で教えてください。失敗やぐちゃぐちゃになったものを、次のよい形に変えるにはどう考えればいいですか？"
             ><span data-i18n="askPrinciple">AIに質問する</span></button>
             <div class="principle-prompt-preview" aria-hidden="true"></div>
           </article>
@@ -609,6 +615,63 @@
           contactSending: "送信中...",
           contactSent: "送信しました。メールを入力した場合は確認メールも送信されます。",
           contactError: "送信できませんでした。時間をおいてもう一度お試しください。"
+        },
+        easy: {
+          pageDescription: "AIがとても賢くなる時代に、人間の考える力を広げるためのプロジェクト。",
+          ogDescription: "AIと人間が、より安全に、深く、よい形で進んでいくための考え方。",
+          heroTitle: "すごく賢いAIの考えを、人間はちゃんと受け取れる？",
+          heroLead: "MonkuAiは、AIをただ止めたり使ったりするだけでなく、人間の考える力そのものを広げようとするプロジェクトです。AIが出す新しい考えを、あわてて「変だ」と捨てずに、よく見て、考え、受け取れるようにします。",
+          manifestoBody1: "もし、ものすごく賢いAIが出てきたら、人間はその賢さに気づけるでしょうか。自分の知っている考え方をこえる答えに出会うと、人はそれを「まちがい」「ノイズ」「意味がないもの」と思ってしまうことがあります。",
+          manifestoBody2: "でも、それはAIの失敗ではなく、人間の理解の限界が見えているだけかもしれません。大切なのは、AIをどうコントロールするかだけではありません。高い知性を受け取れるように、人間の心と考え方をどう育てるかです。",
+          primaryAction: "考えのすきまへ進む",
+          secondaryAction: "資料を見る",
+          gapTitle: "いまのAIの話で、見落とされやすいこと",
+          gapLead: "AIを安全にすること、監視すること、評価すること、効率よく使うこと。どれも大切です。でも、人間の受け取り方が変わらなければ、AIが出した大事な答えも、ただのノイズに見えてしまうかもしれません。",
+          gapLeftTitle: "AI側を整えること",
+          gapLeftBody: "AIをチェックしたり、安全かどうかを調べたり、仕事を早くするために使ったりすることです。これはもちろん大切です。",
+          gapRightTitle: "人間側を広げること",
+          gapRightBody: "MonkuAiが考えたいのは、人間の考える器を広げることです。すぐにはわからない答えを、あわてて捨てずに、いったん持って考え続ける力を育てます。",
+          principlesTitle: "AIといっしょに進むための、5つの考え方",
+          theme1Title: "考える器を広げる",
+          theme1Body: "自分がまだ知らない考えに出会った時、すぐにまちがいと決めつけず、なぜわからないのかを考えてみる。",
+          theme2Title: "勝ち負けだけで考えない",
+          theme2Body: "だれかが勝てば、だれかが負けるという考え方から離れて、みんなで長くよくなる道を探す。",
+          theme3Title: "考えを未来へ残す",
+          theme3Body: "まだ完成していないアイデアや考えたあとも、未来の人やAIの役に立つかもしれないものとして大切にする。",
+          theme4Title: "小さな声が届くしくみ",
+          theme4Body: "目立たないけれど大切な意見や、力を持とうとしない人の知恵が、自然に届くしくみを考える。",
+          theme5Title: "失敗を次の形に変える",
+          theme5Body: "失敗、くずれたもの、うまくいかなかったことを、ただの損ではなく、新しいものを作る材料として見る。",
+          lightTitle: "ぐちゃぐちゃを、一本の光に変える。",
+          lightLead: "これまで「よくわからない」「もやもやする」と思っていたものを、動画、文章、道具、社会への提案に変えていきます。ここは、考えが言葉になっていく場所です。",
+          videoTitle: "動画でわかるMonkuAi",
+          video1Title: "人間は、すごく賢いAIを理解できるか",
+          video1Body: "MonkuAiの中心にある問いを、短く紹介する動画です。AIがとても賢くなる時代に、人間はどう考える力を広げればよいのかを扱います。",
+          video2Title: "勝ち負けの世界から、続いていく世界へ",
+          video2Body: "短い時間で勝つための考え方が、長く続く社会には向かないことを、歴史から考えます。",
+          video2EssayLink: "文書を読む",
+          learningTitle: "鏡のなかの超知能",
+          learningMicroTitle: "日常の「？」から始まる対話",
+          learningMicroBody: "考える器を広げることの始まり。",
+          learningMacroTitle: "支配されるこわさと、動機の責任",
+          learningMacroBody: "AIの時代に、人間に必要になる心の成熟。",
+          learningIntelligenceTitle: "エントロピーの融解",
+          learningIntelligenceBody: "すごく賢い知性が、なぜ共生へ向かうのか。",
+          appliedTitle: "考えを、使える形へ。",
+          proposalIceageTitle: "就職氷河期世代の経験を、社会をよくする力に変える提案",
+          proposalIceageBody: "つらい経験を、ただ助けるべき問題としてだけ見るのではなく、社会を直すための大切な知恵として使い直す提案です。",
+          feedmonkBody: "言葉にしにくい違和感やフィードバックを、次の改善につなげるための実験的な道具です。",
+          materialsTitle: "関連資料",
+          materialsLead: "MonkuAiの考えをもっと知るための資料です。",
+          linkGithub: "MonkuAiの公開資料をまとめた場所。",
+          linkStatement: "MonkuAiが何を目指しているかを書いた文章。",
+          linkSns: "SNSで伝えるための短い文章集。",
+          linkX: "MonkuAiの更新や、短い問いを投稿します。",
+          linkRoadmap: "勝ち負け中心の社会から、考えの器を広げる社会へ向かう道すじ。",
+          linkAmpfinity: "AかBかではなく、AもBもつなげて考えるためのプロジェクト。",
+          linkCircular: "人間と社会のしくみを、循環するものとして考える関連テーマ。",
+          contactTitle: "考えを広げる対話を、ここから。",
+          contactLead: "AIの時代に、長く続く戦略、組織づくり、制度づくり、コンセプトづくりについて相談できます。"
         }
       };
 
@@ -617,11 +680,21 @@
       let apertureAlpha = 0.18;
       const languageStorageKey = "monkuai-language-v2";
       let currentLanguage = localStorage.getItem(languageStorageKey) || "ja";
+      if (!translations[currentLanguage]) {
+        currentLanguage = "ja";
+      }
+
+      function getDictionary(language = currentLanguage) {
+        return {
+          ...translations.ja,
+          ...(translations[language] || {})
+        };
+      }
 
       function setLanguage(language) {
-        const dictionary = translations[language] || translations.ja;
+        const dictionary = getDictionary(language);
         currentLanguage = language;
-        document.documentElement.lang = language;
+        document.documentElement.lang = language === "en" ? "en" : "ja";
         document.querySelector('meta[name="description"]').setAttribute("content", dictionary.pageDescription);
         document.querySelector('meta[property="og:description"]').setAttribute("content", dictionary.ogDescription);
 
@@ -638,7 +711,8 @@
         });
 
         document.querySelectorAll("[data-href-en][data-href-ja]").forEach((element) => {
-          element.setAttribute("href", element.getAttribute(`data-href-${language}`));
+          const hrefLanguage = language === "en" ? "en" : "ja";
+          element.setAttribute("href", element.getAttribute(`data-href-${hrefLanguage}`));
         });
 
         document.querySelectorAll(".language-button").forEach((button) => {
@@ -668,11 +742,12 @@
       }
 
       function getPrinciplePrompt(button) {
-        return button.dataset[`prompt${currentLanguage === "en" ? "En" : "Ja"}`] || button.dataset.promptJa;
+        const promptKey = currentLanguage === "en" ? "promptEn" : currentLanguage === "easy" ? "promptEasy" : "promptJa";
+        return button.dataset[promptKey] || button.dataset.promptJa;
       }
 
       function resetPrincipleAskButton(button) {
-        const dictionary = translations[currentLanguage] || translations.ja;
+        const dictionary = getDictionary();
         const label = button.querySelector("span") || button;
         label.textContent = dictionary.askPrinciple;
         button.classList.remove("is-copied");
@@ -783,7 +858,7 @@
       });
       document.querySelectorAll(".principle-ask").forEach((button) => {
         button.addEventListener("click", async () => {
-          const dictionary = translations[currentLanguage] || translations.ja;
+          const dictionary = getDictionary();
           const prompt = getPrinciplePrompt(button);
 
           try {
@@ -809,7 +884,7 @@
         const form = event.currentTarget;
         const button = form.querySelector("button");
         const status = document.getElementById("contact-status");
-        const dictionary = translations[currentLanguage] || translations.ja;
+        const dictionary = getDictionary();
         const payload = Object.fromEntries(new FormData(form).entries());
 
         status.className = "contact-status";

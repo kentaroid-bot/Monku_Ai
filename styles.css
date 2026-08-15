@@ -1368,6 +1368,13 @@ h2 {
   text-transform: uppercase;
 }
 
+.whitepaper-brand-trail {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
 .whitepaper-brand-mark {
   display: inline-grid;
   width: 28px;
@@ -1390,6 +1397,21 @@ h2 {
   stroke-width: 34;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.whitepaper-brand-separator {
+  color: rgba(29, 37, 32, 0.38);
+  font-family: Inter, "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.whitepaper-docs-link {
+  color: #1d2520;
+  font-family: Inter, "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
 }
 
 .whitepaper-header nav {

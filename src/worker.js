@@ -157,14 +157,7 @@ function renderMarkdownPage({ config, title, content, updatedAt }) {
 </head>
 <body class="whitepaper-page">
   <header class="whitepaper-header">
-    <a class="whitepaper-brand" href="/">
-      <span class="whitepaper-brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 512 512">
-          <path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" />
-        </svg>
-      </span>
-      <span>MonkuAi Documents</span>
-    </a>
+    ${renderDocumentsBrand()}
     <nav>
       ${config.switchHref ? `<a href="${config.switchHref}">${escapeHtml(config.switchLabel)}</a>` : ""}
       <a href="${config.sourceUrl}">${escapeHtml(config.sourceLabel)}</a>
@@ -210,14 +203,7 @@ function renderDocumentsIndex({ documents }) {
 </head>
 <body class="whitepaper-page documents-index-page">
   <header class="whitepaper-header">
-    <a class="whitepaper-brand" href="/">
-      <span class="whitepaper-brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 512 512">
-          <path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" />
-        </svg>
-      </span>
-      <span>MonkuAi Documents</span>
-    </a>
+    ${renderDocumentsBrand()}
     <nav>
       <a href="/">MonkuAi Home</a>
       <a href="https://github.com/kentaroid-bot/Monku_Ai/tree/main/docs">GitHub Docs</a>
@@ -247,6 +233,21 @@ function redirectTo(url) {
       "Cache-Control": "public, max-age=3600"
     }
   });
+}
+
+function renderDocumentsBrand() {
+  return `<div class="whitepaper-brand-trail">
+      <a class="whitepaper-brand" href="https://monku.ai/">
+        <span class="whitepaper-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 512 512">
+            <path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" />
+          </svg>
+        </span>
+        <span>MonkuAi</span>
+      </a>
+      <span class="whitepaper-brand-separator" aria-hidden="true">&gt;</span>
+      <a class="whitepaper-docs-link" href="https://monku.ai/docs/">Documents</a>
+    </div>`;
 }
 
 async function fetchGitHubUpdatedAt(config) {

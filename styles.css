@@ -1419,6 +1419,15 @@ h2 {
   text-transform: uppercase;
 }
 
+.whitepaper-updated {
+  margin: -10px 0 22px;
+  color: rgba(29, 37, 32, 0.52);
+  font-family: Inter, "Noto Sans JP", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
 .whitepaper-document {
   padding: clamp(28px, 5vw, 64px);
   border: 1px solid rgba(29, 37, 32, 0.12);

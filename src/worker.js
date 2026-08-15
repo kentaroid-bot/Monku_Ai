@@ -33,8 +33,10 @@ const ROADMAPS = {
     pageTitle: "概念ロードマップ",
     eyebrow: "Conceptual Roadmap",
     sourceLabel: "GitHubで原本を見る",
+    updatedLabel: "更新日",
     switchLabel: "Read in English",
     switchHref: "/roadmap/en/",
+    path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
     rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
     sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md"
   },
@@ -43,8 +45,10 @@ const ROADMAPS = {
     pageTitle: "Conceptual Roadmap",
     eyebrow: "Conceptual Roadmap",
     sourceLabel: "View Source on GitHub",
+    updatedLabel: "Updated",
     switchLabel: "日本語で読む",
     switchHref: "/roadmap/",
+    path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
     rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
     sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md"
   }
@@ -55,6 +59,8 @@ const STATEMENT = {
   pageTitle: "MonkuAi 公式ステートメント",
   eyebrow: "Official Statement",
   sourceLabel: "GitHubで原本を見る",
+  updatedLabel: "更新日",
+  path: "docs/official-statement.md",
   rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/official-statement.md",
   sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/official-statement.md"
 };
@@ -80,17 +86,20 @@ async function handleMarkdownPage(config) {
   });
 
   if (!response.ok) {
-    return htmlResponse(renderRoadmapError(config), response.status, 60);
+    return htmlResponse(renderMarkdownError(config), response.status, 60);
   }
 
   const markdown = await response.text();
   const title = extractTitle(markdown) || config.pageTitle;
   const content = markdownToHtml(markdown);
+  const updatedAt = await fetchGitHubUpdatedAt(config);
 
-  return htmlResponse(renderMarkdownPage({ config, title, content }), 200, 300);
+  return htmlResponse(renderMarkdownPage({ config, title, content, updatedAt }), 200, 300);
 }
 
-function renderMarkdownPage({ config, title, content }) {
+function renderMarkdownPage({ config, title, content, updatedAt }) {
+  const updatedText = formatUpdatedAt(updatedAt, config.lang);
+
   return `<!doctype html>
 <html lang="${config.lang}">
 <head>
@@ -109,7 +118,7 @@ function renderMarkdownPage({ config, title, content }) {
           <path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" />
         </svg>
       </span>
-      <span>MonkuAi</span>
+      <span>MonkuAi Documents</span>
     </a>
     <nav>
       ${config.switchHref ? `<a href="${config.switchHref}">${escapeHtml(config.switchLabel)}</a>` : ""}
@@ -118,6 +127,7 @@ function renderMarkdownPage({ config, title, content }) {
   </header>
   <main class="whitepaper-shell">
     <p class="whitepaper-eyebrow">${escapeHtml(config.eyebrow)}</p>
+    ${updatedText ? `<p class="whitepaper-updated">${escapeHtml(config.updatedLabel)}: ${escapeHtml(updatedText)}</p>` : ""}
     <article class="whitepaper-document">
       ${content}
     </article>
@@ -130,7 +140,47 @@ function renderMarkdownPage({ config, title, content }) {
 </html>`;
 }
 
-function renderRoadmapError(config) {
+async function fetchGitHubUpdatedAt(config) {
+  if (!config.path) return "";
+
+  const url = `https://api.github.com/repos/kentaroid-bot/Monku_Ai/commits?path=${encodeURIComponent(config.path)}&per_page=1`;
+
+  try {
+    const response = await fetch(url, {
+      headers: {
+        Accept: "application/vnd.github+json",
+        "User-Agent": "MonkuAi-markdown-renderer"
+      },
+      cf: {
+        cacheTtl: 300,
+        cacheEverything: true
+      }
+    });
+
+    if (!response.ok) return "";
+
+    const commits = await response.json();
+    return commits?.[0]?.commit?.committer?.date || "";
+  } catch {
+    return "";
+  }
+}
+
+function formatUpdatedAt(value, lang) {
+  if (!value) return "";
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+
+  const locale = lang === "ja" ? "ja-JP" : "en-US";
+  const options = lang === "ja"
+    ? { year: "numeric", month: "long", day: "numeric", timeZone: "Asia/Tokyo" }
+    : { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" };
+
+  return new Intl.DateTimeFormat(locale, options).format(date);
+}
+
+function renderMarkdownError(config) {
   return `<!doctype html>
 <html lang="${config.lang}">
 <head>

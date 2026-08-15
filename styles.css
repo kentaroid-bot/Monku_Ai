@@ -689,6 +689,11 @@ html[lang="en"] .home-page {
     grid-column: 2;
   }
 
+  .principle-ask,
+  .principle-prompt-preview {
+    grid-column: 2;
+  }
+
   .band-heading {
     display: block;
   }

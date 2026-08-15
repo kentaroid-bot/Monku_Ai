@@ -1159,6 +1159,11 @@ h2 {
   margin-top: 36px;
 }
 
+.video-grid-single {
+  grid-template-columns: minmax(0, 760px);
+  justify-content: center;
+}
+
 .video-card {
   padding: 24px;
   border: 1px solid rgba(229, 169, 60, 0.34);

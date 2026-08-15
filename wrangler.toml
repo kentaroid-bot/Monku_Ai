@@ -11,7 +11,7 @@ routes = [
 directory = "."
 binding = "ASSETS"
 not_found_handling = "404-page"
-run_worker_first = ["/api/*", "/roadmap", "/roadmap/*"]
+run_worker_first = ["/api/*", "/roadmap", "/roadmap/*", "/statement", "/statement/*"]
 
 [vars]
 CONTACT_TO = "renraku@monku.ai"

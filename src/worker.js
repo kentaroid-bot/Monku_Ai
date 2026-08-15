@@ -14,6 +14,10 @@ export default {
       return handleRoadmap("en");
     }
 
+    if (url.pathname === "/statement" || url.pathname === "/statement/") {
+      return handleStatement();
+    }
+
     if (url.pathname === "/proposal/iceage") {
       url.pathname = "/proposal/iceage/index.html";
       return env.ASSETS.fetch(new Request(url, request));
@@ -46,11 +50,28 @@ const ROADMAPS = {
   }
 };
 
+const STATEMENT = {
+  lang: "ja",
+  pageTitle: "MonkuAi 公式ステートメント",
+  eyebrow: "Official Statement",
+  sourceLabel: "GitHubで原本を見る",
+  rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/official-statement.md",
+  sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/official-statement.md"
+};
+
 async function handleRoadmap(locale) {
   const config = ROADMAPS[locale] || ROADMAPS.ja;
+  return handleMarkdownPage(config);
+}
+
+async function handleStatement() {
+  return handleMarkdownPage(STATEMENT);
+}
+
+async function handleMarkdownPage(config) {
   const response = await fetch(config.rawUrl, {
     headers: {
-      "User-Agent": "MonkuAi-roadmap-renderer"
+      "User-Agent": "MonkuAi-markdown-renderer"
     },
     cf: {
       cacheTtl: 300,
@@ -66,10 +87,10 @@ async function handleRoadmap(locale) {
   const title = extractTitle(markdown) || config.pageTitle;
   const content = markdownToHtml(markdown);
 
-  return htmlResponse(renderRoadmapPage({ config, title, content }), 200, 300);
+  return htmlResponse(renderMarkdownPage({ config, title, content }), 200, 300);
 }
 
-function renderRoadmapPage({ config, title, content }) {
+function renderMarkdownPage({ config, title, content }) {
   return `<!doctype html>
 <html lang="${config.lang}">
 <head>
@@ -91,7 +112,7 @@ function renderRoadmapPage({ config, title, content }) {
       <span>MonkuAi</span>
     </a>
     <nav>
-      <a href="${config.switchHref}">${escapeHtml(config.switchLabel)}</a>
+      ${config.switchHref ? `<a href="${config.switchHref}">${escapeHtml(config.switchLabel)}</a>` : ""}
       <a href="${config.sourceUrl}">${escapeHtml(config.sourceLabel)}</a>
     </nav>
   </header>
@@ -123,7 +144,7 @@ function renderRoadmapError(config) {
     <p class="whitepaper-eyebrow">${escapeHtml(config.eyebrow)}</p>
     <article class="whitepaper-document">
       <h1>${escapeHtml(config.pageTitle)}</h1>
-      <p>The roadmap source could not be loaded. Please try again later.</p>
+      <p>The source Markdown could not be loaded. Please try again later.</p>
       <p><a href="${config.sourceUrl}">${escapeHtml(config.sourceLabel)}</a></p>
     </article>
   </main>

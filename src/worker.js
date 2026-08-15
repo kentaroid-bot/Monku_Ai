@@ -83,8 +83,12 @@ function renderRoadmapPage({ config, title, content }) {
 <body class="whitepaper-page">
   <header class="whitepaper-header">
     <a class="whitepaper-brand" href="/">
-      <img src="/assets/monku-mo-symbol.svg" alt="" aria-hidden="true">
-      <span>MONKUAI</span>
+      <span class="whitepaper-brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 512 512">
+          <path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" />
+        </svg>
+      </span>
+      <span>MonkuAi</span>
     </a>
     <nav>
       <a href="${config.switchHref}">${escapeHtml(config.switchLabel)}</a>

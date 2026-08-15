@@ -82,7 +82,10 @@ function renderRoadmapPage({ config, title, content }) {
 </head>
 <body class="whitepaper-page">
   <header class="whitepaper-header">
-    <a class="whitepaper-brand" href="/">MonkuAi</a>
+    <a class="whitepaper-brand" href="/">
+      <img src="/assets/monku-mo-symbol.svg" alt="" aria-hidden="true">
+      <span>MONKUAI</span>
+    </a>
     <nav>
       <a href="${config.switchHref}">${escapeHtml(config.switchLabel)}</a>
       <a href="${config.sourceUrl}">${escapeHtml(config.sourceLabel)}</a>

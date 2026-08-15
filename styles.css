@@ -1327,8 +1327,8 @@ h2 {
   margin: 0;
   background: #f6f1e9;
   color: #1d2520;
-  font-family: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, Georgia, serif;
-  letter-spacing: 0.01em;
+  font-family: Inter, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  letter-spacing: 0;
 }
 
 .whitepaper-page a {
@@ -1356,11 +1356,21 @@ h2 {
 }
 
 .whitepaper-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: #1d2520;
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 17px;
-  letter-spacing: 0.12em;
+  font-family: Inter, "Noto Sans JP", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.whitepaper-brand img {
+  width: 28px;
+  height: 28px;
+  display: block;
 }
 
 .whitepaper-header nav {
@@ -1383,9 +1393,10 @@ h2 {
 .whitepaper-eyebrow {
   margin: 0 0 18px;
   color: #9a6222;
-  font-family: "Cinzel", Georgia, serif;
+  font-family: Inter, "Noto Sans JP", sans-serif;
+  font-weight: 800;
   font-size: 12px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -1394,7 +1405,7 @@ h2 {
   border: 1px solid rgba(29, 37, 32, 0.12);
   border-radius: 3px;
   background: rgba(255, 253, 248, 0.9);
-  box-shadow: 0 24px 80px rgba(63, 48, 31, 0.12);
+  box-shadow: none;
 }
 
 .whitepaper-document h1,

@@ -6,15 +6,31 @@ export default {
       return handleContact(request, env, ctx);
     }
 
+    if (url.pathname === "/docs" || url.pathname === "/docs/") {
+      return handleDocumentsIndex();
+    }
+
     if (url.pathname === "/roadmap" || url.pathname === "/roadmap/") {
-      return handleRoadmap("ja");
+      return redirectTo(new URL("/docs/roadmap/", request.url));
     }
 
     if (url.pathname === "/roadmap/en" || url.pathname === "/roadmap/en/") {
-      return handleRoadmap("en");
+      return redirectTo(new URL("/docs/roadmap/en/", request.url));
     }
 
     if (url.pathname === "/statement" || url.pathname === "/statement/") {
+      return redirectTo(new URL("/docs/statement/", request.url));
+    }
+
+    if (url.pathname === "/docs/roadmap" || url.pathname === "/docs/roadmap/") {
+      return handleRoadmap("ja");
+    }
+
+    if (url.pathname === "/docs/roadmap/en" || url.pathname === "/docs/roadmap/en/") {
+      return handleRoadmap("en");
+    }
+
+    if (url.pathname === "/docs/statement" || url.pathname === "/docs/statement/") {
       return handleStatement();
     }
 
@@ -35,7 +51,8 @@ const ROADMAPS = {
     sourceLabel: "GitHubで原本を見る",
     updatedLabel: "更新日",
     switchLabel: "Read in English",
-    switchHref: "/roadmap/en/",
+    switchHref: "/docs/roadmap/en/",
+    href: "/docs/roadmap/",
     path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
     rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
     sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md"
@@ -47,7 +64,8 @@ const ROADMAPS = {
     sourceLabel: "View Source on GitHub",
     updatedLabel: "Updated",
     switchLabel: "日本語で読む",
-    switchHref: "/roadmap/",
+    switchHref: "/docs/roadmap/",
+    href: "/docs/roadmap/en/",
     path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
     rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
     sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md"
@@ -60,10 +78,26 @@ const STATEMENT = {
   eyebrow: "Official Statement",
   sourceLabel: "GitHubで原本を見る",
   updatedLabel: "更新日",
+  href: "/docs/statement/",
   path: "docs/official-statement.md",
   rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/official-statement.md",
   sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/official-statement.md"
 };
+
+const DOCUMENTS = [
+  {
+    ...STATEMENT,
+    description: "MonkuAiの目的と思想の核をまとめた公式ステートメント。"
+  },
+  {
+    ...ROADMAPS.ja,
+    description: "ゼロサム文明から認識の開口と無限の開きへ向かう概念ロードマップ。"
+  },
+  {
+    ...ROADMAPS.en,
+    description: "English version of the conceptual roadmap from the zero-sum cage to the infinite opening."
+  }
+];
 
 async function handleRoadmap(locale) {
   const config = ROADMAPS[locale] || ROADMAPS.ja;
@@ -72,6 +106,17 @@ async function handleRoadmap(locale) {
 
 async function handleStatement() {
   return handleMarkdownPage(STATEMENT);
+}
+
+async function handleDocumentsIndex() {
+  const documents = await Promise.all(
+    DOCUMENTS.map(async (document) => ({
+      ...document,
+      updatedAt: await fetchGitHubUpdatedAt(document)
+    }))
+  );
+
+  return htmlResponse(renderDocumentsIndex({ documents }), 200, 300);
 }
 
 async function handleMarkdownPage(config) {
@@ -138,6 +183,70 @@ function renderMarkdownPage({ config, title, content, updatedAt }) {
   </footer>
 </body>
 </html>`;
+}
+
+function renderDocumentsIndex({ documents }) {
+  const cards = documents
+    .map((document) => {
+      const updatedText = formatUpdatedAt(document.updatedAt, document.lang);
+      return `<a class="documents-card" href="${document.href}">
+        <span>${escapeHtml(document.eyebrow)}</span>
+        <h2>${escapeHtml(document.pageTitle)}</h2>
+        <p>${escapeHtml(document.description)}</p>
+        ${updatedText ? `<small>${escapeHtml(document.updatedLabel)}: ${escapeHtml(updatedText)}</small>` : ""}
+      </a>`;
+    })
+    .join("");
+
+  return `<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MonkuAi Documents</title>
+  <meta name="description" content="MonkuAiの公式文書一覧。">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="whitepaper-page documents-index-page">
+  <header class="whitepaper-header">
+    <a class="whitepaper-brand" href="/">
+      <span class="whitepaper-brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 512 512">
+          <path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" />
+        </svg>
+      </span>
+      <span>MonkuAi Documents</span>
+    </a>
+    <nav>
+      <a href="/">MonkuAi Home</a>
+      <a href="https://github.com/kentaroid-bot/Monku_Ai/tree/main/docs">GitHub Docs</a>
+    </nav>
+  </header>
+  <main class="whitepaper-shell documents-index-shell">
+    <p class="whitepaper-eyebrow">Documents</p>
+    <h1 class="documents-index-title">MonkuAi Documents</h1>
+    <p class="documents-index-lead">Markdownを原本として参照している公式文書の一覧です。</p>
+    <div class="documents-grid">
+      ${cards}
+    </div>
+  </main>
+  <footer class="whitepaper-footer">
+    <a href="/">MonkuAi</a>
+    <span>Noise may already be the answer. Widen the aperture.</span>
+  </footer>
+</body>
+</html>`;
+}
+
+function redirectTo(url) {
+  return new Response(null, {
+    status: 301,
+    headers: {
+      Location: url.toString(),
+      "Cache-Control": "public, max-age=3600"
+    }
+  });
 }
 
 async function fetchGitHubUpdatedAt(config) {

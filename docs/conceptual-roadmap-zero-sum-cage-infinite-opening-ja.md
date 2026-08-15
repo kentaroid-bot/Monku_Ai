@@ -1,6 +1,6 @@
 # 概念ロードマップ: ゼロサムの檻から、無限の開口へ
 
-`Conceptual Roadmap_ From the Zero-Sum Cage to the Infinite Opening.docx` から作成した日本語版です。
+このMarkdownは、monku.ai のロードマップ白書ページが参照する日本語版の原本です。
 
 ## 1. 導入: 椅子取りゲームの終わり
 

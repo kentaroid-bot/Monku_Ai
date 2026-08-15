@@ -1,6 +1,6 @@
 # Conceptual Roadmap: From the Zero-Sum Cage to the Infinite Opening
 
-Converted from `Conceptual Roadmap_ From the Zero-Sum Cage to the Infinite Opening.docx`.
+This Markdown file is the English source referenced by the roadmap white paper page on monku.ai.
 
 ## 1. Introduction: The End of Musical Chairs
 

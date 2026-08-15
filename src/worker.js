@@ -27,7 +27,7 @@ const ROADMAPS = {
   ja: {
     lang: "ja",
     pageTitle: "概念ロードマップ",
-    eyebrow: "MonkuAi White Paper",
+    eyebrow: "Conceptual Roadmap",
     sourceLabel: "GitHubで原本を見る",
     switchLabel: "Read in English",
     switchHref: "/roadmap/en/",
@@ -37,7 +37,7 @@ const ROADMAPS = {
   en: {
     lang: "en",
     pageTitle: "Conceptual Roadmap",
-    eyebrow: "MonkuAi White Paper",
+    eyebrow: "Conceptual Roadmap",
     sourceLabel: "View Source on GitHub",
     switchLabel: "日本語で読む",
     switchHref: "/roadmap/",

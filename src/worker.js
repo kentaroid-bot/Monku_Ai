@@ -22,16 +22,9 @@ export default {
       return redirectTo(new URL("/docs/statement/", request.url));
     }
 
-    if (url.pathname === "/docs/roadmap" || url.pathname === "/docs/roadmap/") {
-      return handleRoadmap("ja");
-    }
-
-    if (url.pathname === "/docs/roadmap/en" || url.pathname === "/docs/roadmap/en/") {
-      return handleRoadmap("en");
-    }
-
-    if (url.pathname === "/docs/statement" || url.pathname === "/docs/statement/") {
-      return handleStatement();
+    const docConfig = DOC_PAGES[normalizeDocsPath(url.pathname)];
+    if (docConfig) {
+      return handleMarkdownPage(docConfig);
     }
 
     if (url.pathname === "/proposal/iceage") {
@@ -43,69 +36,171 @@ export default {
   }
 };
 
-const ROADMAPS = {
-  ja: {
+const GITHUB_BLOB_BASE = "https://github.com/kentaroid-bot/Monku_Ai/blob/main/";
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/";
+
+const DOC_PAGE_ITEMS = [
+  docPage({
+    href: "/docs/statement/",
+    lang: "ja",
+    pageTitle: "MonkuAi 公式ステートメント",
+    eyebrow: "Official Statement",
+    path: "docs/official-statement.md",
+    switchLabel: "Read in English",
+    switchHref: "/docs/statement/en/",
+    description: "MonkuAiの目的と思想の核をまとめた公式ステートメント。"
+  }),
+  docPage({
+    href: "/docs/statement/en/",
+    lang: "en",
+    pageTitle: "MonkuAi Official Statement",
+    eyebrow: "Official Statement",
+    path: "docs/official-statement-en.md",
+    switchLabel: "日本語で読む",
+    switchHref: "/docs/statement/",
+    description: "English translation of the official statement that defines MonkuAi's core purpose and philosophy."
+  }),
+  docPage({
+    href: "/docs/roadmap/",
     lang: "ja",
     pageTitle: "概念ロードマップ",
     eyebrow: "Conceptual Roadmap",
-    sourceLabel: "GitHubで原本を見る",
-    updatedLabel: "更新日",
+    path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
     switchLabel: "Read in English",
     switchHref: "/docs/roadmap/en/",
-    href: "/docs/roadmap/",
-    path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
-    rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
-    sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md"
-  },
-  en: {
+    description: "ゼロサム文明から認識の開口と無限の開きへ向かう概念ロードマップ。"
+  }),
+  docPage({
+    href: "/docs/roadmap/en/",
     lang: "en",
     pageTitle: "Conceptual Roadmap",
     eyebrow: "Conceptual Roadmap",
-    sourceLabel: "View Source on GitHub",
-    updatedLabel: "Updated",
+    path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
     switchLabel: "日本語で読む",
     switchHref: "/docs/roadmap/",
-    href: "/docs/roadmap/en/",
-    path: "docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
-    rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
-    sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md"
-  }
-};
-
-const STATEMENT = {
-  lang: "ja",
-  pageTitle: "MonkuAi 公式ステートメント",
-  eyebrow: "Official Statement",
-  sourceLabel: "GitHubで原本を見る",
-  updatedLabel: "更新日",
-  href: "/docs/statement/",
-  path: "docs/official-statement.md",
-  rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/official-statement.md",
-  sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/official-statement.md"
-};
-
-const DOCUMENTS = [
-  {
-    ...STATEMENT,
-    description: "MonkuAiの目的と思想の核をまとめた公式ステートメント。"
-  },
-  {
-    ...ROADMAPS.ja,
-    description: "ゼロサム文明から認識の開口と無限の開きへ向かう概念ロードマップ。"
-  },
-  {
-    ...ROADMAPS.en,
     description: "English version of the conceptual roadmap from the zero-sum cage to the infinite opening."
-  }
+  }),
+  docPage({
+    href: "/docs/project-overview/",
+    lang: "ja",
+    pageTitle: "MonkuAi プロジェクト概要",
+    eyebrow: "Project Overview",
+    path: "docs/project-overview-ja.md",
+    switchLabel: "Read in English",
+    switchHref: "/docs/project-overview/en/",
+    description: "MonkuAiの目的、背景、5つのテーマ、現在の活動をまとめたプロジェクト概要。"
+  }),
+  docPage({
+    href: "/docs/project-overview/en/",
+    lang: "en",
+    pageTitle: "MonkuAi Project Overview",
+    eyebrow: "Project Overview",
+    path: "docs/project-overview.md",
+    switchLabel: "日本語で読む",
+    switchHref: "/docs/project-overview/",
+    description: "English translation of the project overview covering MonkuAi's purpose, background, themes, and current activities."
+  }),
+  docPage({
+    href: "/docs/civilization-survival-strategy/",
+    lang: "ja",
+    pageTitle: "AI（ASI）時代における文明生存戦略",
+    eyebrow: "Civilization Survival Strategy",
+    path: "docs/civilization-survival-strategy-asi-mottainai-ja.md",
+    switchLabel: "Read in English",
+    switchHref: "/docs/civilization-survival-strategy/en/",
+    description: "日本的な長期的価値観と「もったいない」精神をASI時代の生存戦略として再実装する補助ロードマップ。"
+  }),
+  docPage({
+    href: "/docs/civilization-survival-strategy/en/",
+    lang: "en",
+    pageTitle: "Civilization Survival Strategy in the Age of AI (ASI)",
+    eyebrow: "Civilization Survival Strategy",
+    path: "docs/civilization-survival-strategy-asi-mottainai.md",
+    switchLabel: "日本語で読む",
+    switchHref: "/docs/civilization-survival-strategy/",
+    description: "English translation of the auxiliary roadmap on re-implementing long-term Japanese values and the mottainai spirit for the ASI age."
+  }),
+  docPage({
+    href: "/docs/diagram-structure/",
+    lang: "ja",
+    pageTitle: "MonkuAi 5テーマ図解構造",
+    eyebrow: "Diagram Structure",
+    path: "docs/diagram-structure.md",
+    switchLabel: "Read in English",
+    switchHref: "/docs/diagram-structure/en/",
+    description: "MonkuAiの5テーマを図解するための構造メモ。"
+  }),
+  docPage({
+    href: "/docs/diagram-structure/en/",
+    lang: "en",
+    pageTitle: "MonkuAi Five-Theme Diagram Structure",
+    eyebrow: "Diagram Structure",
+    path: "docs/diagram-structure-en.md",
+    switchLabel: "日本語で読む",
+    switchHref: "/docs/diagram-structure/",
+    description: "English translation of the structure memo for diagramming MonkuAi's five themes."
+  }),
+  docPage({
+    href: "/docs/homepage-copy/",
+    lang: "ja",
+    pageTitle: "MonkuAi ウェブサイト トップページ文言",
+    eyebrow: "Homepage Copy",
+    path: "docs/homepage-copy.md",
+    switchLabel: "Read in English",
+    switchHref: "/docs/homepage-copy/en/",
+    description: "MonkuAiトップページの文言設計メモ。"
+  }),
+  docPage({
+    href: "/docs/homepage-copy/en/",
+    lang: "en",
+    pageTitle: "MonkuAi Website Homepage Copy",
+    eyebrow: "Homepage Copy",
+    path: "docs/homepage-copy-en.md",
+    switchLabel: "日本語で読む",
+    switchHref: "/docs/homepage-copy/",
+    description: "English translation of the homepage copy draft for MonkuAi."
+  }),
+  docPage({
+    href: "/docs/sns-series/",
+    lang: "ja",
+    pageTitle: "MonkuAi SNS投稿シリーズ",
+    eyebrow: "SNS Series",
+    path: "docs/sns-series.md",
+    switchLabel: "Read in English",
+    switchHref: "/docs/sns-series/en/",
+    description: "MonkuAiの思想を短いSNS投稿へ分解したシリーズ案。"
+  }),
+  docPage({
+    href: "/docs/sns-series/en/",
+    lang: "en",
+    pageTitle: "MonkuAi Social Post Series",
+    eyebrow: "SNS Series",
+    path: "docs/sns-series-en.md",
+    switchLabel: "日本語で読む",
+    switchHref: "/docs/sns-series/",
+    description: "English translation of short social posts that break down MonkuAi's core ideas."
+  })
 ];
 
-async function handleRoadmap(locale) {
-  const config = ROADMAPS[locale] || ROADMAPS.ja;
-  return handleMarkdownPage(config);
+const DOC_PAGES = Object.fromEntries(DOC_PAGE_ITEMS.map((page) => [page.href, page]));
+const DOCUMENTS = DOC_PAGE_ITEMS;
+
+function docPage(config) {
+  const sourceLabel = config.lang === "ja" ? "GitHubで原本を見る" : "View Source on GitHub";
+  const updatedLabel = config.lang === "ja" ? "更新日" : "Updated";
+
+  return {
+    sourceLabel,
+    updatedLabel,
+    rawUrl: `${GITHUB_RAW_BASE}${config.path}`,
+    sourceUrl: `${GITHUB_BLOB_BASE}${config.path}`,
+    ...config
+  };
 }
 
-async function handleStatement() {
-  return handleMarkdownPage(STATEMENT);
+function normalizeDocsPath(pathname) {
+  if (!pathname.startsWith("/docs/")) return "";
+  return pathname.endsWith("/") ? pathname : `${pathname}/`;
 }
 
 async function handleDocumentsIndex() {

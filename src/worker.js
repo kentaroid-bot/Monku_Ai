@@ -6,6 +6,14 @@ export default {
       return handleContact(request, env, ctx);
     }
 
+    if (url.pathname === "/roadmap" || url.pathname === "/roadmap/") {
+      return handleRoadmap("ja");
+    }
+
+    if (url.pathname === "/roadmap/en" || url.pathname === "/roadmap/en/") {
+      return handleRoadmap("en");
+    }
+
     if (url.pathname === "/proposal/iceage") {
       url.pathname = "/proposal/iceage/index.html";
       return env.ASSETS.fetch(new Request(url, request));
@@ -14,6 +22,281 @@ export default {
     return env.ASSETS.fetch(request);
   }
 };
+
+const ROADMAPS = {
+  ja: {
+    lang: "ja",
+    pageTitle: "概念ロードマップ",
+    eyebrow: "MonkuAi White Paper",
+    sourceLabel: "GitHubで原本を見る",
+    switchLabel: "Read in English",
+    switchHref: "/roadmap/en/",
+    rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md",
+    sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening-ja.md"
+  },
+  en: {
+    lang: "en",
+    pageTitle: "Conceptual Roadmap",
+    eyebrow: "MonkuAi White Paper",
+    sourceLabel: "View Source on GitHub",
+    switchLabel: "日本語で読む",
+    switchHref: "/roadmap/",
+    rawUrl: "https://raw.githubusercontent.com/kentaroid-bot/Monku_Ai/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md",
+    sourceUrl: "https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/conceptual-roadmap-zero-sum-cage-infinite-opening.md"
+  }
+};
+
+async function handleRoadmap(locale) {
+  const config = ROADMAPS[locale] || ROADMAPS.ja;
+  const response = await fetch(config.rawUrl, {
+    headers: {
+      "User-Agent": "MonkuAi-roadmap-renderer"
+    },
+    cf: {
+      cacheTtl: 300,
+      cacheEverything: true
+    }
+  });
+
+  if (!response.ok) {
+    return htmlResponse(renderRoadmapError(config), response.status, 60);
+  }
+
+  const markdown = await response.text();
+  const title = extractTitle(markdown) || config.pageTitle;
+  const content = markdownToHtml(markdown);
+
+  return htmlResponse(renderRoadmapPage({ config, title, content }), 200, 300);
+}
+
+function renderRoadmapPage({ config, title, content }) {
+  return `<!doctype html>
+<html lang="${config.lang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHtml(title)} | MonkuAi</title>
+  <meta name="description" content="MonkuAi white paper rendered from the project Markdown source.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="whitepaper-page">
+  <header class="whitepaper-header">
+    <a class="whitepaper-brand" href="/">MonkuAi</a>
+    <nav>
+      <a href="${config.switchHref}">${escapeHtml(config.switchLabel)}</a>
+      <a href="${config.sourceUrl}">${escapeHtml(config.sourceLabel)}</a>
+    </nav>
+  </header>
+  <main class="whitepaper-shell">
+    <p class="whitepaper-eyebrow">${escapeHtml(config.eyebrow)}</p>
+    <article class="whitepaper-document">
+      ${content}
+    </article>
+  </main>
+  <footer class="whitepaper-footer">
+    <a href="/">MonkuAi</a>
+    <span>Noise may already be the answer. Widen the aperture.</span>
+  </footer>
+</body>
+</html>`;
+}
+
+function renderRoadmapError(config) {
+  return `<!doctype html>
+<html lang="${config.lang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHtml(config.pageTitle)} | MonkuAi</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="whitepaper-page">
+  <main class="whitepaper-shell">
+    <p class="whitepaper-eyebrow">${escapeHtml(config.eyebrow)}</p>
+    <article class="whitepaper-document">
+      <h1>${escapeHtml(config.pageTitle)}</h1>
+      <p>The roadmap source could not be loaded. Please try again later.</p>
+      <p><a href="${config.sourceUrl}">${escapeHtml(config.sourceLabel)}</a></p>
+    </article>
+  </main>
+</body>
+</html>`;
+}
+
+function markdownToHtml(markdown) {
+  const lines = markdown.replace(/\r\n/g, "\n").replace(/\r/g, "\n").split("\n");
+  const html = [];
+  let paragraph = [];
+  let listType = null;
+  let inCode = false;
+  let codeLines = [];
+  let blockquote = [];
+  let index = 0;
+
+  const flushParagraph = () => {
+    if (!paragraph.length) return;
+    html.push(`<p>${formatInline(paragraph.join(" "))}</p>`);
+    paragraph = [];
+  };
+
+  const flushList = () => {
+    if (!listType) return;
+    html.push(`</${listType}>`);
+    listType = null;
+  };
+
+  const flushBlockquote = () => {
+    if (!blockquote.length) return;
+    html.push(`<blockquote>${blockquote.map((line) => `<p>${formatInline(line)}</p>`).join("")}</blockquote>`);
+    blockquote = [];
+  };
+
+  while (index < lines.length) {
+    const line = lines[index];
+    const trimmed = line.trim();
+
+    if (trimmed.startsWith("```")) {
+      flushParagraph();
+      flushList();
+      flushBlockquote();
+      if (inCode) {
+        html.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);
+        codeLines = [];
+        inCode = false;
+      } else {
+        inCode = true;
+      }
+      index += 1;
+      continue;
+    }
+
+    if (inCode) {
+      codeLines.push(line);
+      index += 1;
+      continue;
+    }
+
+    if (!trimmed) {
+      flushParagraph();
+      flushList();
+      flushBlockquote();
+      index += 1;
+      continue;
+    }
+
+    if (isTableStart(lines, index)) {
+      flushParagraph();
+      flushList();
+      flushBlockquote();
+      const { tableHtml, nextIndex } = parseTable(lines, index);
+      html.push(tableHtml);
+      index = nextIndex;
+      continue;
+    }
+
+    const heading = trimmed.match(/^(#{1,6})\s+(.+)$/);
+    if (heading) {
+      flushParagraph();
+      flushList();
+      flushBlockquote();
+      const level = Math.min(heading[1].length, 6);
+      html.push(`<h${level}>${formatInline(heading[2])}</h${level}>`);
+      index += 1;
+      continue;
+    }
+
+    const quote = trimmed.match(/^>\s?(.*)$/);
+    if (quote) {
+      flushParagraph();
+      flushList();
+      blockquote.push(quote[1]);
+      index += 1;
+      continue;
+    }
+
+    const unordered = trimmed.match(/^[-*]\s+(.+)$/);
+    const ordered = trimmed.match(/^\d+\.\s+(.+)$/);
+    if (unordered || ordered) {
+      flushParagraph();
+      flushBlockquote();
+      const nextListType = unordered ? "ul" : "ol";
+      if (listType !== nextListType) {
+        flushList();
+        html.push(`<${nextListType}>`);
+        listType = nextListType;
+      }
+      html.push(`<li>${formatInline((unordered || ordered)[1])}</li>`);
+      index += 1;
+      continue;
+    }
+
+    flushList();
+    flushBlockquote();
+    paragraph.push(trimmed);
+    index += 1;
+  }
+
+  flushParagraph();
+  flushList();
+  flushBlockquote();
+
+  if (inCode) {
+    html.push(`<pre><code>${escapeHtml(codeLines.join("\n"))}</code></pre>`);
+  }
+
+  return html.join("\n");
+}
+
+function isTableStart(lines, index) {
+  const current = lines[index] || "";
+  const next = lines[index + 1] || "";
+  return current.includes("|") && /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?\s*$/.test(next);
+}
+
+function parseTable(lines, index) {
+  const headers = splitTableRow(lines[index]);
+  let rowIndex = index + 2;
+  const rows = [];
+
+  while (rowIndex < lines.length && lines[rowIndex].includes("|") && lines[rowIndex].trim()) {
+    rows.push(splitTableRow(lines[rowIndex]));
+    rowIndex += 1;
+  }
+
+  const head = headers.map((cell) => `<th>${formatInline(cell)}</th>`).join("");
+  const body = rows
+    .map((row) => `<tr>${headers.map((_, cellIndex) => `<td>${formatInline(row[cellIndex] || "")}</td>`).join("")}</tr>`)
+    .join("");
+
+  return {
+    tableHtml: `<div class="whitepaper-table-wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`,
+    nextIndex: rowIndex
+  };
+}
+
+function splitTableRow(row) {
+  return row
+    .trim()
+    .replace(/^\|/, "")
+    .replace(/\|$/, "")
+    .split("|")
+    .map((cell) => cell.trim());
+}
+
+function formatInline(value) {
+  let text = escapeHtml(value);
+  text = text.replace(/`([^`]+)`/g, "<code>$1</code>");
+  text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+  text = text.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2">$1</a>');
+  return text;
+}
+
+function extractTitle(markdown) {
+  const match = markdown.match(/^#\s+(.+)$/m);
+  return match ? match[1].trim() : "";
+}
 
 async function handleContact(request, env, ctx) {
   if (request.method !== "POST") {
@@ -144,6 +427,24 @@ async function sendEmailWithResend(apiKey, email) {
 
 function cleanText(value, maxLength) {
   return String(value || "").replace(/\r/g, "").trim().slice(0, maxLength);
+}
+
+function escapeHtml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function htmlResponse(html, status = 200, maxAge = 300) {
+  return new Response(html, {
+    status,
+    headers: {
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": `public, max-age=${maxAge}`
+    }
+  });
 }
 
 function jsonResponse(body, status = 200) {

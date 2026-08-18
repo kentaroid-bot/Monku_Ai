@@ -121,6 +121,16 @@ const DOC_PAGE_ITEMS = [
     description: "English translation of the auxiliary roadmap on re-implementing long-term Japanese values and the mottainai spirit for the ASI age."
   }),
   docPage({
+    href: "/docs/ai-efficiency-focus-80-output/",
+    lang: "ja",
+    pageTitle: "AI Efficiency: Focus 80% Output",
+    eyebrow: "AI Efficiency",
+    path: "docs/ai-efficiency-focus-80-output.md",
+    switchLabel: "",
+    switchHref: "",
+    description: "AI時代の知的生産を、完璧主義から知的ポートフォリオ戦略へ移す実践的エッセイ。"
+  }),
+  docPage({
     href: "/docs/diagram-structure/",
     lang: "ja",
     pageTitle: "MonkuAi 5テーマ図解構造",

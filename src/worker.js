@@ -131,6 +131,16 @@ const DOC_PAGE_ITEMS = [
     description: "AI時代の知的生産を、完璧主義から知的ポートフォリオ戦略へ移す実践的エッセイ。"
   }),
   docPage({
+    href: "/docs/html-dtp-with-ai/",
+    lang: "ja",
+    pageTitle: "HTML DTP with AI",
+    eyebrow: "Applied Practice",
+    path: "docs/html-dtp-with-ai.md",
+    switchLabel: "",
+    switchHref: "",
+    description: "AI時代のデザイン制作を、画像生成から構造生成へ移すHTML DTPの実践。"
+  }),
+  docPage({
     href: "/docs/diagram-structure/",
     lang: "ja",
     pageTitle: "MonkuAi 5テーマ図解構造",

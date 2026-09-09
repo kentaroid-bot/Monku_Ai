@@ -45,7 +45,15 @@ Then open `http://localhost:8000`.
 
 The current website is intentionally dependency-free. A future version can migrate to Next.js when the project needs richer routing, content collections, or interactive components.
 
-Cloudflare Workers deployment:
+Production deployment uses Cloudflare Workers Builds, connected to
+`kentaroid-bot/Monku_Ai`. Pushing to `main` triggers deployment to the existing
+`monku-ai` Worker at <https://monku.ai/>.
+
+Build configuration: repository root `/`, no build command, and deploy command
+`npx wrangler deploy`. Check the Worker’s build history in Cloudflare after a
+push to confirm deployment succeeded.
+
+Manual Cloudflare Workers deployment:
 
 ```bash
 npx wrangler deploy
@@ -56,6 +64,9 @@ Workers settings are defined in `wrangler.toml`. The `.assetsignore` file limits
 - `index.html`
 - `styles.css`
 - `assets/**`
+- `proposal/**`
+- `contact/**`
+- `essays/**`
 
 Cloudflare Pages settings:
 

@@ -27,8 +27,16 @@ gh api repos/kentaroid-bot/Monku_Ai/commits/<commit-sha>/check-runs --jq '.check
 
 ## 直近の変更
 
+- 2026-09-10: Essay #6を「原資料の見解 → Codexの検討・異論 → 総括」の三部構成へ改訂。中心的な問題提起は「ASIが人間を滅ぼす可能性は、一般に想像されるほど高くないのではないか」。第一部にCodexの留保を逐次差し込まない。
 - 2026-09-10: 「鏡のなかの超知能」にEssay #6「池を壊さず、世界を知る」を追加。日英ページは `/essays/asi-motivation-inquiry/` と `/essays/asi-motivation-inquiry/en/`。
 - 同記事の原稿・資料記録は `docs/asi-motivation-inquiry*`、原図は `assets/asi-motivation-inquiry/`。原図の確率や最適速度は未校正の想定値であり、実証済みの効果・予測として扱わない。
 - Applied Projectsの先頭にAlignment Asymmetry Studyの記事紹介を追加した。
 - 記事: https://github.com/kentaroid-bot/alignment-asymmetry-study/blob/main/outreach/article.ja.md
 - 紹介追加コミット: `f7b1744`。自動公開を初めて確認したコミット: `84c0fb2`。
+
+## 見解を紹介・比較する文章の原則
+
+- 原資料やユーザーの中心的な主張とその論拠を、まず一つのまとまった見解として忠実に展開する。対話資料では発言者を区別し、異なる声を平均化しない。
+- Codexの反論・留保・証拠上の限界は、次の独立した部分にまとめる。元の主張の各文に「確証はない」「必ずしもそうではない」を挟んで、主張の輪郭を薄めない。
+- 最後に、双方の一致点・相違点と判断を明示した総括を置く。無理な折衷や、留保だけで主張を上書きする結論を避ける。
+- 見出し・段落と帰属表示で、誰の見解かを読者が追える形にする。原資料の立場を十分に述べることと、未検証の主張を実証済みとすることは区別する。日英とも同じ構成と断定の強さを保つ。

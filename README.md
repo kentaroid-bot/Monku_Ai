@@ -77,7 +77,7 @@ Cloudflare Pages settings:
 
 ## First Materials
 
-The bilingual essay on ASI motivation and non-destructive inquiry is available at:
+The bilingual essay on ASI motivation and non-destructive inquiry presents three distinct parts: the source argument that extinction risk may be lower than imagined, Codex's objections, and a concluding assessment.
 
 - [Japanese essay](https://monku.ai/essays/asi-motivation-inquiry/) / [English essay](https://monku.ai/essays/asi-motivation-inquiry/en/)
 - [Japanese manuscript](docs/asi-motivation-inquiry.ja.md) / [English manuscript](docs/asi-motivation-inquiry.en.md)

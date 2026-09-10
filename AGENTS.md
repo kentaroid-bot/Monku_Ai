@@ -27,6 +27,8 @@ gh api repos/kentaroid-bot/Monku_Ai/commits/<commit-sha>/check-runs --jq '.check
 
 ## 直近の変更
 
+- 2026-09-10: 「鏡のなかの超知能」にEssay #6「池を壊さず、世界を知る」を追加。日英ページは `/essays/asi-motivation-inquiry/` と `/essays/asi-motivation-inquiry/en/`。
+- 同記事の原稿・資料記録は `docs/asi-motivation-inquiry*`、原図は `assets/asi-motivation-inquiry/`。原図の確率や最適速度は未校正の想定値であり、実証済みの効果・予測として扱わない。
 - Applied Projectsの先頭にAlignment Asymmetry Studyの記事紹介を追加した。
 - 記事: https://github.com/kentaroid-bot/alignment-asymmetry-study/blob/main/outreach/article.ja.md
 - 紹介追加コミット: `f7b1744`。自動公開を初めて確認したコミット: `84c0fb2`。

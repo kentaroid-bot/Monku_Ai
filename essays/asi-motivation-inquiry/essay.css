@@ -1,0 +1,163 @@
+.inquiry-page .essay-hero {
+  background: radial-gradient(ellipse at 90% 0%, #e0eee9, transparent 65%), #f8fbfa;
+}
+
+.inquiry-page .essay-hero-content {
+  padding: 70px 0 56px;
+}
+
+.inquiry-page .essay-hero-content h1 {
+  font-size: clamp(32px, 4.7vw, 52px);
+  text-wrap: balance;
+}
+
+.inquiry-page .essay-hero-content .lead {
+  max-width: 740px;
+}
+
+.inquiry-language {
+  display: flex;
+  gap: 10px;
+  margin: 22px 0;
+  flex-wrap: wrap;
+}
+
+.inquiry-language a {
+  padding: 7px 16px;
+  border: 1px solid #a7bdb6;
+  color: #28554b;
+  border-radius: 4px;
+}
+
+.inquiry-language a[aria-current="page"] {
+  background: #28554b;
+  color: white;
+}
+
+.inquiry-meta {
+  color: #59636f;
+  font-size: 14px;
+}
+
+.inquiry-article {
+  padding-top: 40px;
+}
+
+.inquiry-toc {
+  padding: 24px 28px;
+  margin-bottom: 38px;
+  border-left: 3px solid #648b7e;
+  background: #f2f7f4;
+}
+
+.inquiry-toc ol {
+  padding-left: 22px;
+  margin-bottom: 0;
+}
+
+.inquiry-article a:not(.primary-action):not(.secondary-action) {
+  color: #285f56;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.inquiry-article h2 {
+  scroll-margin-top: 28px;
+  font-size: clamp(23px, 3vw, 29px);
+  line-height: 1.5;
+}
+
+.inquiry-article h3 {
+  color: #284d44;
+  margin: 34px 0 16px;
+  font-size: 20px;
+}
+
+.inquiry-article strong {
+  color: #244e43;
+}
+
+.inquiry-article code {
+  overflow-wrap: anywhere;
+  white-space: normal;
+  font-size: 0.94em;
+}
+
+.inquiry-table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border: 1px solid #cedcd6;
+  border-radius: 4px;
+}
+
+.inquiry-table-wrap table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.inquiry-table-wrap th,
+.inquiry-table-wrap td {
+  padding: 16px;
+  border-bottom: 1px solid #dbe5e0;
+  vertical-align: top;
+  text-align: left;
+  width: 33.333%;
+}
+
+.inquiry-table-wrap th {
+  background: #eaf2ed;
+  color: #284d44;
+}
+
+.inquiry-table-wrap tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.inquiry-figure {
+  margin: 24px 0 34px;
+  background: #f7f9f8;
+  border: 1px solid #cedcd6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.inquiry-figure a,
+.inquiry-figure img {
+  display: block;
+  width: 100%;
+}
+
+.inquiry-figure img {
+  height: auto;
+  background: white;
+}
+
+.inquiry-figure figcaption {
+  padding: 16px 20px;
+  color: #46525f;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.inquiry-page a:focus-visible,
+.inquiry-table-wrap:focus-visible {
+  outline: 3px solid #9b6919;
+  outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  .inquiry-page .essay-hero-content {
+    padding: 40px 0 26px;
+  }
+
+  .inquiry-article .essay-summary {
+    padding: 22px !important;
+  }
+
+  .inquiry-toc {
+    padding: 20px;
+  }
+}

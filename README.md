@@ -77,6 +77,12 @@ Cloudflare Pages settings:
 
 ## First Materials
 
+The bilingual essay on ASI motivation and non-destructive inquiry is available at:
+
+- [Japanese essay](https://monku.ai/essays/asi-motivation-inquiry/) / [English essay](https://monku.ai/essays/asi-motivation-inquiry/en/)
+- [Japanese manuscript](docs/asi-motivation-inquiry.ja.md) / [English manuscript](docs/asi-motivation-inquiry.en.md)
+- [Source inventory and editorial notes](docs/asi-motivation-inquiry-sources.md)
+
 The initial Japanese content kit is available at:
 
 - [docs/official-statement.md](/Users/sukezo/Monku_Ai/docs/official-statement.md)

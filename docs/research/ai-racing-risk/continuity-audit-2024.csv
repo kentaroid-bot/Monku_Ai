@@ -1,0 +1,480 @@
+round,number,driver,raw_status,started,on_road_finish,note,source
+1,1,Max VerstappenVER,1:31:44.742,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,11,Sergio PerezPER,+22.457s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,55,Carlos SainzSAI,+25.110s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,16,Charles LeclercLEC,+39.669s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,63,George RussellRUS,+46.788s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,4,Lando NorrisNOR,+48.458s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,44,Lewis HamiltonHAM,+50.324s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,81,Oscar PiastriPIA,+56.082s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,14,Fernando AlonsoALO,+74.887s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,18,Lance StrollSTR,+93.216s,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+1,2,Logan SargeantSAR,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
+2,1,Max VerstappenVER,1:20:43.273,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,11,Sergio PerezPER,+13.643s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,16,Charles LeclercLEC,+18.639s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,81,Oscar PiastriPIA,+32.007s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,14,Fernando AlonsoALO,+35.759s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,63,George RussellRUS,+39.936s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,38,Oliver BearmanBEA,+42.679s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,4,Lando NorrisNOR,+45.708s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,44,Lewis HamiltonHAM,+47.391s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,27,Nico HulkenbergHUL,+76.996s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,23,Alexander AlbonALB,+88.354s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,20,Kevin MagnussenMAG,+105.737s,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,2,Logan SargeantSAR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,18,Lance StrollSTR,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+2,10,Pierre GaslyGAS,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
+3,55,Carlos SainzSAI,1:20:26.843,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,16,Charles LeclercLEC,+2.366s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,4,Lando NorrisNOR,+5.904s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,81,Oscar PiastriPIA,+35.770s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,11,Sergio PerezPER,+56.309s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,18,Lance StrollSTR,+93.222s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,22,Yuki TsunodaTSU,+95.601s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,14,Fernando AlonsoALO,+100.992s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,27,Nico HulkenbergHUL,+104.553s,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,63,George RussellRUS,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,44,Lewis HamiltonHAM,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+3,1,Max VerstappenVER,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1231/australia/race-result
+4,1,Max VerstappenVER,1:54:23.566,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,11,Sergio PerezPER,+12.535s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,55,Carlos SainzSAI,+20.866s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,16,Charles LeclercLEC,+26.522s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,4,Lando NorrisNOR,+29.700s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,14,Fernando AlonsoALO,+44.272s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,63,George RussellRUS,+45.951s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,81,Oscar PiastriPIA,+47.525s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,44,Lewis HamiltonHAM,+48.626s,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,2,Logan SargeantSAR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,24,Zhou GuanyuZHO,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,3,Daniel RicciardoRIC,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+4,23,Alexander AlbonALB,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1232/japan/race-result
+5,1,Max VerstappenVER,1:40:52.554,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,4,Lando NorrisNOR,+13.773s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,11,Sergio PerezPER,+19.160s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,16,Charles LeclercLEC,+23.623s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,55,Carlos SainzSAI,+33.983s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,63,George RussellRUS,+38.724s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,14,Fernando AlonsoALO,+43.414s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,81,Oscar PiastriPIA,+56.198s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,44,Lewis HamiltonHAM,+57.986s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,27,Nico HulkenbergHUL,+60.476s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,31,Esteban OconOCO,+62.812s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,23,Alexander AlbonALB,+65.506s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,10,Pierre GaslyGAS,+69.223s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,24,Zhou GuanyuZHO,+71.689s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,18,Lance StrollSTR,+82.786s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,20,Kevin MagnussenMAG,+87.533s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,2,Logan SargeantSAR,+95.110s,1,1,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,3,Daniel RicciardoRIC,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,22,Yuki TsunodaTSU,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+5,77,Valtteri BottasBOT,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1233/china/race-result
+6,4,Lando NorrisNOR,1:30:49.876,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,1,Max VerstappenVER,+7.612s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,16,Charles LeclercLEC,+9.920s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,11,Sergio PerezPER,+14.650s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,55,Carlos SainzSAI,+16.407s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,44,Lewis HamiltonHAM,+16.585s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,22,Yuki TsunodaTSU,+26.185s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,63,George RussellRUS,+34.789s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,14,Fernando AlonsoALO,+37.107s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,31,Esteban OconOCO,+39.746s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,27,Nico HulkenbergHUL,+40.789s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,10,Pierre GaslyGAS,+44.958s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,81,Oscar PiastriPIA,+49.756s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,24,Zhou GuanyuZHO,+49.979s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,3,Daniel RicciardoRIC,+50.956s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,77,Valtteri BottasBOT,+52.356s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,18,Lance StrollSTR,+55.173s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,23,Alexander AlbonALB,+76.091s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,20,Kevin MagnussenMAG,+84.683s,1,1,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+6,2,Logan SargeantSAR,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1234/miami/race-result
+7,1,Max VerstappenVER,1:25:25.252,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,4,Lando NorrisNOR,+0.725s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,16,Charles LeclercLEC,+7.916s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,81,Oscar PiastriPIA,+14.132s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,55,Carlos SainzSAI,+22.325s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,44,Lewis HamiltonHAM,+35.104s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,63,George RussellRUS,+47.154s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,11,Sergio PerezPER,+54.776s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,18,Lance StrollSTR,+79.556s,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,2,Logan SargeantSAR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,14,Fernando AlonsoALO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+7,23,Alexander AlbonALB,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result
+8,16,Charles LeclercLEC,2:23:15.554,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,81,Oscar PiastriPIA,+7.152s,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,55,Carlos SainzSAI,+7.585s,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,4,Lando NorrisNOR,+8.650s,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,63,George RussellRUS,+13.309s,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,1,Max VerstappenVER,+13.853s,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,44,Lewis HamiltonHAM,+14.908s,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,14,Fernando AlonsoALO,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,3,Daniel RicciardoRIC,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,77,Valtteri BottasBOT,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,18,Lance StrollSTR,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,2,Logan SargeantSAR,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,24,Zhou GuanyuZHO,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,31,Esteban OconOCO,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,11,Sergio PerezPER,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,27,Nico HulkenbergHUL,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+8,20,Kevin MagnussenMAG,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1236/monaco/race-result
+9,1,Max VerstappenVER,1:45:47.927,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,4,Lando NorrisNOR,+3.879s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,63,George RussellRUS,+4.317s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,44,Lewis HamiltonHAM,+4.915s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,81,Oscar PiastriPIA,+10.199s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,14,Fernando AlonsoALO,+17.510s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,18,Lance StrollSTR,+23.625s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,3,Daniel RicciardoRIC,+28.672s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,10,Pierre GaslyGAS,+30.021s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,31,Esteban OconOCO,+30.313s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,27,Nico HulkenbergHUL,+30.824s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,20,Kevin MagnussenMAG,+31.253s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,77,Valtteri BottasBOT,+40.487s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,22,Yuki TsunodaTSU,+52.694s,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,55,Carlos SainzSAI,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,23,Alexander AlbonALB,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,11,Sergio PerezPER,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,16,Charles LeclercLEC,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+9,2,Logan SargeantSAR,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1237/canada/race-result
+10,1,Max VerstappenVER,1:28:20.227,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,4,Lando NorrisNOR,+2.219s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,44,Lewis HamiltonHAM,+17.790s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,63,George RussellRUS,+22.320s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,16,Charles LeclercLEC,+22.709s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,55,Carlos SainzSAI,+31.028s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,81,Oscar PiastriPIA,+33.760s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,11,Sergio PerezPER,+59.524s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,10,Pierre GaslyGAS,+62.025s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,31,Esteban OconOCO,+71.889s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,27,Nico HulkenbergHUL,+79.215s,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,14,Fernando AlonsoALO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+10,2,Logan SargeantSAR,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1238/spain/race-result
+11,63,George RussellRUS,1:24:22.798,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,81,Oscar PiastriPIA,+1.906s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,55,Carlos SainzSAI,+4.533s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,44,Lewis HamiltonHAM,+23.142s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,1,Max VerstappenVER,+37.253s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,27,Nico HulkenbergHUL,+54.088s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,11,Sergio PerezPER,+54.672s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,20,Kevin MagnussenMAG,+60.355s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,3,Daniel RicciardoRIC,+61.169s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,10,Pierre GaslyGAS,+61.766s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,16,Charles LeclercLEC,+67.056s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,31,Esteban OconOCO,+68.325s,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,14,Fernando AlonsoALO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,2,Logan SargeantSAR,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+11,4,Lando NorrisNOR,+7 laps,1,0,Norris retired in Austria despite +7 laps classification; FIA race report.,https://www.formula1.com/en/results/2024/races/1239/austria/race-result
+12,44,Lewis HamiltonHAM,1:22:27.059,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,1,Max VerstappenVER,+1.465s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,4,Lando NorrisNOR,+7.547s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,81,Oscar PiastriPIA,+12.429s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,55,Carlos SainzSAI,+47.318s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,27,Nico HulkenbergHUL,+55.722s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,18,Lance StrollSTR,+56.569s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,14,Fernando AlonsoALO,+63.577s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,23,Alexander AlbonALB,+68.387s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,22,Yuki TsunodaTSU,+79.303s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,2,Logan SargeantSAR,+88.960s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,20,Kevin MagnussenMAG,+90.153s,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,16,Charles LeclercLEC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,31,Esteban OconOCO,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,11,Sergio PerezPER,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,24,Zhou GuanyuZHO,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,63,George RussellRUS,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+12,10,Pierre GaslyGAS,DNS,0,0,,https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result
+13,81,Oscar PiastriPIA,1:38:01.989,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,4,Lando NorrisNOR,+2.141s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,44,Lewis HamiltonHAM,+14.880s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,16,Charles LeclercLEC,+19.686s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,1,Max VerstappenVER,+21.349s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,55,Carlos SainzSAI,+23.073s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,11,Sergio PerezPER,+39.792s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,63,George RussellRUS,+42.368s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,22,Yuki TsunodaTSU,+77.259s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,18,Lance StrollSTR,+77.976s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,14,Fernando AlonsoALO,+82.460s,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,2,Logan SargeantSAR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+13,10,Pierre GaslyGAS,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1241/hungary/race-result
+14,63,George RussellRUS,1:19:57.040,1,1,Russell finished in Belgium before post-race disqualification; F1 race report.,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,44,Lewis HamiltonHAM,+0.526s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,81,Oscar PiastriPIA,+1.173s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,16,Charles LeclercLEC,+8.549s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,1,Max VerstappenVER,+9.226s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,4,Lando NorrisNOR,+9.850s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,55,Carlos SainzSAI,+19.795s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,11,Sergio PerezPER,+43.195s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,14,Fernando AlonsoALO,+49.963s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,31,Esteban OconOCO,+52.552s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,3,Daniel RicciardoRIC,+54.926s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,18,Lance StrollSTR,+63.011s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,23,Alexander AlbonALB,+63.651s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,10,Pierre GaslyGAS,+64.365s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,20,Kevin MagnussenMAG,+66.631s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,77,Valtteri BottasBOT,+70.638s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,22,Yuki TsunodaTSU,+76.737s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,2,Logan SargeantSAR,+86.057s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,27,Nico HulkenbergHUL,+88.833s,1,1,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+14,24,Zhou GuanyuZHO,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1242/belgium/race-result
+15,4,Lando NorrisNOR,1:30:45.519,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,1,Max VerstappenVER,+22.896s,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,16,Charles LeclercLEC,+25.439s,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,81,Oscar PiastriPIA,+27.337s,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,55,Carlos SainzSAI,+32.137s,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,11,Sergio PerezPER,+39.542s,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,63,George RussellRUS,+44.617s,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,44,Lewis HamiltonHAM,+49.599s,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,14,Fernando AlonsoALO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,2,Logan SargeantSAR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,77,Valtteri BottasBOT,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+15,24,Zhou GuanyuZHO,+2 laps,1,1,,https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result
+16,16,Charles LeclercLEC,1:14:40.727,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,81,Oscar PiastriPIA,+2.664s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,4,Lando NorrisNOR,+6.153s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,55,Carlos SainzSAI,+15.621s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,44,Lewis HamiltonHAM,+22.820s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,1,Max VerstappenVER,+37.932s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,63,George RussellRUS,+39.715s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,11,Sergio PerezPER,+54.148s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,23,Alexander AlbonALB,+67.456s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,20,Kevin MagnussenMAG,+68.302s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,14,Fernando AlonsoALO,+68.495s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,43,Franco ColapintoCOL,+81.308s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,3,Daniel RicciardoRIC,+93.452s,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+16,22,Yuki TsunodaTSU,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1244/italy/race-result
+17,81,Oscar PiastriPIA,1:32:58.007,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,16,Charles LeclercLEC,+10.910s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,63,George RussellRUS,+31.328s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,4,Lando NorrisNOR,+36.143s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,1,Max VerstappenVER,+77.098s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,14,Fernando AlonsoALO,+85.468s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,23,Alexander AlbonALB,+87.396s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,43,Franco ColapintoCOL,+89.541s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,44,Lewis HamiltonHAM,+92.401s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,50,Oliver BearmanBEA,+93.127s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,27,Nico HulkenbergHUL,+93.465s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,10,Pierre GaslyGAS,+117.189s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,3,Daniel RicciardoRIC,+146.907s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,24,Zhou GuanyuZHO,+148.841s,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,11,Sergio PerezPER,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,55,Carlos SainzSAI,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,18,Lance StrollSTR,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+17,22,Yuki TsunodaTSU,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result
+18,4,Lando NorrisNOR,1:40:52.571,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,1,Max VerstappenVER,+20.945s,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,81,Oscar PiastriPIA,+41.823s,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,63,George RussellRUS,+61.040s,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,16,Charles LeclercLEC,+62.430s,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,44,Lewis HamiltonHAM,+85.248s,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,55,Carlos SainzSAI,+96.039s,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,14,Fernando AlonsoALO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,11,Sergio PerezPER,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,43,Franco ColapintoCOL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,3,Daniel RicciardoRIC,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,20,Kevin MagnussenMAG,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+18,23,Alexander AlbonALB,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1246/singapore/race-result
+19,16,Charles LeclercLEC,1:35:09.639,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,55,Carlos SainzSAI,+8.562s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,1,Max VerstappenVER,+19.412s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,4,Lando NorrisNOR,+20.354s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,81,Oscar PiastriPIA,+21.921s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,63,George RussellRUS,+56.295s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,11,Sergio PerezPER,+59.072s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,27,Nico HulkenbergHUL,+62.957s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,30,Liam LawsonLAW,+70.563s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,43,Franco ColapintoCOL,+71.979s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,20,Kevin MagnussenMAG,+79.782s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,10,Pierre GaslyGAS,+90.558s,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,14,Fernando AlonsoALO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+19,44,Lewis HamiltonHAM,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1247/united-states/race-result
+20,55,Carlos SainzSAI,1:40:55.800,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,4,Lando NorrisNOR,+4.705s,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,16,Charles LeclercLEC,+34.387s,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,44,Lewis HamiltonHAM,+44.780s,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,63,George RussellRUS,+48.536s,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,1,Max VerstappenVER,+59.558s,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,20,Kevin MagnussenMAG,+63.642s,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,81,Oscar PiastriPIA,+64.928s,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,27,Nico HulkenbergHUL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,10,Pierre GaslyGAS,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,43,Franco ColapintoCOL,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,30,Liam LawsonLAW,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,11,Sergio PerezPER,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,14,Fernando AlonsoALO,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,23,Alexander AlbonALB,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+20,22,Yuki TsunodaTSU,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1248/mexico/race-result
+21,1,Max VerstappenVER,2:06:54.430,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,31,Esteban OconOCO,+19.477s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,10,Pierre GaslyGAS,+22.532s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,63,George RussellRUS,+23.265s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,16,Charles LeclercLEC,+30.177s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,4,Lando NorrisNOR,+31.372s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,22,Yuki TsunodaTSU,+42.056s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,81,Oscar PiastriPIA,+44.943s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,30,Liam LawsonLAW,+50.452s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,44,Lewis HamiltonHAM,+50.753s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,11,Sergio PerezPER,+51.531s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,50,Oliver BearmanBEA,+57.085s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,77,Valtteri BottasBOT,+63.588s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,14,Fernando AlonsoALO,+78.049s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,24,Zhou GuanyuZHO,+79.649s,1,1,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,55,Carlos SainzSAI,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,43,Franco ColapintoCOL,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,23,Alexander AlbonALB,DNS,0,0,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,18,Lance StrollSTR,DNS,0,0,,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+21,27,Nico HulkenbergHUL,DSQ,1,0,Hulkenberg received black flag during Brazil race; not an on-road finish.,https://www.formula1.com/en/results/2024/races/1249/brazil/race-result
+22,63,George RussellRUS,1:22:05.969,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,44,Lewis HamiltonHAM,+7.313s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,55,Carlos SainzSAI,+11.906s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,16,Charles LeclercLEC,+14.283s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,1,Max VerstappenVER,+16.582s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,4,Lando NorrisNOR,+43.385s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,81,Oscar PiastriPIA,+51.365s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,27,Nico HulkenbergHUL,+59.808s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,22,Yuki TsunodaTSU,+62.808s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,11,Sergio PerezPER,+63.114s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,14,Fernando AlonsoALO,+69.195s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,20,Kevin MagnussenMAG,+69.803s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,24,Zhou GuanyuZHO,+74.085s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,43,Franco ColapintoCOL,+75.172s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,18,Lance StrollSTR,+84.102s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,30,Liam LawsonLAW,+91.005s,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,31,Esteban OconOCO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,77,Valtteri BottasBOT,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,23,Alexander AlbonALB,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+22,10,Pierre GaslyGAS,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result
+23,1,Max VerstappenVER,1:31:05.323,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,16,Charles LeclercLEC,+6.031s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,81,Oscar PiastriPIA,+6.819s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,63,George RussellRUS,+14.104s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,10,Pierre GaslyGAS,+16.782s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,55,Carlos SainzSAI,+17.476s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,14,Fernando AlonsoALO,+19.867s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,24,Zhou GuanyuZHO,+25.360s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,20,Kevin MagnussenMAG,+32.177s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,4,Lando NorrisNOR,+35.762s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,77,Valtteri BottasBOT,+50.243s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,44,Lewis HamiltonHAM,+56.122s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,22,Yuki TsunodaTSU,+61.100s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,30,Liam LawsonLAW,+62.656s,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,27,Nico HulkenbergHUL,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,11,Sergio PerezPER,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,18,Lance StrollSTR,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,43,Franco ColapintoCOL,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+23,31,Esteban OconOCO,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1251/qatar/race-result
+24,4,Lando NorrisNOR,1:26:33.291,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,55,Carlos SainzSAI,+5.832s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,16,Charles LeclercLEC,+31.928s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,44,Lewis HamiltonHAM,+36.483s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,63,George RussellRUS,+37.538s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,1,Max VerstappenVER,+49.847s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,10,Pierre GaslyGAS,+72.560s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,27,Nico HulkenbergHUL,+75.554s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,14,Fernando AlonsoALO,+82.373s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,81,Oscar PiastriPIA,+83.821s,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,23,Alexander AlbonALB,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,22,Yuki TsunodaTSU,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,24,Zhou GuanyuZHO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,18,Lance StrollSTR,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,61,Jack DoohanDOO,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,20,Kevin MagnussenMAG,+1 lap,1,1,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,30,Liam LawsonLAW,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,77,Valtteri BottasBOT,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,43,Franco ColapintoCOL,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result
+24,11,Sergio PerezPER,DNF,1,0,,https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result

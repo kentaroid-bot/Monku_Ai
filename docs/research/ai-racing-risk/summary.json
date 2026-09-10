@@ -1,0 +1,24 @@
+[
+  {
+    "year": 2014,
+    "races": 19,
+    "starts": 404,
+    "raw_dnf": 85,
+    "corrected_retirements": 84,
+    "retirement_rate": 0.2079207920792079,
+    "confirmed_incident_retirements": null,
+    "mixed_cause_retirements": null,
+    "races_with_confirmed_incident_retirement": null
+  },
+  {
+    "year": 2024,
+    "races": 24,
+    "starts": 476,
+    "raw_dnf": 49,
+    "corrected_retirements": 50,
+    "retirement_rate": 0.10504201680672269,
+    "confirmed_incident_retirements": 31,
+    "mixed_cause_retirements": 2,
+    "races_with_confirmed_incident_retirement": 16
+  }
+]

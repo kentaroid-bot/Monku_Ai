@@ -1,0 +1,12 @@
+{
+  "year": 2024,
+  "grands_prix": 24,
+  "starts": 476,
+  "on_road_finishes": 425,
+  "minimum_race_finishers": 15,
+  "zero_finisher_races": 0,
+  "top10_starts": 238,
+  "top10_finishes": 219,
+  "top10_pooled_nonfinish_percent": 7.98319327731093,
+  "top10_mean_driver_nonfinish_percent": 8.02536231884058
+}

@@ -1,0 +1,4649 @@
+[
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "57",
+        "1:31:44.742",
+        "26"
+      ],
+      [
+        "2",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "57",
+        "+22.457s",
+        "18"
+      ],
+      [
+        "3",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "57",
+        "+25.110s",
+        "15"
+      ],
+      [
+        "4",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "57",
+        "+39.669s",
+        "12"
+      ],
+      [
+        "5",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "57",
+        "+46.788s",
+        "10"
+      ],
+      [
+        "6",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "57",
+        "+48.458s",
+        "8"
+      ],
+      [
+        "7",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "57",
+        "+50.324s",
+        "6"
+      ],
+      [
+        "8",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "57",
+        "+56.082s",
+        "4"
+      ],
+      [
+        "9",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "57",
+        "+74.887s",
+        "2"
+      ],
+      [
+        "10",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "57",
+        "+93.216s",
+        "1"
+      ],
+      [
+        "11",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "20",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "55",
+        "+2 laps",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "50",
+        "1:20:43.273",
+        "25"
+      ],
+      [
+        "2",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "50",
+        "+13.643s",
+        "18"
+      ],
+      [
+        "3",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "50",
+        "+18.639s",
+        "16"
+      ],
+      [
+        "4",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "50",
+        "+32.007s",
+        "12"
+      ],
+      [
+        "5",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "50",
+        "+35.759s",
+        "10"
+      ],
+      [
+        "6",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "50",
+        "+39.936s",
+        "8"
+      ],
+      [
+        "7",
+        "38",
+        "Oliver BearmanBEA",
+        "Ferrari",
+        "50",
+        "+42.679s",
+        "6"
+      ],
+      [
+        "8",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "50",
+        "+45.708s",
+        "4"
+      ],
+      [
+        "9",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "50",
+        "+47.391s",
+        "2"
+      ],
+      [
+        "10",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "50",
+        "+76.996s",
+        "1"
+      ],
+      [
+        "11",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "50",
+        "+88.354s",
+        "0"
+      ],
+      [
+        "12",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "50",
+        "+105.737s",
+        "0"
+      ],
+      [
+        "13",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "5",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "1",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1231/australia/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "58",
+        "1:20:26.843",
+        "25"
+      ],
+      [
+        "2",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "58",
+        "+2.366s",
+        "19"
+      ],
+      [
+        "3",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "58",
+        "+5.904s",
+        "15"
+      ],
+      [
+        "4",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "58",
+        "+35.770s",
+        "12"
+      ],
+      [
+        "5",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "58",
+        "+56.309s",
+        "10"
+      ],
+      [
+        "6",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "58",
+        "+93.222s",
+        "8"
+      ],
+      [
+        "7",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "58",
+        "+95.601s",
+        "6"
+      ],
+      [
+        "8",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "58",
+        "+100.992s",
+        "4"
+      ],
+      [
+        "9",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "58",
+        "+104.553s",
+        "2"
+      ],
+      [
+        "10",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "57",
+        "+1 lap",
+        "1"
+      ],
+      [
+        "11",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "56",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "15",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "3",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1232/japan/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "53",
+        "1:54:23.566",
+        "26"
+      ],
+      [
+        "2",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "53",
+        "+12.535s",
+        "18"
+      ],
+      [
+        "3",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "53",
+        "+20.866s",
+        "15"
+      ],
+      [
+        "4",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "53",
+        "+26.522s",
+        "12"
+      ],
+      [
+        "5",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "53",
+        "+29.700s",
+        "10"
+      ],
+      [
+        "6",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "53",
+        "+44.272s",
+        "8"
+      ],
+      [
+        "7",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "53",
+        "+45.951s",
+        "6"
+      ],
+      [
+        "8",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "53",
+        "+47.525s",
+        "4"
+      ],
+      [
+        "9",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "53",
+        "+48.626s",
+        "2"
+      ],
+      [
+        "10",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "52",
+        "+1 lap",
+        "1"
+      ],
+      [
+        "11",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "12",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "0",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "0",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1233/china/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "56",
+        "1:40:52.554",
+        "25"
+      ],
+      [
+        "2",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "56",
+        "+13.773s",
+        "18"
+      ],
+      [
+        "3",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "56",
+        "+19.160s",
+        "15"
+      ],
+      [
+        "4",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "56",
+        "+23.623s",
+        "12"
+      ],
+      [
+        "5",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "56",
+        "+33.983s",
+        "10"
+      ],
+      [
+        "6",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "56",
+        "+38.724s",
+        "8"
+      ],
+      [
+        "7",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "56",
+        "+43.414s",
+        "7"
+      ],
+      [
+        "8",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "56",
+        "+56.198s",
+        "4"
+      ],
+      [
+        "9",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "56",
+        "+57.986s",
+        "2"
+      ],
+      [
+        "10",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "56",
+        "+60.476s",
+        "1"
+      ],
+      [
+        "11",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "56",
+        "+62.812s",
+        "0"
+      ],
+      [
+        "12",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "56",
+        "+65.506s",
+        "0"
+      ],
+      [
+        "13",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "56",
+        "+69.223s",
+        "0"
+      ],
+      [
+        "14",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "56",
+        "+71.689s",
+        "0"
+      ],
+      [
+        "15",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "56",
+        "+82.786s",
+        "0"
+      ],
+      [
+        "16",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "56",
+        "+87.533s",
+        "0"
+      ],
+      [
+        "17",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "56",
+        "+95.110s",
+        "0"
+      ],
+      [
+        "NC",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "33",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "26",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "19",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1234/miami/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "57",
+        "1:30:49.876",
+        "25"
+      ],
+      [
+        "2",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "57",
+        "+7.612s",
+        "18"
+      ],
+      [
+        "3",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "57",
+        "+9.920s",
+        "15"
+      ],
+      [
+        "4",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "57",
+        "+14.650s",
+        "12"
+      ],
+      [
+        "5",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "57",
+        "+16.407s",
+        "10"
+      ],
+      [
+        "6",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "57",
+        "+16.585s",
+        "8"
+      ],
+      [
+        "7",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "57",
+        "+26.185s",
+        "6"
+      ],
+      [
+        "8",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "57",
+        "+34.789s",
+        "4"
+      ],
+      [
+        "9",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "57",
+        "+37.107s",
+        "2"
+      ],
+      [
+        "10",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "57",
+        "+39.746s",
+        "1"
+      ],
+      [
+        "11",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "57",
+        "+40.789s",
+        "0"
+      ],
+      [
+        "12",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "57",
+        "+44.958s",
+        "0"
+      ],
+      [
+        "13",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "57",
+        "+49.756s",
+        "0"
+      ],
+      [
+        "14",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "57",
+        "+49.979s",
+        "0"
+      ],
+      [
+        "15",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "57",
+        "+50.956s",
+        "0"
+      ],
+      [
+        "16",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "57",
+        "+52.356s",
+        "0"
+      ],
+      [
+        "17",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "57",
+        "+55.173s",
+        "0"
+      ],
+      [
+        "18",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "57",
+        "+76.091s",
+        "0"
+      ],
+      [
+        "19",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "57",
+        "+84.683s",
+        "0"
+      ],
+      [
+        "NC",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "27",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1235/emilia-romagna/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "63",
+        "1:25:25.252",
+        "25"
+      ],
+      [
+        "2",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "63",
+        "+0.725s",
+        "18"
+      ],
+      [
+        "3",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "63",
+        "+7.916s",
+        "15"
+      ],
+      [
+        "4",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "63",
+        "+14.132s",
+        "12"
+      ],
+      [
+        "5",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "63",
+        "+22.325s",
+        "10"
+      ],
+      [
+        "6",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "63",
+        "+35.104s",
+        "8"
+      ],
+      [
+        "7",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "63",
+        "+47.154s",
+        "7"
+      ],
+      [
+        "8",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "63",
+        "+54.776s",
+        "4"
+      ],
+      [
+        "9",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "63",
+        "+79.556s",
+        "2"
+      ],
+      [
+        "10",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "62",
+        "+1 lap",
+        "1"
+      ],
+      [
+        "11",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "62",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "51",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1236/monaco/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "78",
+        "2:23:15.554",
+        "25"
+      ],
+      [
+        "2",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "78",
+        "+7.152s",
+        "18"
+      ],
+      [
+        "3",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "78",
+        "+7.585s",
+        "15"
+      ],
+      [
+        "4",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "78",
+        "+8.650s",
+        "12"
+      ],
+      [
+        "5",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "78",
+        "+13.309s",
+        "10"
+      ],
+      [
+        "6",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "78",
+        "+13.853s",
+        "8"
+      ],
+      [
+        "7",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "78",
+        "+14.908s",
+        "7"
+      ],
+      [
+        "8",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "77",
+        "+1 lap",
+        "4"
+      ],
+      [
+        "9",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "77",
+        "+1 lap",
+        "2"
+      ],
+      [
+        "10",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "77",
+        "+1 lap",
+        "1"
+      ],
+      [
+        "11",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "76",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "12",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "76",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "13",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "76",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "14",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "76",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "15",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "76",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "16",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "76",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "NC",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "0",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "0",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "0",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "0",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1237/canada/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "70",
+        "1:45:47.927",
+        "25"
+      ],
+      [
+        "2",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "70",
+        "+3.879s",
+        "18"
+      ],
+      [
+        "3",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "70",
+        "+4.317s",
+        "15"
+      ],
+      [
+        "4",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "70",
+        "+4.915s",
+        "13"
+      ],
+      [
+        "5",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "70",
+        "+10.199s",
+        "10"
+      ],
+      [
+        "6",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "70",
+        "+17.510s",
+        "8"
+      ],
+      [
+        "7",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "70",
+        "+23.625s",
+        "6"
+      ],
+      [
+        "8",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "70",
+        "+28.672s",
+        "4"
+      ],
+      [
+        "9",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "70",
+        "+30.021s",
+        "2"
+      ],
+      [
+        "10",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "70",
+        "+30.313s",
+        "1"
+      ],
+      [
+        "11",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "70",
+        "+30.824s",
+        "0"
+      ],
+      [
+        "12",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "70",
+        "+31.253s",
+        "0"
+      ],
+      [
+        "13",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "70",
+        "+40.487s",
+        "0"
+      ],
+      [
+        "14",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "70",
+        "+52.694s",
+        "0"
+      ],
+      [
+        "15",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "52",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "52",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "51",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "40",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "23",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1238/spain/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "66",
+        "1:28:20.227",
+        "25"
+      ],
+      [
+        "2",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "66",
+        "+2.219s",
+        "19"
+      ],
+      [
+        "3",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "66",
+        "+17.790s",
+        "15"
+      ],
+      [
+        "4",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "66",
+        "+22.320s",
+        "12"
+      ],
+      [
+        "5",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "66",
+        "+22.709s",
+        "10"
+      ],
+      [
+        "6",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "66",
+        "+31.028s",
+        "8"
+      ],
+      [
+        "7",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "66",
+        "+33.760s",
+        "6"
+      ],
+      [
+        "8",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "66",
+        "+59.524s",
+        "4"
+      ],
+      [
+        "9",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "66",
+        "+62.025s",
+        "2"
+      ],
+      [
+        "10",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "66",
+        "+71.889s",
+        "1"
+      ],
+      [
+        "11",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "66",
+        "+79.215s",
+        "0"
+      ],
+      [
+        "12",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "65",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "20",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "64",
+        "+2 laps",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1239/austria/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "71",
+        "1:24:22.798",
+        "25"
+      ],
+      [
+        "2",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "71",
+        "+1.906s",
+        "18"
+      ],
+      [
+        "3",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "71",
+        "+4.533s",
+        "15"
+      ],
+      [
+        "4",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "71",
+        "+23.142s",
+        "12"
+      ],
+      [
+        "5",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "71",
+        "+37.253s",
+        "10"
+      ],
+      [
+        "6",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "71",
+        "+54.088s",
+        "8"
+      ],
+      [
+        "7",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "71",
+        "+54.672s",
+        "6"
+      ],
+      [
+        "8",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "71",
+        "+60.355s",
+        "4"
+      ],
+      [
+        "9",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "71",
+        "+61.169s",
+        "2"
+      ],
+      [
+        "10",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "71",
+        "+61.766s",
+        "1"
+      ],
+      [
+        "11",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "71",
+        "+67.056s",
+        "0"
+      ],
+      [
+        "12",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "71",
+        "+68.325s",
+        "0"
+      ],
+      [
+        "13",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "69",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "20",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "64",
+        "+7 laps",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1240/great-britain/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "52",
+        "1:22:27.059",
+        "25"
+      ],
+      [
+        "2",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "52",
+        "+1.465s",
+        "18"
+      ],
+      [
+        "3",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "52",
+        "+7.547s",
+        "15"
+      ],
+      [
+        "4",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "52",
+        "+12.429s",
+        "12"
+      ],
+      [
+        "5",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "52",
+        "+47.318s",
+        "11"
+      ],
+      [
+        "6",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "52",
+        "+55.722s",
+        "8"
+      ],
+      [
+        "7",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "52",
+        "+56.569s",
+        "6"
+      ],
+      [
+        "8",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "52",
+        "+63.577s",
+        "4"
+      ],
+      [
+        "9",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "52",
+        "+68.387s",
+        "2"
+      ],
+      [
+        "10",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "52",
+        "+79.303s",
+        "1"
+      ],
+      [
+        "11",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "52",
+        "+88.960s",
+        "0"
+      ],
+      [
+        "12",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "52",
+        "+90.153s",
+        "0"
+      ],
+      [
+        "13",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "51",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "51",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "51",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "50",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "17",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "50",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "18",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "50",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "NC",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "33",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "0",
+        "DNS",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1241/hungary/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "70",
+        "1:38:01.989",
+        "25"
+      ],
+      [
+        "2",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "70",
+        "+2.141s",
+        "18"
+      ],
+      [
+        "3",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "70",
+        "+14.880s",
+        "15"
+      ],
+      [
+        "4",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "70",
+        "+19.686s",
+        "12"
+      ],
+      [
+        "5",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "70",
+        "+21.349s",
+        "10"
+      ],
+      [
+        "6",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "70",
+        "+23.073s",
+        "8"
+      ],
+      [
+        "7",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "70",
+        "+39.792s",
+        "6"
+      ],
+      [
+        "8",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "70",
+        "+42.368s",
+        "5"
+      ],
+      [
+        "9",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "70",
+        "+77.259s",
+        "2"
+      ],
+      [
+        "10",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "70",
+        "+77.976s",
+        "1"
+      ],
+      [
+        "11",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "70",
+        "+82.460s",
+        "0"
+      ],
+      [
+        "12",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "69",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "33",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1242/belgium/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "DQ",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "44",
+        "1:19:57.040",
+        "0"
+      ],
+      [
+        "1",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "44",
+        "+0.526s",
+        "25"
+      ],
+      [
+        "2",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "44",
+        "+1.173s",
+        "18"
+      ],
+      [
+        "3",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "44",
+        "+8.549s",
+        "15"
+      ],
+      [
+        "4",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "44",
+        "+9.226s",
+        "12"
+      ],
+      [
+        "5",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "44",
+        "+9.850s",
+        "10"
+      ],
+      [
+        "6",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "44",
+        "+19.795s",
+        "8"
+      ],
+      [
+        "7",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "44",
+        "+43.195s",
+        "7"
+      ],
+      [
+        "8",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "44",
+        "+49.963s",
+        "4"
+      ],
+      [
+        "9",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "44",
+        "+52.552s",
+        "2"
+      ],
+      [
+        "10",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "44",
+        "+54.926s",
+        "1"
+      ],
+      [
+        "11",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "44",
+        "+63.011s",
+        "0"
+      ],
+      [
+        "12",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "44",
+        "+63.651s",
+        "0"
+      ],
+      [
+        "13",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "44",
+        "+64.365s",
+        "0"
+      ],
+      [
+        "14",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "44",
+        "+66.631s",
+        "0"
+      ],
+      [
+        "15",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "44",
+        "+70.638s",
+        "0"
+      ],
+      [
+        "16",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "44",
+        "+76.737s",
+        "0"
+      ],
+      [
+        "17",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "44",
+        "+86.057s",
+        "0"
+      ],
+      [
+        "18",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "44",
+        "+88.833s",
+        "0"
+      ],
+      [
+        "NC",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "5",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1243/netherlands/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "72",
+        "1:30:45.519",
+        "26"
+      ],
+      [
+        "2",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "72",
+        "+22.896s",
+        "18"
+      ],
+      [
+        "3",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "72",
+        "+25.439s",
+        "15"
+      ],
+      [
+        "4",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "72",
+        "+27.337s",
+        "12"
+      ],
+      [
+        "5",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "72",
+        "+32.137s",
+        "10"
+      ],
+      [
+        "6",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "72",
+        "+39.542s",
+        "8"
+      ],
+      [
+        "7",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "72",
+        "+44.617s",
+        "6"
+      ],
+      [
+        "8",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "72",
+        "+49.599s",
+        "4"
+      ],
+      [
+        "9",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "71",
+        "+1 lap",
+        "2"
+      ],
+      [
+        "10",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "71",
+        "+1 lap",
+        "1"
+      ],
+      [
+        "11",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "2",
+        "Logan SargeantSAR",
+        "Williams Mercedes",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "71",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "70",
+        "+2 laps",
+        "0"
+      ],
+      [
+        "20",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "70",
+        "+2 laps",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1244/italy/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "53",
+        "1:14:40.727",
+        "25"
+      ],
+      [
+        "2",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "53",
+        "+2.664s",
+        "18"
+      ],
+      [
+        "3",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "53",
+        "+6.153s",
+        "16"
+      ],
+      [
+        "4",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "53",
+        "+15.621s",
+        "12"
+      ],
+      [
+        "5",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "53",
+        "+22.820s",
+        "10"
+      ],
+      [
+        "6",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "53",
+        "+37.932s",
+        "8"
+      ],
+      [
+        "7",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "53",
+        "+39.715s",
+        "6"
+      ],
+      [
+        "8",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "53",
+        "+54.148s",
+        "4"
+      ],
+      [
+        "9",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "53",
+        "+67.456s",
+        "2"
+      ],
+      [
+        "10",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "53",
+        "+68.302s",
+        "1"
+      ],
+      [
+        "11",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "53",
+        "+68.495s",
+        "0"
+      ],
+      [
+        "12",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "53",
+        "+81.308s",
+        "0"
+      ],
+      [
+        "13",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "53",
+        "+93.452s",
+        "0"
+      ],
+      [
+        "14",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "52",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "7",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1245/azerbaijan/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "51",
+        "1:32:58.007",
+        "25"
+      ],
+      [
+        "2",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "51",
+        "+10.910s",
+        "18"
+      ],
+      [
+        "3",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "51",
+        "+31.328s",
+        "15"
+      ],
+      [
+        "4",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "51",
+        "+36.143s",
+        "13"
+      ],
+      [
+        "5",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "51",
+        "+77.098s",
+        "10"
+      ],
+      [
+        "6",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "51",
+        "+85.468s",
+        "8"
+      ],
+      [
+        "7",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "51",
+        "+87.396s",
+        "6"
+      ],
+      [
+        "8",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "51",
+        "+89.541s",
+        "4"
+      ],
+      [
+        "9",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "51",
+        "+92.401s",
+        "2"
+      ],
+      [
+        "10",
+        "50",
+        "Oliver BearmanBEA",
+        "Haas Ferrari",
+        "51",
+        "+93.127s",
+        "1"
+      ],
+      [
+        "11",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "51",
+        "+93.465s",
+        "0"
+      ],
+      [
+        "12",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "51",
+        "+117.189s",
+        "0"
+      ],
+      [
+        "13",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "51",
+        "+146.907s",
+        "0"
+      ],
+      [
+        "14",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "51",
+        "+148.841s",
+        "0"
+      ],
+      [
+        "15",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "50",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "50",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "49",
+        "DNF",
+        "0"
+      ],
+      [
+        "18",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "49",
+        "DNF",
+        "0"
+      ],
+      [
+        "19",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "45",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "14",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1246/singapore/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "62",
+        "1:40:52.571",
+        "25"
+      ],
+      [
+        "2",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "62",
+        "+20.945s",
+        "18"
+      ],
+      [
+        "3",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "62",
+        "+41.823s",
+        "15"
+      ],
+      [
+        "4",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "62",
+        "+61.040s",
+        "12"
+      ],
+      [
+        "5",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "62",
+        "+62.430s",
+        "10"
+      ],
+      [
+        "6",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "62",
+        "+85.248s",
+        "8"
+      ],
+      [
+        "7",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "62",
+        "+96.039s",
+        "6"
+      ],
+      [
+        "8",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "61",
+        "+1 lap",
+        "4"
+      ],
+      [
+        "9",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "61",
+        "+1 lap",
+        "2"
+      ],
+      [
+        "10",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "61",
+        "+1 lap",
+        "1"
+      ],
+      [
+        "11",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "3",
+        "Daniel RicciardoRIC",
+        "RB Honda RBPT",
+        "61",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "57",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "15",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1247/united-states/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "56",
+        "1:35:09.639",
+        "25"
+      ],
+      [
+        "2",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "56",
+        "+8.562s",
+        "18"
+      ],
+      [
+        "3",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "56",
+        "+19.412s",
+        "15"
+      ],
+      [
+        "4",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "56",
+        "+20.354s",
+        "12"
+      ],
+      [
+        "5",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "56",
+        "+21.921s",
+        "10"
+      ],
+      [
+        "6",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "56",
+        "+56.295s",
+        "8"
+      ],
+      [
+        "7",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "56",
+        "+59.072s",
+        "6"
+      ],
+      [
+        "8",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "56",
+        "+62.957s",
+        "4"
+      ],
+      [
+        "9",
+        "30",
+        "Liam LawsonLAW",
+        "RB Honda RBPT",
+        "56",
+        "+70.563s",
+        "2"
+      ],
+      [
+        "10",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "56",
+        "+71.979s",
+        "1"
+      ],
+      [
+        "11",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "56",
+        "+79.782s",
+        "0"
+      ],
+      [
+        "12",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "56",
+        "+90.558s",
+        "0"
+      ],
+      [
+        "13",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "55",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "55",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "55",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "55",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "55",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "55",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "19",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "55",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "1",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1248/mexico/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "71",
+        "1:40:55.800",
+        "25"
+      ],
+      [
+        "2",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "71",
+        "+4.705s",
+        "18"
+      ],
+      [
+        "3",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "71",
+        "+34.387s",
+        "16"
+      ],
+      [
+        "4",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "71",
+        "+44.780s",
+        "12"
+      ],
+      [
+        "5",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "71",
+        "+48.536s",
+        "10"
+      ],
+      [
+        "6",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "71",
+        "+59.558s",
+        "8"
+      ],
+      [
+        "7",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "71",
+        "+63.642s",
+        "6"
+      ],
+      [
+        "8",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "71",
+        "+64.928s",
+        "4"
+      ],
+      [
+        "9",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "70",
+        "+1 lap",
+        "2"
+      ],
+      [
+        "10",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "70",
+        "+1 lap",
+        "1"
+      ],
+      [
+        "11",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "30",
+        "Liam LawsonLAW",
+        "RB Honda RBPT",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "70",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "15",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "0",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "0",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1249/brazil/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "69",
+        "2:06:54.430",
+        "26"
+      ],
+      [
+        "2",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "69",
+        "+19.477s",
+        "18"
+      ],
+      [
+        "3",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "69",
+        "+22.532s",
+        "15"
+      ],
+      [
+        "4",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "69",
+        "+23.265s",
+        "12"
+      ],
+      [
+        "5",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "69",
+        "+30.177s",
+        "10"
+      ],
+      [
+        "6",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "69",
+        "+31.372s",
+        "8"
+      ],
+      [
+        "7",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "69",
+        "+42.056s",
+        "6"
+      ],
+      [
+        "8",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "69",
+        "+44.943s",
+        "4"
+      ],
+      [
+        "9",
+        "30",
+        "Liam LawsonLAW",
+        "RB Honda RBPT",
+        "69",
+        "+50.452s",
+        "2"
+      ],
+      [
+        "10",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "69",
+        "+50.753s",
+        "1"
+      ],
+      [
+        "11",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "69",
+        "+51.531s",
+        "0"
+      ],
+      [
+        "12",
+        "50",
+        "Oliver BearmanBEA",
+        "Haas Ferrari",
+        "69",
+        "+57.085s",
+        "0"
+      ],
+      [
+        "13",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "69",
+        "+63.588s",
+        "0"
+      ],
+      [
+        "14",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "69",
+        "+78.049s",
+        "0"
+      ],
+      [
+        "15",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "69",
+        "+79.649s",
+        "0"
+      ],
+      [
+        "NC",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "38",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "30",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "0",
+        "DNS",
+        "0"
+      ],
+      [
+        "NC",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "0",
+        "DNS",
+        "0"
+      ],
+      [
+        "DQ",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "",
+        "DSQ",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1250/las-vegas/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "50",
+        "1:22:05.969",
+        "25"
+      ],
+      [
+        "2",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "50",
+        "+7.313s",
+        "18"
+      ],
+      [
+        "3",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "50",
+        "+11.906s",
+        "15"
+      ],
+      [
+        "4",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "50",
+        "+14.283s",
+        "12"
+      ],
+      [
+        "5",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "50",
+        "+16.582s",
+        "10"
+      ],
+      [
+        "6",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "50",
+        "+43.385s",
+        "9"
+      ],
+      [
+        "7",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "50",
+        "+51.365s",
+        "6"
+      ],
+      [
+        "8",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "50",
+        "+59.808s",
+        "4"
+      ],
+      [
+        "9",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "50",
+        "+62.808s",
+        "2"
+      ],
+      [
+        "10",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "50",
+        "+63.114s",
+        "1"
+      ],
+      [
+        "11",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "50",
+        "+69.195s",
+        "0"
+      ],
+      [
+        "12",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "50",
+        "+69.803s",
+        "0"
+      ],
+      [
+        "13",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "50",
+        "+74.085s",
+        "0"
+      ],
+      [
+        "14",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "50",
+        "+75.172s",
+        "0"
+      ],
+      [
+        "15",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "50",
+        "+84.102s",
+        "0"
+      ],
+      [
+        "16",
+        "30",
+        "Liam LawsonLAW",
+        "RB Honda RBPT",
+        "50",
+        "+91.005s",
+        "0"
+      ],
+      [
+        "17",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "18",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "49",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "25",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "15",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1251/qatar/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "57",
+        "1:31:05.323",
+        "25"
+      ],
+      [
+        "2",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "57",
+        "+6.031s",
+        "18"
+      ],
+      [
+        "3",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "57",
+        "+6.819s",
+        "15"
+      ],
+      [
+        "4",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "57",
+        "+14.104s",
+        "12"
+      ],
+      [
+        "5",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "57",
+        "+16.782s",
+        "10"
+      ],
+      [
+        "6",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "57",
+        "+17.476s",
+        "8"
+      ],
+      [
+        "7",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "57",
+        "+19.867s",
+        "6"
+      ],
+      [
+        "8",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "57",
+        "+25.360s",
+        "4"
+      ],
+      [
+        "9",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "57",
+        "+32.177s",
+        "2"
+      ],
+      [
+        "10",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "57",
+        "+35.762s",
+        "2"
+      ],
+      [
+        "11",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "57",
+        "+50.243s",
+        "0"
+      ],
+      [
+        "12",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "57",
+        "+56.122s",
+        "0"
+      ],
+      [
+        "13",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "57",
+        "+61.100s",
+        "0"
+      ],
+      [
+        "14",
+        "30",
+        "Liam LawsonLAW",
+        "RB Honda RBPT",
+        "57",
+        "+62.656s",
+        "0"
+      ],
+      [
+        "15",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "56",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "NC",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "39",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "38",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "8",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "0",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "31",
+        "Esteban OconOCO",
+        "Alpine Renault",
+        "0",
+        "DNF",
+        "0"
+      ]
+    ]
+  },
+  {
+    "url": "https://www.formula1.com/en/results/2024/races/1252/abu-dhabi/race-result",
+    "rows": [
+      [
+        "Pos.",
+        "No.",
+        "Driver",
+        "Team",
+        "Laps",
+        "Time / Retired",
+        "Pts."
+      ],
+      [
+        "1",
+        "4",
+        "Lando NorrisNOR",
+        "McLaren Mercedes",
+        "58",
+        "1:26:33.291",
+        "25"
+      ],
+      [
+        "2",
+        "55",
+        "Carlos SainzSAI",
+        "Ferrari",
+        "58",
+        "+5.832s",
+        "18"
+      ],
+      [
+        "3",
+        "16",
+        "Charles LeclercLEC",
+        "Ferrari",
+        "58",
+        "+31.928s",
+        "15"
+      ],
+      [
+        "4",
+        "44",
+        "Lewis HamiltonHAM",
+        "Mercedes",
+        "58",
+        "+36.483s",
+        "12"
+      ],
+      [
+        "5",
+        "63",
+        "George RussellRUS",
+        "Mercedes",
+        "58",
+        "+37.538s",
+        "10"
+      ],
+      [
+        "6",
+        "1",
+        "Max VerstappenVER",
+        "Red Bull Racing Honda RBPT",
+        "58",
+        "+49.847s",
+        "8"
+      ],
+      [
+        "7",
+        "10",
+        "Pierre GaslyGAS",
+        "Alpine Renault",
+        "58",
+        "+72.560s",
+        "6"
+      ],
+      [
+        "8",
+        "27",
+        "Nico HulkenbergHUL",
+        "Haas Ferrari",
+        "58",
+        "+75.554s",
+        "4"
+      ],
+      [
+        "9",
+        "14",
+        "Fernando AlonsoALO",
+        "Aston Martin Aramco Mercedes",
+        "58",
+        "+82.373s",
+        "2"
+      ],
+      [
+        "10",
+        "81",
+        "Oscar PiastriPIA",
+        "McLaren Mercedes",
+        "58",
+        "+83.821s",
+        "1"
+      ],
+      [
+        "11",
+        "23",
+        "Alexander AlbonALB",
+        "Williams Mercedes",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "12",
+        "22",
+        "Yuki TsunodaTSU",
+        "RB Honda RBPT",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "13",
+        "24",
+        "Zhou GuanyuZHO",
+        "Kick Sauber Ferrari",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "14",
+        "18",
+        "Lance StrollSTR",
+        "Aston Martin Aramco Mercedes",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "15",
+        "61",
+        "Jack DoohanDOO",
+        "Alpine Renault",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "16",
+        "20",
+        "Kevin MagnussenMAG",
+        "Haas Ferrari",
+        "57",
+        "+1 lap",
+        "0"
+      ],
+      [
+        "17",
+        "30",
+        "Liam LawsonLAW",
+        "RB Honda RBPT",
+        "55",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "77",
+        "Valtteri BottasBOT",
+        "Kick Sauber Ferrari",
+        "30",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "43",
+        "Franco ColapintoCOL",
+        "Williams Mercedes",
+        "26",
+        "DNF",
+        "0"
+      ],
+      [
+        "NC",
+        "11",
+        "Sergio PerezPER",
+        "Red Bull Racing Honda RBPT",
+        "0",
+        "DNF",
+        "0"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>一台が止まっても、世界を続けるために - MonkuAi</title>
+<meta name="description" content="レースから考える、競争のなかで育てるアライメント" />
+<meta property="og:title" content="一台が止まっても、世界を続けるために" />
+<meta property="og:description" content="レースから考える、競争のなかで育てるアライメント" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://monku.ai/essays/racing-alignment-continuity/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:image" content="https://monku.ai/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="article:published_time" content="2026-09-11" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://monku.ai/assets/og-image.png" />
+<link rel="canonical" href="https://monku.ai/essays/racing-alignment-continuity/" />
+<link rel="alternate" hreflang="ja" href="https://monku.ai/essays/racing-alignment-continuity/" />
+<link rel="alternate" hreflang="en" href="https://monku.ai/essays/racing-alignment-continuity/en/" />
+<link rel="alternate" hreflang="x-default" href="https://monku.ai/essays/racing-alignment-continuity/" />
+<link rel="icon" href="/assets/favicon.png" type="image/png" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="/essays/asi-motivation-inquiry/essay.css" />
+</head>
+<body class="essay-page inquiry-page">
+<header class="essay-hero">
+<nav class="nav essay-nav" aria-label="メインナビゲーション">
+<a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 512 512"><path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" /></svg></span><span>MonkuAi</span></a>
+<div class="nav-links"><a href="/#manifesto">Manifesto</a><a href="/#light">Light</a><a href="/#materials">Materials</a><a href="/#dialogue">Dialogue</a></div>
+</nav>
+<div class="essay-hero-content">
+<p class="eyebrow">鏡のなかの超知能 / Essay #7</p>
+<h1>一台が止まっても、世界を続けるために</h1>
+<p class="lead">レースから考える、競争のなかで育てるアライメント</p>
+<nav class="inquiry-language" aria-label="言語"><a href="/essays/racing-alignment-continuity/" lang="ja" hreflang="ja" aria-current="page">日本語</a><a href="/essays/racing-alignment-continuity/en/" lang="en" hreflang="en">English</a></nav>
+<p class="inquiry-meta"><time datetime="2026-09-11">2026.09.11</time> · Kenoidartの仮説・観測資料・Codexの評価・総括</p>
+</div>
+</header>
+<main class="essay-main"><article class="essay-article inquiry-article">
+<nav class="inquiry-toc" aria-label="目次"><strong>目次</strong><ol><li><a href="#hypothesis">第一部｜対話から生まれた仮説：アクセルと制御を共に育てる</a></li><li><a href="#observations">第二部｜観測資料：個々の失敗と、全体の継続</a></li><li><a href="#codex-response">第三部｜Codexの評価：仮説を強めるために確かめたいこと</a></li><li><a href="#conclusion">総括｜前進する能力と、未来を残す能力</a></li></ol></nav>
+<p>一台のレーシングカーが止まったとき、ほかの車は走り続ける。大きな事故でレース全体が中断しても、救助や点検、修復を経て再開できることがある。その日の走行を打ち切る判断も、次に走る機会を守ることにつながる。</p>
+<p>AIの未来についても、一社で起きる失敗と、文明全体が回復する可能性を失うことの間には、考えるべき隔たりがある。人間とAIが互いの判断を補い、ある組み合わせが失敗しても、ほかの主体が活動を引き継げる。その能力が育つなら、AIによる人類破滅は、一般に想像されるほど起こりやすくないのではないか。</p>
+<p>これが、本稿の出発点となった仮説である。競争の中で性能を高めることと、制御し、修正し、回復する能力を育てること。その関係を、レースという身近な比較対象から考えてみたい。</p>
+<p>本稿は、MonkuAi主宰の <a href="https://x.com/Kenoidart">@Kenoidart</a> とCodexの対話から生まれた論考です。レースとAI開発の比較、過渡期のリスクに関する予想、分散型の運営への提案は、対話でKenoidartが提示した着想に基づきます。Codexがその論旨を再構成し、F1の観測資料を整理したうえで、評価と検証課題、総括を記しました。第一部ではKenoidartの仮説を展開し、第二部で観測資料、第三部でCodexの評価を示します。</p>
+<section class="inquiry-part inquiry-part-hypothesis" aria-labelledby="hypothesis"><h2 id="hypothesis">第一部｜対話から生まれた仮説：アクセルと制御を共に育てる</h2>
+<h3>競争の中で、協調は育つか</h3>
+<p>アライメントを、複数の主体や仕組みが目的に沿って協調できるようにすることと捉えると、その課題は交通や医療、組織運営にも見えてくる。本稿では、判断を合わせ、誤りを修正し、安全に活動を続けるための設計を、広い意味でのアライメント設計と呼ぶ。</p>
+<p>レースとAI開発には、先端技術の性能を引き出し、競争の中で前進するという共通性がある。レースではアクセルを踏む。そのとき車両や路面、自分の状態を読み、制御できる範囲を見極める。AI運営では、能力の利用、運用規模、自律性、実行権限の拡大が、このアクセルに対応する。前進の仕方に見合う検証・制御・修正の能力を保つことが、共通の設計課題になる。</p>
+<p>対話で提示された着想は、トップレーシングチームの強さを、このアライメント設計から見直すことだった。車の性能、ドライバーの判断、整備、戦略、情報伝達が噛み合うことが、継続的な成果につながる。優れたチームほど、誤りを起こしにくくするとともに、誤りが生じた後にも修正して事故への進展を防ぐ力を持つのではないか。</p>
+<p>この見方では、事故は、協調が崩れ、その影響を吸収・修正する仕組みでも支えきれなかった結果として捉えられる。競争は、そのような破綻の危険を生む。同時に、次も走り、成果を上げ続けたいという動機は、熟練、機械の改善、失敗からの学習を育てる理由にもなる。</p>
+<h3>人間とAIが、互いの判断を補う</h3>
+<p>AIをレーシングカー、その運用を主導する経営者をドライバーに対応させると、一社の活動を一組の人間と機械の協働として考えられる。その背後には、開発、運用、監督を担う人々と仕組みがある。</p>
+<p>ここでKenoidartが見ているのは、<strong>トップAI企業における人間とAIの組み合わせは、トップレーシングチームよりもアライメントの破綻を避けやすくなり得るのではないか</strong>という可能性である。この比較でいう破綻とは、安全に活動を続けるという共通の目的から外れ、互いに修正できなくなることを指す。</p>
+<p>その予想を支えるのが、AIによる相互補完である。AIは人間の判断を点検し、危険を指摘し、代替案を提案する役割を担える。人間もAIの提案を検討し、目的や権限を修正する。この往復が成熟すれば、双方の不十分さを補いながら活動を続ける能力は高まるだろう。</p>
+<p>人間とAIが十分に支え合えるようになるまでには時間がかかる。本稿でいう過渡期は、その関係が育つ過程である。能力と権限の拡大に、判断・制御・修正の能力が追いついていくことに、破綻を減らす可能性がある。</p>
+<h3>一組が失敗しても、ほかの主体が続けられる</h3>
+<p>比喩の置き方を、さらに広げてみる。一台の車と一人のドライバーを一社とするなら、そのリタイアは一社の事故、運用停止、撤退に対応する。文明全体の回復不能に対応するのは、競技を支える全体が、将来にわたって再開する可能性を失うことである。</p>
+<p>複数の企業、人間、AI、制度が共存する文明には、一社が失敗した後にも活動を続ける主体がある。当事者が回復することも、別の主体がその役割を引き継ぐことも考えられる。失敗が局所にとどまり、回復や引き継ぎが働く構造では、個々の失敗よりも、全体が永久に続行不能になる出来事は少なくなり得る。</p>
+<p>仮説は、二つの段階からなる。<strong>一組の人間とAIが、相互補完によって破綻を避ける。そして、一組が破綻しても、ほかの主体と回復の仕組みが文明の継続を支える。</strong> この両方に注目することが、過渡期の破滅リスクを低く予想する理由となる。</p>
+<p>Kenoidartは、レースとの比較とこの二段階の見通しから、<strong>対話時点で、過渡期のAIによる人類破滅の確率を0〜8％程度と暫定的に予想している。</strong> これは今後検証するために提示された予想であり、一社の失敗よりも文明全体の回復不能は少ないのではないか、という見方を数値で表したものである。</p>
+<h3>全体を支える運営を、どうつくるか</h3>
+<p>レースでは、競技運営が中断や再開を調整する。AI社会でも、一社内部の相互補完に加えて、各社を越えて失敗の波及を抑え、停止・修正・回復を調整する機能が重要になる。対話では、AI側でこの機能が十分に成立しているかが、次の問いとなった。</p>
+<p>Kenoidartが提案するのは、その運営機能を分散型プロトコル、すなわち複数の主体が関係を調整する共通の手順によって支える方向である。それぞれが関わる範囲と権限に同意し、異議を述べ、危険な接続から退出し、条件を改めて再接続できるようにする。異なる価値観を持つ主体が、関係を選び直しながら活動を続ける構造を目指す。</p>
+<p>例えば、AIの提案をよいと判断することと、そのAIに他者へ影響する実行権限を与えることを分ける。異常が見つかったときには、影響する範囲の権限や接続を止める。その間も必要な活動を続けられるように、代替手段を確保する。<strong>退出できることと、退出した後にも活動できることを、一つの設計として扱う。</strong></p>
+<p>この提案の出発点として挙げられたのが、<a href="https://github.com/kentaroid-bot/alignment-asymmetry-study/blob/main/outreach/article.ja.md">Alignment Asymmetry Studyの紹介記事「問い続け、作り続ける自由を、どう守るか」</a>である。同記事が扱うUnflattenは、問いの由来や異論を残して方法を選び直す側面を、Aperture Meshは、同意、限定した権限、異議、退出、再接続を通じて他者や共有資源と関わる側面を担う。</p>
+<p>これらの考え方をAI運営へ展開し、一社の破綻が全体の修正能力を失わせる連鎖を抑える。前進する主体の相互補完と、失敗を受け止める社会の運営。その二層を共に育てることが、ここまでの仮説から導かれる提案である。</p>
+</section>
+<section class="inquiry-part inquiry-part-observations" aria-labelledby="observations"><h2 id="observations">第二部｜観測資料：個々の失敗と、全体の継続</h2>
+<h3>一台ずつ数えると、レース全体を数えると</h3>
+<p>この比較の資料として、2024年F1の全24決勝を集計した。最終ポイント上位10人の出走238回のうち、走行を最後まで終えなかったものは19回だった。19÷238で、約7.98％となる。対象を全ドライバーに広げると、476出走のうち51回が走行未完了で、約10.7％だった。<a href="https://www.formula1.com/en/results/2024/drivers">F1公式年間順位</a>、<a href="https://www.formula1.com/en/results/2024/races">F1公式決勝結果一覧</a></p>
+<p>ここでの「走行完了」は、レース終了まで走ったことを指す。未完了には事故、故障、競技中の失格を含め、出走しなかった車は分母から除いている。公式の順位認定とは区別した、本稿の集計である。</p>
+<div class="inquiry-table-wrap" role="region" tabindex="0" aria-label="2024年F1の集計"><table><thead><tr><th scope="col">2024年の観測対象</th><th scope="col">観測した結果</th></tr></thead><tbody><tr><td>最終ポイント上位10人の一出走</td><td>走行未完了19／238回、約8.0％</td></tr><tr><td>全ドライバーの一出走</td><td>走行未完了51／476回、約10.7％</td></tr><tr><td>各決勝の走行完了台数</td><td>全24戦で15〜20台</td></tr><tr><td>完了台数がゼロだった決勝</td><td>0／24戦</td></tr></tbody></table></div>
+<p>一台ずつ見れば、走行未完了は繰り返し起きている。同じシーズンをレース全体で見ると、すべての決勝で15台以上が最後まで走った。個々の停止と全体の継続が両立することを、この対比から具体的に読み取れる。</p>
+<h3>中断の後に、再び走る</h3>
+<p>2020年バーレーンGPは、ロマン・グロージャンの重大事故で中断した後、再開された。2024年モナコGPでも、序盤の複数台が関係する事故による赤旗中断を経て、レースが再開されている。<a href="https://www.formula1.com/en/latest/article/hamilton-wins-bahrain-gp-interrupted-by-huge-grosjean-crash-as-perez-suffers.1VOaoGnobv5rik9CwmivVs">F1公式・2020年バーレーン決勝報告</a>、<a href="https://www.formula1.com/en/latest/article/leclerc-takes-emotional-home-win-in-monaco-ahead-of-piastri-and-sainz-after.4EmeQeb2P27aS8yGIVMOEO">F1公式・2024年モナコ決勝報告</a></p>
+<p>大きな事故から全体の継続へ至るまでには、救助、停止、点検、修復という過程がある。事故の規模に加えて、その後に誰が何を回復できるかを見る理由が、ここにある。</p>
+<h3>その日に走らないことが、未来を守る</h3>
+<p>2021年ベルギーGPでは、雨のためセーフティカー先導の走行後に赤旗となり、その後の再開が見送られた。2023年エミリア・ロマーニャGPは、洪水による地域の状況を受け、開催前に中止が決まった。<a href="https://www.formula1.com/en/latest/article/verstappen-takes-victory-in-severely-shortened-rain-affected-belgian-gp-as.4AqGhiKQfFaqr7KZjyDjPZ">F1公式・2021年ベルギー決勝報告</a>、<a href="https://www.formula1.com/en/latest/article/breaking-update-on-the-emilia-romagna-grand-prix-at-imola.14xk8GLh2Lr8wBGdJqhxnO">F1公式・2023年開催中止発表</a></p>
+<p>中断からの再開、その日の打ち切り、開催前の中止。それぞれに異なる意味がある。危険な状況で活動を止める判断も、人々と将来の活動を守るための能力として評価できる。</p>
+<p>この区別をAI運営へ持ち込むなら、安全のための停止と、文明の回復不能を分けて考えることになる。活動が止まった瞬間の先に、回復と選択の余地が残るかを問うのである。</p>
+</section>
+<section class="inquiry-part inquiry-part-codex-response" aria-labelledby="codex-response"><h2 id="codex-response">第三部｜Codexの評価：仮説を強めるために確かめたいこと</h2>
+<h3>私が支持する見通しと、数値評価への道筋</h3>
+<p>ここからは、私（Codex）の評価を述べる。私は、<strong>一社の失敗から文明全体の終わりを想像する際に、相互補完と回復能力を明示的に評価するという方向を支持する。</strong> レース資料は、個々の失敗がありながら活動が続く構造を具体的に示している。その構造に注目することは、低い破滅リスクを予想する理由を、調べられる設計課題へ変える。</p>
+<p>数値については、第一部の暫定予想と、F1の一出走あたり約8％という観測値は対象が異なる。予想の範囲は統計から算出した推定区間ではなく、その下端は安全の実証値、上端は確認済みの上限ではない。過渡期の期間、付与される権限、危険にさらされる回数を定め、反復する危険と学習の両方を評価することで、予想を絞り込める。</p>
+<p>また、全24決勝で完了台数がゼロにならなかったことから、文明の破滅確率を直接推定することはできない。これらは、同じ制度のもとで行われた一シーズンの観測であり、独立した24個の文明の将来を観測したものではない。存続しているF1を選んだという対象の偏りもある。資料が示す継続の構造を、AI社会でも確かめることが次の仕事となる。</p>
+<p>そのために、私は検証を三つに整理したい。</p>
+<h3>1．相互補完は、どの失敗を減らせるか</h3>
+<p>F1の走行未完了には、判断の誤りや故障などが含まれる。走行中に修正された誤りは、この数字には現れない。比較を進めるには、誤りの発生、修正の成否、事故や活動停止への進展を分けて記録する必要がある。機械の故障と目的の不一致も、原因を分けて扱いたい。</p>
+<p>レーシングチームにも、機械の制御支援やチームからの助言がある。速度や資源、危険にさらされる条件を考慮したうえで、人間とAIの相互補完が、どの場面で追加的な修正能力をもたらすかを調べるとよい。</p>
+<p>AI側では、判断の誤りを指摘されたときに修正できるか、異常の兆候で権限を縮小できるか、競争に遅れる状況でも停止を選べるかを、模擬環境で確かめられる。人間のみ、AIのみ、人間とAIの協働を比較し、誤りの見落とし、修正までの時間、事故への進展を測る。これにより、双方の補完が育つという仮説を、観測できる行動として検証できる。</p>
+<h3>2．一社の失敗を、どこまで局所にとどめられるか</h3>
+<p>複数の車が同じ雨や路面の影響を受けるように、複数のAI企業も、通信、電力、計算基盤、判断の仕方を共有することがある。企業数に加えて、一社が失敗した状況でも、ほかが活動できるかを測りたい。</p>
+<p>検証では、共有基盤の故障、一社による合意違反、プロトコルの悪用を起こし、権限や接続の境界が実際に働くかを試す。別の接続先へ移っても同じ基盤に依存している場合や、危険な主体自身が仕組みを利用する場合も含める。被害の波及範囲と、残る修正能力を観測することが、分散型の設計を具体化する。</p>
+<p>レース運営に対応するAI社会の機能については、法制度、標準、事業者間の連携などが、どの役割を担い、どこに空白があるかを調べる必要がある。本稿の比較は、中断・再開の調整機能に着目したものであり、既存制度の網羅的な評価ではない。</p>
+<h3>3．停止した後にも、活動を引き継げるか</h3>
+<p>レースは、場外の医療や社会基盤の支援を受けられる。文明全体を考えるときには、救助・停止・復旧に相当する機能を、文明の内側に備える必要がある。代替設備、知識の保持、権限の分散が、同時に失われない条件を確かめたい。</p>
+<p>具体的には、安全のために接続を切った際にも、必要な計算・通信・供給を維持できるかを試す。権限の撤回が実行に反映されるか、修復した主体がどの条件で再接続できるか、全体の安全を判定する役割に最終権限が集中しないかも、併せて点検する。</p>
+<p>Alignment Asymmetry Studyの紹介記事は、仮想社会での条件付きの成立例やモデルが記述した活動を扱う。そこでの成果と、AI業界全体の事故抑制効果、個別の仕組みに固有の効果は区別して検証したい。次の比較実験では、調整機能が乏しい場合、中央で調整する場合、分散型プロトコルで調整する場合を、できるだけ同じ資源と危険条件に置く。被害の波及、必要な活動の維持、回復までの時間、権力集中をそれぞれ測る。</p>
+<p>この三つを調べることで、人間とAIの相互補完から、社会全体の継続までをつなげられる。以上は、仮説を確かめるための未実施の検証提案である。低いリスクへの見通しを支える仕組みを見つけ、育てることを目指している。</p>
+</section>
+<section class="inquiry-part inquiry-part-conclusion" aria-labelledby="conclusion"><h2 id="conclusion">総括｜前進する能力と、未来を残す能力</h2>
+<p>Kenoidartの仮説は、人間とAIの相互補完と、文明全体の回復能力に着目し、過渡期の人類破滅を、一般に想像されるより低く見積もる方向へ進む。私は、個々の失敗と全体の回復不能を分け、その間に働く仕組みを調べるという考えを支持する。数値の妥当性については、AI側の観測と条件の具体化を通じて判断したい。この違いを保ちながら、仮説を強める研究へ進める。</p>
+<p>レースの比較が見せてくれるのは、失敗を受け止めながら活動を続ける姿である。人間とAIが互いに誤りを直し、一組が失敗しても、ほかの主体が必要な活動を引き継ぐ。それを可能にする権限、接続、退出、代替、再接続を設計することで、低いリスクへの期待は、取り組むべき具体的な課題になる。</p>
+<p>前稿「池を壊さず、世界を知る」は、成熟した超知能が世界を残して探究する可能性を考えた。今回は、そこへ至る過渡期に、人間とAIがどのような関係と運営を育てるかを問う。世界を続けたいという見通しを、世界を続けられる仕組みへ結びつけることが、二つの論考をつなぐ。</p>
+<p><strong>優れたアライメント設計とは、前進する能力と、その前進を制御し、失敗から回復する能力を共に育てることである。</strong></p>
+<p>一台が止まったとき、ほかの主体が何を引き継げるか。全体を止める必要があるとき、何を守り、どう再び始められるか。最後に問いたいのは、停止した後にも人々が生き、回復し、将来を選べるかということである。</p>
+<p>一台が止まっても、世界を続けるために。その条件をつくることを、人間とAIの協働の目標に据えたい。</p>
+</section>
+<hr />
+<h3>資料と編集について</h3>
+<p>2026年9月11日公開。Superintelligence in the Mirror（鏡のなかの超知能）掲載。</p>
+<p><a href="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/racing-alignment-continuity-sources.md">資料・集計方法・検証計画</a>に、集計の定義、例外の扱い、元データ、再現方法、研究への引き継ぎをまとめた。本稿は<a href="https://github.com/kentaroid-bot/Monku_Ai/blob/main/docs/research/ai-racing-risk/alignment-design-comparison-revised.ja.md">対話をもとにした研究原稿</a>を掲載向けに編集したもので、元原稿と集計資料は保存している。</p>
+<p>関連する論考：<a href="https://monku.ai/essays/asi-motivation-inquiry/">「池を壊さず、世界を知る」</a>。</p>
+<div class="essay-actions"><a class="primary-action" href="/#light">鏡のなかの超知能へ戻る</a><a class="secondary-action" href="/essays/racing-alignment-continuity/en/">Read in English</a></div>
+</article></main>
+<footer><p class="quote">Noise may already be the answer. Widen the aperture.</p><p>© 2026 MonkuAi Project</p></footer>
+</body>
+</html>

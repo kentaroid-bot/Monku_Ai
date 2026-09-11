@@ -2,7 +2,7 @@
 
 ## Re-implementing Long-Term Japanese Values and the Spirit of Mottainai
 
-This document is an auxiliary roadmap connected to two MonkuAi themes: **departure from zero-sum competition** and **rebirth by making entropy an ally**. It addresses what human society should value and sustain in an era when AI, and eventually artificial superintelligence (ASI), accelerates short-term optimization to its extreme.
+This document is an auxiliary roadmap connected to two monku.ai themes: **departure from zero-sum competition** and **rebirth by making entropy an ally**. It addresses what human society should value and sustain in an era when AI, and eventually artificial superintelligence (ASI), accelerates short-term optimization to its extreme.
 
 ## 1. Introduction: The Trap of Short-Term Optimization in the ASI Age
 
@@ -49,7 +49,7 @@ Further, the fragmentation of job roles increased efficiency while making it har
 | Fragmenting job roles | Productivity gains and specialization | Loss of meaning in work, deterioration of organizational ethics |
 | Expanding non-regular employment | Flexible labor costs | Breaks in skill accumulation, erosion of the middle class and consumer base |
 
-This table reconfigures four issues organized by Ryohei Nakagawa in "A Perspective on Antinomies of Corporate Behaviors after the 1990s in Japan": prioritization of shareholder ownership, short-termism, corporate rationalization, and changes in employment and work styles. It reframes them in the context of MonkuAi's civilizational design.[^nakagawa-framework]
+This table reconfigures four issues organized by Ryohei Nakagawa in "A Perspective on Antinomies of Corporate Behaviors after the 1990s in Japan": prioritization of shareholder ownership, short-termism, corporate rationalization, and changes in employment and work styles. It reframes them in the context of monku.ai's civilizational design.[^nakagawa-framework]
 
 ## 4. Returning to the Infinite Game: A Survival Principle for the AI Age
 
@@ -91,11 +91,11 @@ What is needed is the internalization of external costs into prices and the real
 
    Circulate energy and resources within regions and build decentralized living foundations that do not depend only on economies of scale. This also becomes a form of civilizational resilience against excessive centralized optimization by ASI.
 
-## 6. Connection to MonkuAi
+## 6. Connection to monku.ai
 
-This civilization survival strategy connects especially to three of MonkuAi's five principles.
+This civilization survival strategy connects especially to three of monku.ai's five principles.
 
-| MonkuAi Principle | Connection to This Document |
+| monku.ai Principle | Connection to This Document |
 | --- | --- |
 | Departure from zero-sum competition | Shift from short-term victory and maximization of consumption volume toward long-term reproduction of community, natural capital, and human capital. |
 | Structural alignment | Do not leave goodwill and ethics trapped inside individual effort. Embed them into social structures through institutions, taxation, indicators, and rights design. |

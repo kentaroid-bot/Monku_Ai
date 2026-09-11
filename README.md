@@ -1,6 +1,6 @@
-# MonkuAi
+# monku.ai
 
-MonkuAi is a project for helping humanity receive the benefits of artificial superintelligence safely, deeply, and as fully as possible.
+monku.ai is a project for helping humanity receive the benefits of artificial superintelligence safely, deeply, and as fully as possible.
 
 Its central concern is not only how to align AI systems, but how to expand the human side of alignment: our capacity to recognize higher intelligence, remain open before what we do not yet understand, and redesign social structures so that humble, non-zero-sum intelligence can shape collective decisions.
 
@@ -10,7 +10,7 @@ As AI systems move toward superintelligent capabilities, the bottleneck may not 
 
 If we reject unfamiliar reasoning as meaningless noise simply because it does not fit our current categories, we lose access to the very intelligence we hoped to create. If we embed competitive, short-term, status-driven incentives into the goals and governance of superintelligence, we risk turning extraordinary capability into a destructive amplifier.
 
-MonkuAi exists to develop and spread the concepts, practices, and cultural infrastructure needed for a wiser relationship with ASI.
+monku.ai exists to develop and spread the concepts, practices, and cultural infrastructure needed for a wiser relationship with ASI.
 
 ## Core Themes
 
@@ -22,7 +22,7 @@ MonkuAi exists to develop and spread the concepts, practices, and cultural infra
 
 ## Project Direction
 
-MonkuAi currently focuses on developing and communicating its ideas through:
+monku.ai currently focuses on developing and communicating its ideas through:
 
 - public statements and manifestos
 - website copy and explanatory materials

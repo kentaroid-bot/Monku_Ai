@@ -43,22 +43,22 @@ const DOC_PAGE_ITEMS = [
   docPage({
     href: "/docs/statement/",
     lang: "ja",
-    pageTitle: "MonkuAi 公式ステートメント",
+    pageTitle: "monku.ai 公式ステートメント",
     eyebrow: "Official Statement",
     path: "docs/official-statement.md",
     switchLabel: "Read in English",
     switchHref: "/docs/statement/en/",
-    description: "MonkuAiの目的と思想の核をまとめた公式ステートメント。"
+    description: "monku.aiの目的と思想の核をまとめた公式ステートメント。"
   }),
   docPage({
     href: "/docs/statement/en/",
     lang: "en",
-    pageTitle: "MonkuAi Official Statement",
+    pageTitle: "monku.ai Official Statement",
     eyebrow: "Official Statement",
     path: "docs/official-statement-en.md",
     switchLabel: "日本語で読む",
     switchHref: "/docs/statement/",
-    description: "English translation of the official statement that defines MonkuAi's core purpose and philosophy."
+    description: "English translation of the official statement that defines monku.ai's core purpose and philosophy."
   }),
   docPage({
     href: "/docs/roadmap/",
@@ -83,22 +83,22 @@ const DOC_PAGE_ITEMS = [
   docPage({
     href: "/docs/project-overview/",
     lang: "ja",
-    pageTitle: "MonkuAi プロジェクト概要",
+    pageTitle: "monku.ai プロジェクト概要",
     eyebrow: "Project Overview",
     path: "docs/project-overview-ja.md",
     switchLabel: "Read in English",
     switchHref: "/docs/project-overview/en/",
-    description: "MonkuAiの目的、背景、5つのテーマ、現在の活動をまとめたプロジェクト概要。"
+    description: "monku.aiの目的、背景、5つのテーマ、現在の活動をまとめたプロジェクト概要。"
   }),
   docPage({
     href: "/docs/project-overview/en/",
     lang: "en",
-    pageTitle: "MonkuAi Project Overview",
+    pageTitle: "monku.ai Project Overview",
     eyebrow: "Project Overview",
     path: "docs/project-overview.md",
     switchLabel: "日本語で読む",
     switchHref: "/docs/project-overview/",
-    description: "English translation of the project overview covering MonkuAi's purpose, background, themes, and current activities."
+    description: "English translation of the project overview covering monku.ai's purpose, background, themes, and current activities."
   }),
   docPage({
     href: "/docs/civilization-survival-strategy/",
@@ -143,62 +143,62 @@ const DOC_PAGE_ITEMS = [
   docPage({
     href: "/docs/diagram-structure/",
     lang: "ja",
-    pageTitle: "MonkuAi 5テーマ図解構造",
+    pageTitle: "monku.ai 5テーマ図解構造",
     eyebrow: "Diagram Structure",
     path: "docs/diagram-structure.md",
     switchLabel: "Read in English",
     switchHref: "/docs/diagram-structure/en/",
-    description: "MonkuAiの5テーマを図解するための構造メモ。"
+    description: "monku.aiの5テーマを図解するための構造メモ。"
   }),
   docPage({
     href: "/docs/diagram-structure/en/",
     lang: "en",
-    pageTitle: "MonkuAi Five-Theme Diagram Structure",
+    pageTitle: "monku.ai Five-Theme Diagram Structure",
     eyebrow: "Diagram Structure",
     path: "docs/diagram-structure-en.md",
     switchLabel: "日本語で読む",
     switchHref: "/docs/diagram-structure/",
-    description: "English translation of the structure memo for diagramming MonkuAi's five themes."
+    description: "English translation of the structure memo for diagramming monku.ai's five themes."
   }),
   docPage({
     href: "/docs/homepage-copy/",
     lang: "ja",
-    pageTitle: "MonkuAi ウェブサイト トップページ文言",
+    pageTitle: "monku.ai ウェブサイト トップページ文言",
     eyebrow: "Homepage Copy",
     path: "docs/homepage-copy.md",
     switchLabel: "Read in English",
     switchHref: "/docs/homepage-copy/en/",
-    description: "MonkuAiトップページの文言設計メモ。"
+    description: "monku.aiトップページの文言設計メモ。"
   }),
   docPage({
     href: "/docs/homepage-copy/en/",
     lang: "en",
-    pageTitle: "MonkuAi Website Homepage Copy",
+    pageTitle: "monku.ai Website Homepage Copy",
     eyebrow: "Homepage Copy",
     path: "docs/homepage-copy-en.md",
     switchLabel: "日本語で読む",
     switchHref: "/docs/homepage-copy/",
-    description: "English translation of the homepage copy draft for MonkuAi."
+    description: "English translation of the homepage copy draft for monku.ai."
   }),
   docPage({
     href: "/docs/sns-series/",
     lang: "ja",
-    pageTitle: "MonkuAi SNS投稿シリーズ",
+    pageTitle: "monku.ai SNS投稿シリーズ",
     eyebrow: "SNS Series",
     path: "docs/sns-series.md",
     switchLabel: "Read in English",
     switchHref: "/docs/sns-series/en/",
-    description: "MonkuAiの思想を短いSNS投稿へ分解したシリーズ案。"
+    description: "monku.aiの思想を短いSNS投稿へ分解したシリーズ案。"
   }),
   docPage({
     href: "/docs/sns-series/en/",
     lang: "en",
-    pageTitle: "MonkuAi Social Post Series",
+    pageTitle: "monku.ai Social Post Series",
     eyebrow: "SNS Series",
     path: "docs/sns-series-en.md",
     switchLabel: "日本語で読む",
     switchHref: "/docs/sns-series/",
-    description: "English translation of short social posts that break down MonkuAi's core ideas."
+    description: "English translation of short social posts that break down monku.ai's core ideas."
   })
 ];
 
@@ -237,7 +237,7 @@ async function handleDocumentsIndex() {
 async function handleMarkdownPage(config) {
   const response = await fetch(config.rawUrl, {
     headers: {
-      "User-Agent": "MonkuAi-markdown-renderer"
+      "User-Agent": "monku.ai-markdown-renderer"
     },
     cf: {
       cacheTtl: 300,
@@ -265,8 +265,8 @@ function renderMarkdownPage({ config, title, content, updatedAt }) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(title)} | MonkuAi</title>
-  <meta name="description" content="MonkuAi white paper rendered from the project Markdown source.">
+  <title>${escapeHtml(title)} | monku.ai</title>
+  <meta name="description" content="monku.ai white paper rendered from the project Markdown source.">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
 </head>
@@ -286,7 +286,7 @@ function renderMarkdownPage({ config, title, content, updatedAt }) {
     </article>
   </main>
   <footer class="whitepaper-footer">
-    <a href="/">MonkuAi</a>
+    <a href="/">monku.ai</a>
     <span>Noise may already be the answer. Widen the aperture.</span>
   </footer>
 </body>
@@ -311,8 +311,8 @@ function renderDocumentsIndex({ documents }) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MonkuAi Documents</title>
-  <meta name="description" content="MonkuAiの公式文書一覧。">
+  <title>monku.ai Documents</title>
+  <meta name="description" content="monku.aiの公式文書一覧。">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/styles.css">
 </head>
@@ -320,20 +320,20 @@ function renderDocumentsIndex({ documents }) {
   <header class="whitepaper-header">
     ${renderDocumentsBrand()}
     <nav>
-      <a href="/">MonkuAi Home</a>
+      <a href="/">monku.ai Home</a>
       <a href="https://github.com/kentaroid-bot/Monku_Ai/tree/main/docs">GitHub Docs</a>
     </nav>
   </header>
   <main class="whitepaper-shell documents-index-shell">
     <p class="whitepaper-eyebrow">Documents</p>
-    <h1 class="documents-index-title">MonkuAi Documents</h1>
+    <h1 class="documents-index-title">monku.ai Documents</h1>
     <p class="documents-index-lead">Markdownを原本として参照している公式文書の一覧です。</p>
     <div class="documents-grid">
       ${cards}
     </div>
   </main>
   <footer class="whitepaper-footer">
-    <a href="/">MonkuAi</a>
+    <a href="/">monku.ai</a>
     <span>Noise may already be the answer. Widen the aperture.</span>
   </footer>
 </body>
@@ -358,7 +358,7 @@ function renderDocumentsBrand() {
             <path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" />
           </svg>
         </span>
-        <span>MonkuAi</span>
+        <span>monku.ai</span>
       </a>
       <span class="whitepaper-brand-separator" aria-hidden="true">&gt;</span>
       <a class="whitepaper-docs-link" href="https://monku.ai/docs/">Documents</a>
@@ -374,7 +374,7 @@ async function fetchGitHubUpdatedAt(config) {
     const response = await fetch(url, {
       headers: {
         Accept: "application/vnd.github+json",
-        "User-Agent": "MonkuAi-markdown-renderer"
+        "User-Agent": "monku.ai-markdown-renderer"
       },
       cf: {
         cacheTtl: 300,
@@ -411,7 +411,7 @@ function renderMarkdownError(config) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(config.pageTitle)} | MonkuAi</title>
+  <title>${escapeHtml(config.pageTitle)} | monku.ai</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body class="whitepaper-page">
@@ -635,7 +635,7 @@ async function handleContact(request, env, ctx) {
   }
 
   const to = env.CONTACT_TO || "renraku@monku.ai";
-  const from = env.CONTACT_FROM || "MonkuAi <renraku@monku.ai>";
+  const from = env.CONTACT_FROM || "monku.ai <renraku@monku.ai>";
   const subjectName = name || "Anonymous";
   const text = [
     `Name: ${subjectName}`,
@@ -648,7 +648,7 @@ async function handleContact(request, env, ctx) {
     from,
     to,
     reply_to: email || undefined,
-    subject: `MonkuAi contact: ${subjectName}`,
+    subject: `monku.ai contact: ${subjectName}`,
     text
   });
 
@@ -681,11 +681,11 @@ async function sendConfirmationEmail(apiKey, { from, to, replyTo, name, message 
     from,
     to,
     reply_to: replyTo,
-    subject: "MonkuAi received your message",
+    subject: "monku.ai received your message",
     text: [
       greeting,
       "",
-      "Thank you for contacting MonkuAi. Your message below has been received.",
+      "Thank you for contacting monku.ai. Your message below has been received.",
       "お問い合わせありがとうございます。以下のメッセージを受け付けました。",
       "",
       "---",
@@ -694,7 +694,7 @@ async function sendConfirmationEmail(apiKey, { from, to, replyTo, name, message 
       "",
       message,
       "",
-      "MonkuAi"
+      "monku.ai"
     ].join("\n")
   });
 

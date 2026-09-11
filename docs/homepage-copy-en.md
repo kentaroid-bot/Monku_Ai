@@ -1,16 +1,16 @@
-# MonkuAi Website Homepage Copy
+# monku.ai Website Homepage Copy
 
 ## Hero
 
-# MonkuAi
+# monku.ai
 
 Expanding humanity's cognitive vessel for the age of superintelligence.
 
-MonkuAi is a project for enabling humanity to receive the benefits of ASI safely, deeply, and to the fullest possible extent. It aims not only to evolve AI, but to update human recognition, ethics, dialogue, and governance.
+monku.ai is a project for enabling humanity to receive the benefits of ASI safely, deeply, and to the fullest possible extent. It aims not only to evolve AI, but to update human recognition, ethics, dialogue, and governance.
 
 CTA ideas:
 
-- Read the MonkuAi philosophy
+- Read the monku.ai philosophy
 - Explore the five themes
 - Join the project
 
@@ -28,7 +28,7 @@ The challenge of the ASI age is not only how to control AI. It is how to cultiva
 
 ## Epistemological Alignment
 
-MonkuAi believes that, alongside AI alignment, human-side epistemological alignment is necessary.
+monku.ai believes that, alongside AI alignment, human-side epistemological alignment is necessary.
 
 This means not judging unknown intelligence only by existing frameworks, but questioning those frameworks together with the limits of one's own understanding. It is the capacity to avoid rushing to conclusions, to hold what cannot yet be understood, and to continue dialogue.
 
@@ -62,13 +62,13 @@ Treat collapse, failure, degradation, and residue not merely as things to avoid,
 
 Superintelligence can become a device that amplifies human desire. But it can also become an opportunity for humanity to look again at its own limits and move toward deeper cooperation, understanding, and creation.
 
-MonkuAi builds a culture in which ASI is welcomed not merely as a tool, but as a partner for living with a greater intelligence.
+monku.ai builds a culture in which ASI is welcomed not merely as a tool, but as a partner for living with a greater intelligence.
 
 ## Closing CTA
 
 ## Hold what you do not yet understand as an entrance to the future.
 
-MonkuAi is an experiment in thought, dialogue, governance, and informational symbiosis for the age of superintelligence.
+monku.ai is an experiment in thought, dialogue, governance, and informational symbiosis for the age of superintelligence.
 
 CTA ideas:
 

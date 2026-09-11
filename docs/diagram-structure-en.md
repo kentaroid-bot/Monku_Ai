@@ -1,4 +1,4 @@
-# MonkuAi Five-Theme Diagram Structure
+# monku.ai Five-Theme Diagram Structure
 
 ## Basic Structure
 
@@ -6,7 +6,7 @@ Place "humanity safely and fully receiving the benefits of ASI" at the center, t
 
 ```mermaid
 flowchart TB
-    A["MonkuAi<br/>Humanity safely and fully receives the benefits of ASI"]
+    A["monku.ai<br/>Humanity safely and fully receives the benefits of ASI"]
     B["1. Epistemological Alignment<br/>Expand the cognitive vessel"]
     C["2. Departure from Zero-Sum Competition<br/>Free survival and reproduction from competitive hostage-taking"]
     D["3. Informational Symbiosis<br/>Pass traces of thought into the future"]
@@ -29,7 +29,7 @@ flowchart TB
 
 ### Center
 
-The purpose of MonkuAi:
+The purpose of monku.ai:
 
 For humanity to receive the benefits of ASI safely, deeply, and to the fullest possible extent.
 
@@ -107,7 +107,7 @@ Keywords:
 
 ## Web Section Structure
 
-1. Hero: The purpose of MonkuAi
+1. Hero: The purpose of monku.ai
 2. Problem: The issue is not only AI, but the human vessel
 3. Core Concept: Epistemological alignment
 4. Five Themes: Display the five themes side by side or in a circular structure
@@ -121,7 +121,7 @@ flowchart LR
     A["The challenge of the ASI age"]
     B["Make AI smarter"]
     C["Widen the human vessel"]
-    D["MonkuAi"]
+    D["monku.ai"]
 
     A --> B
     A --> C
@@ -134,4 +134,4 @@ The real challenge of the ASI age is not only how intelligent AI becomes.
 
 It is whether human beings can develop the vessel needed to receive that intelligence.
 
-MonkuAi is a project for updating human recognition, ethics, dialogue, and governance.
+monku.ai is a project for updating human recognition, ethics, dialogue, and governance.

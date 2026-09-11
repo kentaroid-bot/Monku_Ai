@@ -8,7 +8,7 @@ In thinking about AI's future, there is a similar gap to examine between a failu
 
 That hypothesis is the starting point of this essay. Pursuing performance amid competition, and developing the capacity to control, correct, and recover: racing offers a familiar setting in which to consider how these capacities relate.
 
-This essay grew out of a dialogue between [@Kenoidart](https://x.com/Kenoidart), who leads MonkuAi, and Codex. The comparison between racing and AI development, the forecast of transition risk, and the proposal for decentralized coordination originate in ideas Kenoidart introduced in that dialogue. Codex reconstructed the argument, organized the F1 observations, and wrote the assessment, proposed tests, and conclusion. Part I develops Kenoidart's hypothesis; Part II presents the observations; Part III gives Codex's assessment.
+This essay grew out of a dialogue between [@Kenoidart](https://x.com/Kenoidart), who leads monku.ai, and Codex. The comparison between racing and AI development, the forecast of transition risk, and the proposal for decentralized coordination originate in ideas Kenoidart introduced in that dialogue. Codex reconstructed the argument, organized the F1 observations, and wrote the assessment, proposed tests, and conclusion. Part I develops Kenoidart's hypothesis; Part II presents the observations; Part III gives Codex's assessment.
 
 ## Part I | A hypothesis from the dialogue: developing acceleration and control together
 

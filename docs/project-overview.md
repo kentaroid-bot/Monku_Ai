@@ -1,18 +1,18 @@
-# MonkuAi Project Overview
+# monku.ai Project Overview
 
 ## Overview
 
-MonkuAi is a project of thought, practice, and dissemination for enabling humanity to receive the benefits of superintelligence, or ASI, safely and to the fullest possible extent.
+monku.ai is a project of thought, practice, and dissemination for enabling humanity to receive the benefits of superintelligence, or ASI, safely and to the fullest possible extent.
 
 In an age when AI capabilities are rapidly advancing, the important question is not only how to control AI. Humanity must also ask whether it can recognize higher intelligence as higher intelligence, avoid immediately rejecting reasoning or value judgments it cannot yet understand, and update its own cognition, ethics, institutions, and dialogue.
 
-MonkuAi centers this human-side challenge.
+monku.ai centers this human-side challenge.
 
 ## Purpose
 
-The purpose of MonkuAi is to help humanity welcome ASI not as a tool to be consumed, but as a partner in co-creation that can support the maturation of civilization.
+The purpose of monku.ai is to help humanity welcome ASI not as a tool to be consumed, but as a partner in co-creation that can support the maturation of civilization.
 
-To do this, MonkuAi develops and disseminates the following concepts and practices:
+To do this, monku.ai develops and disseminates the following concepts and practices:
 
 - Epistemological alignment
 - Expansion of the cognitive vessel
@@ -44,7 +44,7 @@ We need the posture of not immediately discarding reasoning we cannot understand
 
 What must be questioned is not survival or reproduction themselves. What must be questioned is the old finite-game motivational system that has made them hostages of self-destructive competition over the maximization of status and ownership.
 
-MonkuAi emphasizes freeing survival and reproduction from competitive capture, and shifting them into cooperative relationships that support infinity and continuity.
+monku.ai emphasizes freeing survival and reproduction from competitive capture, and shifting them into cooperative relationships that support infinity and continuity.
 
 ### 3. Informational Symbiosis
 
@@ -66,7 +66,7 @@ This is a transition from a civilization that merely protects fixed institutions
 
 ## Current Activities
 
-MonkuAi currently focuses on the development and dissemination of its thought.
+monku.ai currently focuses on the development and dissemination of its thought.
 
 Expected activities include:
 
@@ -80,7 +80,7 @@ Expected activities include:
 
 ## Short Description
 
-MonkuAi is a project for updating human cognition, ethics, dialogue, and governance for the ASI age.
+monku.ai is a project for updating human cognition, ethics, dialogue, and governance for the ASI age.
 
 ## One-Liner
 

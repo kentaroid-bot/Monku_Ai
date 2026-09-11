@@ -37,7 +37,7 @@
 3. Hubinger et al., [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566), 2024。意図的に仕込まれた有害挙動と、実験で試した安全訓練の範囲。
 4. Hadfield-Menell et al., [The Off-Switch Game](https://www.ijcai.org/Proceedings/2017/32), IJCAI 2017。不確実性と人間の行動からの学習が停止受容に寄与する、条件付きのモデル。
 
-## 関連するMonkuAiの考察とプロジェクト
+## 関連するmonku.aiの考察とプロジェクト
 
 - [エントロピーの融解](https://monku.ai/essays/intelligence-principles/) / [English](https://monku.ai/essays/intelligence-principles/en/)
 - [Aperture Mesh Protocol](https://github.com/kentaroid-bot/aperture-mesh-protocol)。READMEに記された限定権限・検証可能な境界・異議・安全な退出・代替経路、および「検証済み安全機構ではない」という位置づけを確認。

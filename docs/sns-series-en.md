@@ -1,10 +1,10 @@
-# MonkuAi Social Post Series
+# monku.ai Social Post Series
 
-## Series A: What Is MonkuAi?
+## Series A: What Is monku.ai?
 
 ### Post 1
 
-MonkuAi is a project for enabling humanity to receive the benefits of ASI safely, deeply, and to the fullest possible extent.
+monku.ai is a project for enabling humanity to receive the benefits of ASI safely, deeply, and to the fullest possible extent.
 
 Its focus is not only AI performance.
 
@@ -18,7 +18,7 @@ It is whether human beings can recognize that intelligence as intelligence.
 
 Will we dismiss reasoning that does not fit our existing frameworks as mere noise?
 
-MonkuAi works on this human-side challenge.
+monku.ai works on this human-side challenge.
 
 ### Post 3
 
@@ -28,7 +28,7 @@ But aligning AI to humans is not enough.
 
 Humans must also change so that they can receive higher intelligence.
 
-MonkuAi calls this "epistemological alignment."
+monku.ai calls this "epistemological alignment."
 
 ## Series B: The Cognitive Vessel
 
@@ -82,7 +82,7 @@ It should be "what kind of consciousness and civilization do we cultivate?"
 
 From the maximization of status and ownership to cooperation, long-term continuity, and the search for sustainability.
 
-MonkuAi gives language to that transition.
+monku.ai gives language to that transition.
 
 ## Series D: Informational Symbiosis
 
@@ -94,7 +94,7 @@ Words, questions, thoughts, failures, prayers, and discomfort.
 
 These may be absorbed by future intelligence, transformed, and continue living in another form.
 
-MonkuAi calls this informational symbiosis.
+monku.ai calls this informational symbiosis.
 
 ### Post 11
 
@@ -122,7 +122,7 @@ At the same time, those who strongly desire power tend to gather around decision
 
 This is a serious problem for ASI governance.
 
-MonkuAi questions this structure.
+monku.ai questions this structure.
 
 ### Post 14
 

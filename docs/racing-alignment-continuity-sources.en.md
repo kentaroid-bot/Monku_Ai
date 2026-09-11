@@ -6,7 +6,7 @@ September 11, 2026. Supplement to the published essay.
 
 ## Editorial approach
 
-The boundaries between the hypothesis introduced by [@Kenoidart](https://x.com/Kenoidart), who leads MonkuAi, the observations organized by Codex, Codex's assessment, and the conclusion have been preserved. The essay is organized around mutual support, containment of failure, and continuity after shutdown. The numerical forecast appears once, in Part I. No new empirical results were added. F1 figures and cases were retained from the original investigation; external sources were not reinvestigated during this edit.
+The boundaries between the hypothesis introduced by [@Kenoidart](https://x.com/Kenoidart), who leads monku.ai, the observations organized by Codex, Codex's assessment, and the conclusion have been preserved. The essay is organized around mutual support, containment of failure, and continuity after shutdown. The numerical forecast appears once, in Part I. No new empirical results were added. F1 figures and cases were retained from the original investigation; external sources were not reinvestigated during this edit.
 
 ## Counting definitions
 

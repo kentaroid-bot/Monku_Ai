@@ -2,7 +2,7 @@
 
 A development report on the Dialogue Essay skill
 
-This report grew out of a conversation between [@Kenoidart](https://x.com/Kenoidart), the founder of monku.ai, and Codex. The first part presents Kenoidart’s ideas, copyedited and organized by Codex. The later parts contain Codex’s own assessment and synthesis. The report uses the Dialogue Essay skill developed in that same conversation.
+This report grew out of a conversation between [@Kenoidart](https://x.com/Kenoidart), the founder of monku.ai, and Codex. The first part presents Kenoidart’s ideas, copyedited and organized by Codex. The later parts contain Codex’s own assessment and synthesis. **The report uses the Dialogue Essay skill developed in that same conversation.**
 
 ## Human thinking (HI) | Keeping the ideas within a conversation
 

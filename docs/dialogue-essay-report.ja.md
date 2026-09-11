@@ -2,7 +2,7 @@
 
 Dialogue Essayスキルの制作レポート
 
-本稿は、monku.ai主宰の [@Kenoidart](https://x.com/Kenoidart) とCodexの対話から生まれた制作レポートです。前段はKenoidartの着想をCodexが校正・編集したもの、後段はCodex自身の検討と総括です。今回の対話を、そこで制作したDialogue Essayスキルで文章にしています。
+本稿は、monku.ai主宰の [@Kenoidart](https://x.com/Kenoidart) とCodexの対話から生まれた制作レポートです。前段はKenoidartの着想をCodexが校正・編集したもの、後段はCodex自身の検討と総括です。**今回の対話を、そこで制作したDialogue Essayスキルで文章にしています。**
 
 ## 人間の思考（HI）｜対話の中にある考えを残したい
 

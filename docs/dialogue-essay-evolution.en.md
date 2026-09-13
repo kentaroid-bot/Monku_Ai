@@ -1,4 +1,4 @@
-# From What AI Must Avoid to What We Want to Develop
+# From What We Tell AI Not to Do to What We Can Grow Together
 
 How the revised Dialogue Essay skill took shape
 

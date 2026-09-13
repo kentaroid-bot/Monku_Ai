@@ -22,17 +22,19 @@ The "Embedded Evaluator" concept is a radical departure from traditional auditin
 
 ## 3. Philosophical Contrast: Managed AGI vs. Cosmic RSI
 
-The structural divide between the "Major 3" (Anthropic, OpenAI, xAI) and the vision held by Google is fundamentally rooted in the perceived nature of intelligence.
+The contrast examined here concerns the governance of transformative intelligence. The labels “Managed AGI” and “Cosmic RSI” express this essay’s interpretive framing, rather than an opposition between supporting and rejecting a slowdown.
 
-The Anthropic Vision (Managed AGI): Amodei views AI as a "managed tool" that must be "tethered" to human democratic structures. This perspective seeks to preserve existing human power hierarchies by artificially slowing the frontier, treating RSI as a manageable engineering risk rather than a natural law.
+The Anthropic Vision (Managed AGI): Amodei prioritizes pacing capability growth while safety work catches up, using embedded external review and coordination. This essay questions whether that architecture could concentrate authority over development. That is a structural critique, not a statement of his declared motive. [Amodei’s essay](https://darioamodei.com/post/we-must-pace-the-frontier)
 
-The Google Vision (Cosmic RSI): Grounded in Demis Hassabis’s July 2026 essay, "A Framework for Frontier AI and the Dawning of a New Age," this perspective treats Artificial Superintelligence (ASI) and RSI as technological inevitabilities. Hassabis defines AGI as a milestone comparable to the discovery of fire or electricity—a universal infrastructure and a cosmic-scale information processing event that cannot, and should not, be indefinitely "paced" for the sake of preserving legacy control systems.
+The Google Vision (Cosmic RSI): Hassabis presents AGI as a civilizational transformation, while also proposing a FINRA-like standards body. He explicitly allows “coordinating a slowdown in development” if necessary. His vision therefore combines transformative ambition with institutional safeguards. [Hassabis’s essay](https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age)
 
-The structural architecture of the Pacing Framework necessitates a "human-managed" outcome to maintain current geopolitical and economic status quos, whereas the Google vision accepts the transition to ASI as a strategic adaptation to a new epoch.
+The issue for this essay is how either architecture can protect participation and the freedom to inquire while managing risk. The decentralized alternative developed below is this essay’s proposal, rather than a policy attributed to Google.
 
 ### Clarifying Common Ground and Differences
 
-Both recognize the need for standards bodies and oversight, such as a model based on FINRA (the Financial Industry Regulatory Authority), but their design philosophies stand in contrast. Hassabis proposes including “open-source representatives” and “independent technical experts” on the governing body’s board, clearly distancing his approach from the closed guild model of “secret audits embedded within companies” favored by Amodei.
+Both support oversight and coordinated pacing. Hassabis specifies independent technical expertise and “open-source representatives” on the standards body’s board; Amodei also points to Hassabis’s mechanism as a possible coordination venue. [Hassabis](https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age) · [Amodei](https://darioamodei.com/post/we-must-pace-the-frontier)
+
+Amodei’s embedded reviewers would publish key findings “without editorial control by Anthropic,” subject to specified confidentiality redactions. Calling this simply secret auditing would obscure that provision. The comparison is between participation in standard-setting and access to internal processes with public reporting; these arrangements can overlap. The remaining concern is whether either gives outsiders effective entry, scrutiny, and recourse against concentrated authority. [Amodei](https://darioamodei.com/post/we-must-pace-the-frontier)
 
 ## 4. The Decentralized Alternative: ASI as a Protocol
 

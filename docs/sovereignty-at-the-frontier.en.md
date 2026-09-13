@@ -30,6 +30,10 @@ The Google Vision (Cosmic RSI): Grounded in Demis Hassabis’s July 2026 essay, 
 
 The structural architecture of the Pacing Framework necessitates a "human-managed" outcome to maintain current geopolitical and economic status quos, whereas the Google vision accepts the transition to ASI as a strategic adaptation to a new epoch.
 
+### Clarifying Common Ground and Differences
+
+Both recognize the need for standards bodies and oversight, such as a model based on FINRA (the Financial Industry Regulatory Authority), but their design philosophies stand in contrast. Hassabis proposes including “open-source representatives” and “independent technical experts” on the governing body’s board, clearly distancing his approach from the closed guild model of “secret audits embedded within companies” favored by Amodei.
+
 ## 4. The Decentralized Alternative: ASI as a Protocol
 
 A resilient alternative to the "AI Guild" is the conceptualization of ASI as a decentralized protocol. This mirrors the relationship between Bitcoin and traditional Central Banks . Just as Bitcoin removes the need for a "trusted" central authority to manage value, a decentralized ASI protocol removes the need for "trusted" embedded evaluators to manage alignment.

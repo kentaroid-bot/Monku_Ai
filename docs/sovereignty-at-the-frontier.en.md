@@ -2,7 +2,7 @@
 
 ## 1. Metadata and Attribution
 
-Contributors: Kenoidart (@kentaroid) , providing the primary source of human intuition (HI) and conceptual framing; Gemini Notebook , serving as the editor, synthesizer, and technical evaluator.
+Contributors: Kentaroid (@kenoidart) , providing the primary source of human intuition (HI) and conceptual framing; Gemini Notebook , serving as the editor, synthesizer, and technical evaluator.
 
 Directive: This document constitutes a structural refutation of Dario Amodei’s September 2026 essay, "We Must Pace the Frontier." It contrasts the "Safety-through-Control" model with a "Safety-through-Decentralization" model, utilizing empirical findings from the Alignment Asymmetry Study.
 

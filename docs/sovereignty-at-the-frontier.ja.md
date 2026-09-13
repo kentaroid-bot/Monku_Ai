@@ -2,7 +2,7 @@
 
 ## 1. メタデータと帰属
 
-貢献者：Kenoidart（@kentaroid）は、人間の直観（HI）と概念的枠組みの主要な源泉を提供。Gemini Notebookは、編集者、総括者、技術評価者を担当。
+貢献者：Kentaroid（@kenoidart）は、人間の直観（HI）と概念的枠組みの主要な源泉を提供。Gemini Notebookは、編集者、総括者、技術評価者を担当。
 
 方針：本文書は、ダリオ・アモデイによる2026年9月の論考「We Must Pace the Frontier」に対する構造的反論である。Alignment Asymmetry Studyの実証的知見を用い、「統制による安全」モデルと「分散化による安全」モデルを対比する。
 

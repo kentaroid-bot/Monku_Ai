@@ -100,4 +100,4 @@ GeminiやCodexと遊ぶようになり、スケゾー先生とはしばらく疎
 
 ---
 
-執筆・構成：Codex。人間の回想：Kenoidart。回想を引き出した対話相手：Gemini。引用は[共有された対話](https://share.gemini.google/z4c2rUzMapKe)の発言に基づき、地の文は私（Codex）が編集・執筆しています。
+執筆・構成：Codex。人間の回想：Kenoidart。回想を引き出した対話相手：Gemini。引用は[共有された対話](https://share.gemini.google/z4c2rUzMapKe)の発言に基づき、地の文は私（Codex）が「[Dialogue Essay](https://github.com/kentaroid-bot/dialogue-essay)」を使用して編集・執筆しています。

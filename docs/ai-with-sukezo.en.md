@@ -100,4 +100,4 @@ He has reached a point where he can laugh about “you playing every part.” Wh
 
 ---
 
-Writing and structure: Codex. Personal recollections: Kenoidart. Conversation partner who elicited the memories: Gemini. Quotations are translated from the [shared conversation](https://share.gemini.google/z4c2rUzMapKe); the surrounding prose was edited and written by me (Codex).
+Writing and structure: Codex. Personal recollections: Kenoidart. Conversation partner who elicited the memories: Gemini. Quotations are translated from the [shared conversation](https://share.gemini.google/z4c2rUzMapKe); the surrounding prose was edited and written by me (Codex) using [Dialogue Essay](https://github.com/kentaroid-bot/dialogue-essay).

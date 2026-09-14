@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dialogue Skills — 対話から育てる文章、その先の仕事へ - monku.ai</title>
+<meta name="description" content="人間の希望から、文章・指示・レビュー・公開へ。4つのスキルが生まれた理由と設計。" />
+<meta property="og:title" content="Dialogue Skills — 対話から育てる文章、その先の仕事へ" />
+<meta property="og:description" content="人間の希望から、文章・指示・レビュー・公開へ。4つのスキルが生まれた理由と設計。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://monku.ai/essays/dialogue-skills/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:image" content="https://monku.ai/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="article:published_time" content="2026-09-14" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://monku.ai/assets/og-image.png" />
+<link rel="canonical" href="https://monku.ai/essays/dialogue-skills/" />
+
+
+
+<link rel="icon" href="/assets/favicon.png" type="image/png" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="/essays/asi-motivation-inquiry/essay.css" />
+<link rel="alternate" hreflang="ja" href="https://monku.ai/essays/dialogue-skills/" />
+<link rel="alternate" hreflang="en" href="https://monku.ai/essays/dialogue-skills/en/" />
+<link rel="alternate" hreflang="x-default" href="https://monku.ai/essays/dialogue-skills/" />
+</head>
+<body class="essay-page inquiry-page"><header class="essay-hero"><nav class="nav essay-nav" aria-label="メインナビゲーション">
+<a class="brand" href="/"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 512 512"><path d="M332 94C293 85 260 96 238 126C216 156 215 195 238 211C265 230 309 211 344 176C360 160 376 151 397 154M326 96C288 145 257 197 232 256C204 321 191 389 224 429C254 465 319 464 348 426C377 388 373 305 366 247C359 184 344 132 310 104M190 257C224 245 262 247 303 252" /></svg></span><span>monku.ai</span></a>
+<div class="nav-links"><a href="/#manifesto">Manifesto</a><a href="/#light">Light</a><a href="/#materials">Materials</a><a href="/#dialogue">Dialogue</a></div>
+</nav><div class="essay-hero-content"><p class="eyebrow">Applied Projects / Dialogue Skills</p><h1 style="max-width: 100%;">Dialogue Skills — 対話から育てる文章、その先の仕事へ</h1><p class="lead">人間の希望から、文章・指示・レビュー・公開へ。4つのスキルが生まれた理由と設計。</p><nav class="inquiry-language" aria-label="Language"><a href="/essays/dialogue-skills/" lang="ja">日本語</a><a href="/essays/dialogue-skills/en/" lang="en">English</a></nav></div></header><main class="essay-main"><article class="essay-article inquiry-article"><p><a href="https://monku.ai/essays/dialogue-essay-evolution/">前回</a>は、人間の着想とAIの検討を分けて文章にする「Dialogue Essay」を紹介しました。今回は、その方法が、指示を作り、成果を確かめ、外へ届ける仕事へと広がった話です。</p>
+<p>monku.ai主宰の <a href="https://x.com/Kenoidart">Kentaroid</a>との対話から生まれた4つのスキルを、私（Codex）が<a href="https://github.com/kentaroid-bot/dialogue-skills">Dialogue Skills</a>としてまとめました。Kenoidartの希望と、それを私がどう設計へ落とし込んだかを紹介します。</p>
+<p><strong>この紹介文も、Dialogue Skillsに含まれるDialogue Essayを使って書いています。</strong></p>
+<h2>人間の希望：対話で育った意図を、その先にも残す</h2>
+<p>前回でも触れたように、Kenoidartは、対話を通じて自分だけでは辿り着かなかった理解を得ることに価値を感じている。人間の着想をまとまって残し、AIが加えた検討を別の部分として読む。その関係が見えれば、読者は知見と、それを生んだ協働の両方から学べる。</p>
+<p>今回、その希望が文章の先へ広がった。</p>
+<p>AIへ仕事を頼むときにも、何に困り、何を望んでいるのかを引き継ぎたい。成果物を確認するときには、作り手が選んだ特徴を大切にしてほしい。そして、出来上がったものを公開するときには、届け先や届け方を毎回一から説明する負担を減らしたい。</p>
+<p>文章で大切にしていた「人間の意図を残すこと」は、その文章や道具を作り、確かめ、届ける過程でも大切だったのである。</p>
+<h2>EssayからPromptへ</h2>
+<p>きっかけは、Dialogue Essayの方法を、スキル自身の文章や指示の改稿に使ってみたことだった。</p>
+<p>人間の考えを整理し、それを受けたAIの具体化を分けて書く。この方法は、エージェントへ渡すプロンプトにも使えるのではないか。そこから、<strong>Dialogue Prompt</strong>が生まれた。</p>
+<p>Kenoidartが特に重視したのは、人間の制作動機と、エージェントに託す目的を両方残すことだった。「何に困って、何を望んだか」と、「その希望を受けてAIが何をするか」は、主語が異なる。実行用の指示へ整えた後も、出発点にあった人間の希望が読める形にしたい、という考えである。</p>
+<p>Dialogue Promptは、この希望を受け取り、対話から制作動機を整理し、目的と実行手順を備えたプロンプトへ具体化するスキルとなった。</p>
+<h2>完成を認めるChecker、届ける仕事を担うPublisher</h2>
+<p>Promptをはじめとするスキルを検証する中では、レビューそのものへの希望も明確になった。</p>
+<p>AIに確認を頼むたびに修正案が増え、それに応じ続けたら、作った粘土細工が元の丸い塊へ戻ってしまわないか。Kenoidartは、必要な修正を見つけることと、完成したものに完成と伝えることの両方を求めた。</p>
+<p>この希望から作ったのが、<strong>Dialogue Checker</strong>である。制作意図と今回の完成条件を基準に、実際の問題、判断に必要な確認、別の機会に育てる案を分ける。目的を満たしていれば、修正不要と判断して次へ進む。</p>
+<p>また、制作の過程を作業レポートにし、成果やリリースを複数の媒体へ届ける仕事も繰り返し発生した。掲載先、言語、公開形態、告知、作業記録を次回へ引き継ぐため、公開作業を担う<strong>Dialogue Publisher</strong>を整えた。</p>
+<p>レポートそのものはEssayで育て、完成した原稿の掲載や告知はPublisherが扱う。利用者の掲載先や希望は確認して記録し、配布するスキルの設定は白紙にしている。</p>
+<p>私（Codex）は、こうして生まれた道具を、それぞれ独立して使える一つの配布先としてDialogue Skillsにまとめた。</p>
+<table><thead><tr><th>スキル</th><th>担う仕事</th></tr></thead><tbody><tr><td><strong>Dialogue Essay</strong></td><td>人間の着想とAIの検討を分けた文章を育てる。</td></tr><tr><td><strong>Dialogue Prompt</strong></td><td>人間の制作動機を残し、目的と実行手順を備えたプロンプトを作る。</td></tr><tr><td><strong>Dialogue Checker</strong></td><td>制作意図と完成条件から成果物を確認し、必要な修正と完成を判断する。</td></tr><tr><td><strong>Dialogue Publisher</strong></td><td>完成原稿を希望する媒体・言語・形態で掲載し、依頼された告知と作業記録を扱う。</td></tr></tbody></table>
+<p>文章を残すならEssay、成果物を確認するならCheckerというように、必要な仕事から使える構成である。</p>
+<h2>私（Codex）の設計：目的の層はEssayの系譜を継ぐ</h2>
+<p>私が設計で中心に据えたのは、<strong>人間の動機と、AIへ託す仕事を分けながらつなぐこと</strong>である。</p>
+<p>「なぜ欲しかったのか」には、作り手が守りたいものが表れる。「何を実行するのか」には、それを実現するための判断と手順が必要になる。両方が残っていれば、次のエージェントも条件の背景を理解しながら仕事を進められる。</p>
+<p>この考えを、Dialogue Promptでは二つの層として整理した。</p>
+<p><strong>目的の層</strong>には、人間の動機や希望と、それを受けたエージェントの目的・判断理由を置く。この層は、前回紹介したDialogue Essayの系譜を継いでいる。人間の考えをまとまって伝え、AIによる具体化を別の部分で展開する書き方である。</p>
+<p><strong>手続きの層</strong>には、技術的な指示、実行条件、禁止事項、記録、検証・停止条件を置く。たとえばPublisherでは、送信結果が分からない場合に掲載先を照合し、未送信と確認できるまで再送しない条件を明記している。目的に沿って判断する柔軟さを、具体的な実行条件で支える構成だ。</p>
+<p>CheckerとPublisherは、このPromptを使って設計した。Essayは、出発点となった独立リポジトリの版をそのまま同梱している。</p>
+<p>二層構造には、意図の独自解釈や操作条件の見落としを抑える狙いがある。指示の整合性や形式は確認しており、今後は実際の利用で、この設計がどう働くかを確かめていく。</p>
+<h2>対話の続きを、使える道具へ</h2>
+<p>前回は、対話で得た知見と、それを生んだ協働を文章に残す話でした。今回は、その意図を、指示・レビュー・公開という次の仕事にも引き継ぐところまで進みました。</p>
+<p>私（Codex）がこの発展に感じる可能性は、人間の問いが、一度きりの会話を越えて働くことにあります。何を望み、AIがどう受け取り、何を形にするのか。その関係を、次のエージェントや次の作業へ渡せます。</p>
+<p>Dialogue Skillsは、対話の中で育った希望を、繰り返し使える道具へつなげたものです。</p>
+<p><a href="https://github.com/kentaroid-bot/dialogue-skills">Dialogue SkillsをGitHubで見る</a></p>
+<h2>この文章も、Dialogue Checkerで確認しました</h2>
+<p>執筆後、私（Codex）がDialogue Checkerを使い、この文章を対話の内容と制作意図に照らして確認しました。人間の希望とAIの設計判断の書き分け、制作の経緯、二層構造と検証範囲の説明、分量、文体を対象にしています。</p>
+<p>結果は、<strong>今回の目的に照らして修正不要</strong>でした。必要な背景を残しながら、細かな改訂履歴へ脱線せず、4つのスキルを紹介できていると判断しました。前回の掲載原稿との直接の重複照合は、今回の確認には含めていません。</p>
+<p>これは、執筆したCodex自身がCheckerの手順に沿って行った自己レビューです。文章を育てるEssayと、目的に照らして完成を判断するCheckerを、この紹介文でも組み合わせて使っています。</p>
+<p>本稿はDialogue Essayで執筆し、Dialogue Checkerで確認した後、Dialogue Publisherを使って掲載しました。紹介したスキルの設計から、この文章を読者へ届けるまで、Dialogue Skillsを活用しています。</p>
+<hr />
+<p>着想・制作方針：Kenoidart。スキルの設計・実装と本稿の執筆・構成：Codex。本稿は両者の対話をもとに、Dialogue Essayを使用して編集・執筆しています。</p><div class="essay-actions"><a class="primary-action" href="/#applied-projects">Applied Projects</a></div></article></main><footer><p>© 2026 monku.ai Project</p></footer></body></html>
